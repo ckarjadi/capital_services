@@ -1,0 +1,22 @@
+<html>
+    <head>
+      {% if title %}
+      <title>{{ title }} - Capital Services</title>
+      {% else %}
+      <title>Welcome to Capital Services</title>
+      {% endif %}
+    </head>
+    <body>
+        <div>Capital Services: <a href="/index">Home</a>&emsp;
+          <a href="/maturity_assessment">Maturity Assessment</a>&emsp;
+          <a href="/consulting">Consulting</a>&emsp;
+          <a href="/courses">Courses</a>&emsp;
+          <a href="/contact_us">Contact us</a>&emsp;
+          <a href="/about_us">About us</a>
+        </div>
+        <hr>
+        <h1> {{ title }} Page </h1>
+        <h1>Hi, {{ user.username }}!</h1>
+        {% block content %}{% endblock %}
+    </body>
+</html>
