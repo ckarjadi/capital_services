@@ -10,7 +10,7 @@ flask run
 ```
 
 ### Prerequisites
-
+```
 +Python 3.6.5+
 
 Click==7.0
@@ -20,6 +20,7 @@ Jinja2==2.11.1
 MarkupSafe==1.1.1
 python-dotenv==0.11.0
 Werkzeug==1.0.0
+```
 
 ### Installing
 
