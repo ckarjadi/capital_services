@@ -7,6 +7,7 @@ Flask Project for Capital Services (BU MET CS 634);
 git clone https://github.com/ckarjadi/capital_services
 cd capital_services/
 flask run
+navigate to localhost:5000 to see the application
 ```
 
 ### Prerequisites
