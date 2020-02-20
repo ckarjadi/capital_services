@@ -4,6 +4,8 @@ routing logic;
 """
 from flask import render_template
 from app import app
+from app.forms import LoginForm
+
 @app.route('/')
 @app.route('/index')
 def index():
@@ -80,3 +82,13 @@ def about_us():
 	template_name = 'about_us.html'
 	kwargs = {'user': user, 'title': title}
 	return render_template(template_name, **kwargs)
+
+@app.route('/login')
+def login():
+	"""
+	login route
+	"""
+	title = 'Sign in'
+	form = LoginForm()
+	kwargs = {'title': title, 'form': form}
+	return render_template('login.html', **kwargs)
