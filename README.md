@@ -72,9 +72,15 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Name** - *Initial work* - [Something](https://github.com/something)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Alina Akram**
+* **Michael Broadman**
+* **Lauren Cvilikas**
+* **Mackenzie Feeley**
+* **Mike Hodge**
+* **Cody Karjadi**
+* **Namita Kasbekar**
+* **Chenrun Liu**
+* **Steven Shoyer**
 
 ## License
 
