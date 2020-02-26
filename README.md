@@ -2,14 +2,6 @@
 
 Flask Project for Capital Services (BU MET CS 634);
 
-## Getting Started
-```
-git clone https://github.com/ckarjadi/capital_services
-cd capital_services/
-flask run
-navigate to localhost:5000 to see the application
-```
-
 ### Prerequisites
 ```
 +Python 3.6.5+
@@ -23,12 +15,20 @@ python-dotenv==0.11.0
 Werkzeug==1.0.0
 ```
 
-### Installing
+### Installing requirements
 
 install via requirements.txt
 
 ```
 pip install -r requirements.txt
+```
+
+## Getting Started
+```
+git clone https://github.com/ckarjadi/capital_services
+cd capital_services/
+flask run
+navigate to localhost:5000 to see the application
 ```
 
 ### Run the application
