@@ -50,6 +50,28 @@ def consulting():
 	kwargs = {'user': user, 'title': title}
 	return render_template(template_name, **kwargs)
 
+@app.route('/coaching')
+def coaching():
+	"""
+	coaching;
+	"""
+	title = 'Coaching'
+	user = {'username': 'Bob'}
+	template_name = 'coaching.html'
+	kwargs = {'user': user, 'title': title}
+	return render_template(template_name, **kwargs)
+
+@app.route('/training')
+def training():
+	"""
+	training;
+	"""
+	title = 'Training'
+	user = {'username': 'Bob'}
+	template_name = 'training.html'
+	kwargs = {'user': user, 'title': title}
+	return render_template(template_name, **kwargs)
+
 @app.route('/courses')
 def courses():
 	"""
