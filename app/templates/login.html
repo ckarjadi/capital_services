@@ -1,4 +1,4 @@
-{% extends "base.html" %}
+{% include "header.html" %}
 
 {% block content %}
     <h1>Sign In</h1>
@@ -16,3 +16,5 @@
         <p>{{ form.submit() }}</p>
     </form>
 {% endblock %}
+
+{% include "footer.html" %}

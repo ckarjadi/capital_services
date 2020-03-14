@@ -1,4 +1,4 @@
-{% extends "base.html" %}
+{% include "header.html" %}
 
 {% block content %}
 	<h1>*Home Page Stuff</h1>
@@ -6,3 +6,5 @@
     <div><p>{{ post.author.username }} says: <b>{{ post.body }}</b></p></div>
     {% endfor %} -->
 {% endblock %}
+
+{% include "footer.html" %}

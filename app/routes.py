@@ -14,7 +14,7 @@ def index():
 	"""
 	title = 'Home'
 	user = {'username': 'Bob'}
-	template_name = 'index.html'
+	template_name = 'body.html'
 	# posts = [
 	# 	{
 	# 		'author': {'username': 'John'},
