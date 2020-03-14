@@ -1,2 +1,101 @@
+*{
+  box-sizing: border-box;
+}
 
+.panel{
+     margin-left: 40px;
+     margin-right: 40px;
+}
+
+.panel0{
+  padding: 80px;
+  text-align: center;
+  background: pink;
+  color: white;
+}
+
+.panel1{  
+  display: flex;
+}
+
+.inpanel1{
+    flex: 50%;
+    text-align: center;
+    color: rgba(33,33,33,1);
+    font-family: Lato, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.6667;
+    margin-top: 12px;
+}
+
+.Collaborate{
+    background: pink;
+    text-align: center;
+    color: rgba(33,33,33,1);
+    font-family: Lato, sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1.6667;
+}
+
+.Schedule_an_Assesment{
+    background: pink;
+    text-align: center;
+    color: rgba(33,33,33,1);
+    font-family: Lato, sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1.6667;
+}
+
+.View_Courses{
+    background: pink;
+    text-align: center;
+    color: rgba(33,33,33,1);
+    font-family: Lato, sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1.6667;
+}
+
+.Our_Offerings{
+    background: pink;
+    text-align: center;
+    color: rgba(33,33,33,1);
+    font-family: Lato, sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1.6667;
+}
+
+h2{
+    text-align: center;
+    color: rgba(33,33,33,1);
+    font-family: Lato, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.6667;
+    margin-top: 12px;
+}
+
+.panel3{  
+  display: flex;
+}
+
+.inpanel3{
+    flex: 30%;
+    text-align: center;
+    color: rgba(33,33,33,1);
+    font-family: Lato, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.6667;
+    margin: 12px;
+    
+}
+
+p{
+    text-align: justify;
+}
 

@@ -1,10 +1,47 @@
 {% include "header.html" %}
 
 {% block content %}
-	<h1>*Home Page Stuff</h1>
-<!--     {% for post in posts %}
-    <div><p>{{ post.author.username }} says: <b>{{ post.body }}</b></p></div>
-    {% endfor %} -->
+<link rel="stylesheet" href="{{ url_for('static',    filename='/home.css') }}">
+    
+
+<div class = "panel0"></div>
+    
+    
+<div class = "panel">
+    <div class = "panel1">    
+        <div class = "inpanel1">
+            Image carousel</br>
+            Assessment</br>
+            Courses</br>
+            Coaching</br>
+        </div>
+        <div class = "inpanel1">
+            <button class="Collaborate">Collaborate</button></br>
+            <button class="Schedule_an_Assesment">Schedule an Assesment</button></br>
+            <button class="View_Courses">View Courses</button></br>
+            <button class="Our_Offerings">Our Offerings</button></br>
+        </div>
+    </div>
+    
+    
+    <h2>Our Services</h2>
+    
+    
+    <div class = "panel3">
+        <div class = "inpanel3">
+            <button class="Assessment">Assessment</button>
+            <p>Embedded in the Agile principles is the concept of reflection, feedback, and continuous improvement.  The best way to progress is to assess your current Agile environment in order to identify areas for improvement.  Knowledge gained from assessments can be crucial in developing a plan to help you and your organization progress with Agile. </p>
+        </div>
+        <div class = "inpanel3">
+            <button class="Training">Training</button>
+            <p>Getting the most out of the Agile process requires new skills and techniques.  Our trainers will give you the training you need,  keeping you engaged and energized as you progress toward your Agile certification.</p>
+        </div>
+        <div class = "inpanel3">
+            <button class="Coaching">Coaching</button>
+            <p>There's no need to take the journey toward an Agile organization alone.  We can coach your leaders and individual team members and help you realize better outcomes.</p>
+        </div>
+    </div>
+</div>
 {% endblock %}
 
 {% include "footer.html" %}
