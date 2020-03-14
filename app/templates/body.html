@@ -4,7 +4,10 @@
 <link rel="stylesheet" href="{{ url_for('static',    filename='/home.css') }}">
     
 
-<div class = "panel0"></div>
+<div class = "panel0">
+    <div class = "inpanel0">
+    </div>
+</div>
     
     
 <div class = "panel">
@@ -16,10 +19,10 @@
             Coaching</br>
         </div>
         <div class = "inpanel1">
-            <button class="Collaborate">Collaborate</button></br>
-            <button class="Schedule_an_Assesment">Schedule an Assesment</button></br>
-            <button class="View_Courses">View Courses</button></br>
-            <button class="Our_Offerings">Our Offerings</button></br>
+            <button class="Collaborate" onclick="window.location.href = '/contact_us';">Collaborate</button></br>
+            <button class="Schedule_an_Assesment" onclick="window.location.href = '/maturity_assessment';">Schedule an Assesment</button></br>
+            <button class="View_Courses" onclick="window.location.href = '/courses';">View Courses</button></br>
+            <button class="Our_Offerings" onclick="window.location.href = '/coaching';">Our Offerings</button></br>
         </div>
     </div>
     
@@ -29,18 +32,126 @@
     
     <div class = "panel3">
         <div class = "inpanel3">
-            <button class="Assessment">Assessment</button>
-            <p>Embedded in the Agile principles is the concept of reflection, feedback, and continuous improvement.  The best way to progress is to assess your current Agile environment in order to identify areas for improvement.  Knowledge gained from assessments can be crucial in developing a plan to help you and your organization progress with Agile. </p>
+            <button class="Schedule_an_Assesment" onclick="window.location.href = '/maturity_assessment';">Assessment</button>
+            <p>
+                Embedded in the Agile principles is the concept of reflection, feedback, and continuous improvement.  The best way to progress is to assess your current Agile environment in order to identify areas for improvement.  Knowledge gained from assessments can be crucial in developing a plan to help you and your organization progress with Agile. 
+                <a class = "more1" href="/maturity_assessment">
+                    <span>
+                    Learn More
+                    </span>
+                </a>
+            </p>
         </div>
         <div class = "inpanel3">
-            <button class="Training">Training</button>
-            <p>Getting the most out of the Agile process requires new skills and techniques.  Our trainers will give you the training you need,  keeping you engaged and energized as you progress toward your Agile certification.</p>
+            <button class="Training" onclick="window.location.href = '/training';">Training</button>
+            <p>
+                Getting the most out of the Agile process requires new skills and techniques.  Our trainers will give you the training you need,  keeping you engaged and energized as you progress toward your Agile certification.
+                <a class = "more1" href="/training">
+                    <span>
+                    Learn More
+                    </span>
+                </a>
+            </p>
         </div>
         <div class = "inpanel3">
-            <button class="Coaching">Coaching</button>
-            <p>There's no need to take the journey toward an Agile organization alone.  We can coach your leaders and individual team members and help you realize better outcomes.</p>
+            <button class="Coaching" onclick="window.location.href = '/coaching';">Coaching</button>
+            <p>
+                There's no need to take the journey toward an Agile organization alone.  We can coach your leaders and individual team members and help you realize better outcomes.
+                <a class = "more1" href="/coaching">
+                    <span>
+                    Learn More
+                    </span>
+                </a>
+            </p>
         </div>
     </div>
+    
+    
+    <h2>About Us</h2>
+    
+    
+    <div class = "panel4">
+        <div class = "inpanel4a">
+            <button class="About_us" onclick="window.location.href = '/about_us';">Who We Are</button></br>
+            <button class="About_us" onclick="window.location.href = '/about_us';">What We Do</button></br>
+            <button class="Collaborate" onclick="window.location.href = '/contact_us';">Contact Us</button>
+        </div>
+        <div class = "inpanel4b">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                <a class = "more1" href="/about_us">
+                    <span>
+                    Learn More
+                    </span>
+                </a>
+            </p>
+        </div>
+    </div>
+    
+    
+    <h2>Out Partners</h2>
+    
+    
+    <div class = "panel5">
+        <div class = "inpanel5">
+            Safe [logo]
+        </div>
+        <div class = "inpanel5">
+            Scrum Alliance [logo]
+        </div>
+        <div class = "inpanel5">
+            Scrum.org [logo]
+        </div>
+    </div>
+    
+    
+    <h2>Get Inspired</h2>
+    
+    <div class = "panel6">
+        <div class = "inpanel6">
+            <button class="Schedule_an_Assesment">Picture</button>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.  
+                <a class = "more1" href="/maturity_assessment">
+                    <span>
+                    Learn More
+                    </span>
+                </a>
+            </p>
+        </div>
+        <div class = "inpanel6">
+            <button class="Training">Picture</button>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.  
+                <a class = "more1" href="/training">
+                    <span>
+                    Learn More
+                    </span>
+                </a>
+            </p>
+        </div>
+        <div class = "inpanel6">
+            <button class="Coaching">Picture</button>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.  
+                <a class = "more1" href="/coaching">
+                    <span>
+                    Learn More
+                    </span>
+                </a>
+            </p>
+        </div>
+    </div>    
+    
+    
+    <h3>Stay Connected</h3>
+    <div class = "panel7">
+        Receive information regarding upcoming workshops and [can't read Raj's handwriting]</br>
+        Name _________________________	Email ___________________________</br>
+        [ ] I consent to receiving emails from Capital Services</br></br>
+        <button class="Collaborate" onclick="window.location.href = '/contact_us';">Submit</button></br>
+    </div>
+    
 </div>
 {% endblock %}
 
