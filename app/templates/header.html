@@ -5,22 +5,84 @@
       {% else %}
       <title>Welcome to Capital Services</title>
       {% endif %}
+<!--       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="{{ url_for('static', filename='header.css') }}">
     </head>
     <body>
-        <div>Capital Services: <a href="/index">Home</a>&emsp;
-          <a href="/maturity_assessment">Maturity Assessment</a>&emsp;
-          <a href="/consulting">Consulting</a>&emsp;
-          <a href="/coaching">Coaching</a>&emsp;
-          <a href="/training">Training</a>&emsp;
-          <a href="/courses">Courses</a>&emsp;
-          <a href="/contact_us">Contact us</a>&emsp;
-          <a href="/about_us">About us</a>&emsp;
-          <a href="/login">Login</a>
+      <nav class="navbar navbar-expand-lg navbar-custom">
+
+          <div class="collapse navbar-collapse" id="navbarCustom">
+            <div class='bgimg'>
+              <img src="{{url_for('static', filename='logo.png')}}" align="left", height=50, width=100/>
+              <br>
+              <ul class="navbar-nav mr-auto">
+                  <li class="nav-item">
+                    Capital Agile Services&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>&emsp;
+                  </li>
+                  <li class="nav-item">
+                    <a href="/assessment" class="nav-link">Assessment</a>&emsp;
+                  </li>
+                  <li class="nav-item">
+                    <a href="/consulting" class="nav-link">Consulting</a>&emsp;
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-hover="dropdown" href="/training">Training</a>&emsp;
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="/public_training">Public</a>
+                      <a class="dropdown-item" href="/corporate_training">Corporate</a>
+                      <a class="dropdown-item" href="/courses">Upcoming Courses</a>
+                      <a class="dropdown-item" href="/course_page">Individual Course Page</a>
+                    </div>
+                  </li>
+<!--       <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="/assessment" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
         </div>
+      </li> -->
+                  <li class="nav-item">
+                    <a href="/coaching" class="nav-link">Coaching</a>&emsp;
+                  </li>
+                  <li class="nav-item">
+                    <a href="/resources" class="nav-link">Resources</a>&emsp;
+                  </li>
+                  <li class="nav-item">
+                    <a href="/registration" class="nav-link">Registration</a>&emsp;
+                  </li>     
+                  <li class="nav-item">
+                    <a href="/about_us" class="nav-link">About Us</a>&emsp;
+                  </li>
+                  <li class="nav-item">
+                    <a href="/contact_us" class="nav-link">Contact Us</a>&emsp;
+                  </li>
+              </ul>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+            </div>
+         </div>
+      </nav>
         <hr>
-<!--         {#
-        <h1>Hi, {{ user.username }}!</h1>
-        #} -->
         {% block content %}{% endblock %}
     </body>
 </html>

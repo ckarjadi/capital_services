@@ -28,15 +28,64 @@ def index():
 	kwargs = {'user': user, 'title': title}
 	return render_template(template_name, **kwargs)
 
-@app.route('/maturity_assessment')
-def maturity_assessment():
+@app.route('/assessment')
+def assessment():
 	"""
-	MA render;
+	assessment render;
 	"""
-	title = 'Maturity Assessment'
-	user = {'username': 'Bob'}
-	template_name = 'maturity_assessment.html'
-	kwargs = {'user': user, 'title': title}
+	title = 'Assessment'
+	template_name = 'assessment.html'
+	kwargs = {'title': title}
+	return render_template(template_name, **kwargs)
+
+@app.route('/training')
+def training():
+	"""
+	training render;
+	"""
+	title = 'Training'
+	template_name = 'training.html'
+	kwargs = {'title': title}
+	return render_template(template_name, **kwargs)
+
+@app.route('/public_training')
+def public_training():
+	"""
+	public_training render;
+	"""
+	title = 'Public Training'
+	template_name = 'public_training.html'
+	kwargs = {'title': title}
+	return render_template(template_name, **kwargs)
+
+@app.route('/corporate_training')
+def corporate_training():
+	"""
+	corporate_training render;
+	"""
+	title = 'Corporate Training'
+	template_name = 'corporate_training.html'
+	kwargs = {'title': title}
+	return render_template(template_name, **kwargs)
+
+@app.route('/courses')
+def courses():
+	"""
+	course_page render;
+	"""
+	title = 'Upcoming Courses'
+	template_name = 'courses.html'
+	kwargs = {'title': title}
+	return render_template(template_name, **kwargs)
+
+@app.route('/course_page')
+def course_page():
+	"""
+	course_page render;
+	"""
+	title = 'Course Page'
+	template_name = 'course_page.html'
+	kwargs = {'title': title}
 	return render_template(template_name, **kwargs)
 
 @app.route('/consulting')
@@ -56,30 +105,38 @@ def coaching():
 	coaching;
 	"""
 	title = 'Coaching'
-	user = {'username': 'Bob'}
 	template_name = 'coaching.html'
-	kwargs = {'user': user, 'title': title}
+	kwargs = {'title': title}
 	return render_template(template_name, **kwargs)
 
-@app.route('/training')
-def training():
+@app.route('/resources')
+def resources():
 	"""
-	training;
+	resources;
 	"""
-	title = 'Training'
-	user = {'username': 'Bob'}
-	template_name = 'training.html'
-	kwargs = {'user': user, 'title': title}
+	title = 'Resources'
+	template_name = 'resources.html'
+	kwargs = {'title': title}
 	return render_template(template_name, **kwargs)
 
-@app.route('/courses')
-def courses():
+@app.route('/registration')
+def registration():
 	"""
-	courses;
+	registration route
 	"""
-	title = 'Courses'
+	title = 'Registration'
+	form = LoginForm()
+	kwargs = {'title': title, 'form': form}
+	return render_template('registration.html', **kwargs)
+
+@app.route('/about_us')
+def about_us():
+	"""
+	about
+	"""
+	title = 'About Us'
 	user = {'username': 'Bob'}
-	template_name = 'courses.html'
+	template_name = 'about_us.html'
 	kwargs = {'user': user, 'title': title}
 	return render_template(template_name, **kwargs)
 
@@ -93,24 +150,3 @@ def contact_us():
 	template_name = 'contact_us.html'
 	kwargs = {'user': user, 'title': title}
 	return render_template(template_name, **kwargs)
-
-@app.route('/about_us')
-def about_us():
-	"""
-	about
-	"""
-	title = 'About Us'
-	user = {'username': 'Bob'}
-	template_name = 'about_us.html'
-	kwargs = {'user': user, 'title': title}
-	return render_template(template_name, **kwargs)
-
-@app.route('/login')
-def login():
-	"""
-	login route
-	"""
-	title = 'Sign in'
-	form = LoginForm()
-	kwargs = {'title': title, 'form': form}
-	return render_template('login.html', **kwargs)
