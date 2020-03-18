@@ -1,0 +1,30 @@
+
+.bgimg {
+/*    background-image: url('/static/darker_grey.png');
+    background-repeat: no-repeat;
+    background-size: 200% 1000%;*/
+    background-image: linear-gradient(blue, purple);
+    color: white;
+    width: 100%;
+}
+.href, href:visited {
+  color: white;
+}
+
+.navbar-custom {
+}
+.navbar-custom .nav-link {
+    color: white;
+}
+.navbar-custom .navbar-nav{
+	float: left;
+}
+
+/*#wrapper{
+    overflow:auto;
+}
+
+
+#c2{
+    text-align: right;
+}​*/
