@@ -2,8 +2,12 @@
 
 {% block content %}
 <link rel="stylesheet" href="{{ url_for('static',    filename='/home.css') }}">
-    
 
+<div class="parallax">
+    <div class="content">
+        
+    </div>
+</div>
 <!-- <div class = "panel0">
     <div class = "inpanel0">
     </div>
@@ -13,7 +17,7 @@
 <div class = "panel">
     <div class = "panel1">    
         <div class = "inpanel1">
-            Image carousel</br>
+            About Us</br>
             Assessment</br>
             Courses</br>
             Coaching</br>
@@ -78,7 +82,9 @@
         </div>
         <div class = "inpanel4b">
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                Our group has been providing Agile training and coaching to leading organization for many years. 
+                We are certified trainers...
+                From assessment to coaching, helping you transform into a more Agile environment is our passion... 
                 <a class = "more1" href="/about_us">
                     <span>
                     Learn More
@@ -94,13 +100,13 @@
     
     <div class = "panel5">
         <div class = "inpanel5">
-            Safe [logo]
+            <img src="static/pmi-acp-new.png" alt="logo1" width="250" height="180">
         </div>
         <div class = "inpanel5">
-            Scrum Alliance [logo]
+             <img src="static/pmi_logo_ogShare.png" alt="logo2" width="250" height="180">
         </div>
         <div class = "inpanel5">
-            Scrum.org [logo]
+            <img src="static/pmi-acp-new_copy.png" alt="logo3" width="250" height="180">
         </div>
     </div>
     
@@ -109,36 +115,26 @@
     
     <div class = "panel6">
         <div class = "inpanel6">
-            <button class="Schedule_an_Assesment">Picture</button>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.  
-                <a class = "more1" href="/assessment">
-                    <span>
-                    Learn More
-                    </span>
-                </a>
+                “Our group was looking for help, and we got it.  Thanks for giving us the tools we needed to move forward!” 
             </p>
         </div>
         <div class = "inpanel6">
-            <button class="Training">Picture</button>
+            
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.  
-                <a class = "more1" href="/training">
-                    <span>
-                    Learn More
-                    </span>
-                </a>
+                “The coaching you provided was fantastic.  We are able to apply the Agile principles in new ways after the time you spent with us.”  
             </p>
         </div>
         <div class = "inpanel6">
-            <button class="Coaching">Picture</button>
+           
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.  
-                <a class = "more1" href="/coaching">
-                    <span>
-                    Learn More
-                    </span>
-                </a>
+                “So far our team has found your courses invaluable.  Your reputation for excellence is well deserved.” 
+            </p>
+        </div>
+        <div class = "inpanel6">
+            
+            <p>
+                “We were struggling with our Agile transformation, and you were able to identify areas that needed more focus.  Thanks for your guidance and insight.” 
             </p>
         </div>
     </div>    
@@ -153,6 +149,7 @@
     </div>
     
 </div>
+
 {% endblock %}
 
 {% include "footer.html" %}
