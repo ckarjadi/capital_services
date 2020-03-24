@@ -1,7 +1,25 @@
 {% include "header.html" %}
 
 {% block content %}
-	<h1>*Resources</h1>
+<link rel="stylesheet" href="{{ url_for('static',    filename='/resources.css') }}">
+<div class = "resourcepanel">
+    
+    Continue your Agile journey with these online resources:</br>
+    
+    <div class = "resource_list">
+    <ul class = "resource_ul">
+        <li><a class = "resource_link" href="https://www.scrum.org/resources/scrum-glossary">Scrum Glossary</a></li>
+        <li><a class = "resource_link" href="https://www.scaledagileframework.com/glossary/">SAFe Glossary</a></li>
+        <li><a class = "resource_link" href="https://agilemanifesto.org">Agile Manifesto</a></li>
+        <li><a class = "resource_link" href="https://agilemanifesto.org/principles.html">Twelve Principles of Agile Software</a></li>
+        <li><a class = "resource_link" href="https://www.scrumguides.org/docs/scrumguide/v2017/2017-Scrum-Guide-US.pdf#zoom=100">The Scrum Guide™ (by Ken Schwaber and Jeff Sutherland)</a></li>
+        <li><a class = "resource_link" href="https://www.scrumalliance.org">Scrum Alliance</a></li>
+        <li><a class = "resource_link" href="https://www.agilealliance.org">Agile Alliance</a></li>
+        <li><a class = "resource_link" href="https://www.youtube.com/watch?v=eqy9apvWSAk">Scaled Agile Frameworks [YouTube video]</a></li>
+	</ul>
+	</div>
+	
+</div>
 {% endblock %}
 
 {% include "footer.html" %}
