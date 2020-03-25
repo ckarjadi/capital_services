@@ -1,13 +1,49 @@
 {% include "header.html" %}
 
 {% block content %}
-<link rel="stylesheet" href="{{ url_for('static',    filename='/home.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='/home.css') }}">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 <div class="parallax">
     <div class="content">
-        
+        <div class="w3-content w3-section" style="max-width:500px">
+            <div class="mySlides w3-animate-fading">
+                <img src="static/pmi-acp-new_copy.png" style="width:100%">
+                <button class="Collaborate" onclick="window.location.href = '/contact_us';">Collaborate</button>
+            </div>
+            <div class="mySlides w3-animate-fading">
+                <img src="static/pmi-acp-new_copy.png" style="width:100%">
+                <button class="Schedule_an_Assesment" onclick="window.location.href = '/assessment';">Schedule an Assessment</button>
+            </div>
+            <div class="mySlides w3-animate-fading">
+                <img src="static/pmi-acp-new_copy.png" style="width:100%">
+                <button class="View_Courses" onclick="window.location.href = '/courses';">View Courses</button>
+            </div>
+            <div class="mySlides w3-animate-fading">
+                <img src="static/pmi-acp-new_copy.png" style="width:100%">
+                <button class="Our_Offerings" onclick="window.location.href = '/coaching';">Our Offerings</button>
+            </div>
+        </div>
     </div>
 </div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 5000);    
+}
+</script>
+
 <!-- <div class = "panel0">
     <div class = "inpanel0">
     </div>
@@ -16,12 +52,6 @@
     
 <div class = "panel">
     <div class = "panel1">    
-        <div class = "inpanel1">
-            About Us</br>
-            Assessment</br>
-            Courses</br>
-            Coaching</br>
-        </div>
         <div class = "inpanel1">
             <button class="Collaborate" onclick="window.location.href = '/contact_us';">Collaborate</button></br>
             <button class="Schedule_an_Assesment" onclick="window.location.href = '/assessment';">Schedule an Assessment</button></br>
