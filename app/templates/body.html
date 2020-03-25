@@ -8,19 +8,19 @@
     <div class="content">
         <div class="w3-content w3-section" style="max-width:500px">
             <div class="mySlides w3-animate-fading">
-                <img src="static/pmi-acp-new_copy.png" style="width:100%">
+                <img src="static/contact-us.jpg" style="width:100%">
                 <button class="Collaborate" onclick="window.location.href = '/contact_us';">Collaborate</button>
             </div>
             <div class="mySlides w3-animate-fading">
-                <img src="static/pmi-acp-new_copy.png" style="width:100%">
+                <img src="static/assessment.jpg" style="width:100%">
                 <button class="Schedule_an_Assesment" onclick="window.location.href = '/assessment';">Schedule an Assessment</button>
             </div>
             <div class="mySlides w3-animate-fading">
-                <img src="static/pmi-acp-new_copy.png" style="width:100%">
+                <img src="static/courses.jpg" style="width:100%">
                 <button class="View_Courses" onclick="window.location.href = '/courses';">View Courses</button>
             </div>
             <div class="mySlides w3-animate-fading">
-                <img src="static/pmi-acp-new_copy.png" style="width:100%">
+                <img src="static/coaching.jpg" style="width:100%">
                 <button class="Our_Offerings" onclick="window.location.href = '/coaching';">Our Offerings</button>
             </div>
         </div>
@@ -90,7 +90,7 @@ function carousel() {
         <div class = "inpanel3">
             <button class="Coaching" onclick="window.location.href = '/coaching';">Coaching</button>
             <p>
-                There's no need to take the journey toward an Agile organization alone. We can coach your leaders and individual team members and help you realize better outcomes. xxxxxx
+                There's no need to take the journey toward an Agile organization alone. We can coach your leaders and individual team members and help you realize better outcomes. 
                 <a class = "more1" href="/coaching">
                     <span>
                     Learn More
@@ -130,13 +130,13 @@ function carousel() {
     
     <div class = "panel5">
         <div class = "inpanel5">
-            <img src="static/pmi-acp-new.png" alt="logo1" width="250" height="180">
+            <img src="static/SAFe_provided_by_Scaled_Agile_368.png" alt="logo1" width="200" height="70">
         </div>
         <div class = "inpanel5">
-             <img src="static/pmi_logo_ogShare.png" alt="logo2" width="250" height="180">
+             <img src="static/sai_logo_rgb-400.png" alt="logo2" width="200" height="70">
         </div>
         <div class = "inpanel5">
-            <img src="static/pmi-acp-new_copy.png" alt="logo3" width="250" height="180">
+            <img src="static/scrum-org-logo.png" alt="logo3" width="200" height="70">
         </div>
     </div>
     
@@ -145,41 +145,86 @@ function carousel() {
     
     <div class = "panel6">
         <div class = "inpanel6">
-            <p>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                     <p></br>
                 “Our group was looking for help, and we got it.  Thanks for giving us the tools we needed to move forward!” 
             </p>
+                </div>
+                <div class="flip-card-back">
+                    <h1>name1</h1> 
+                    <p>Founder</p> 
+                </div>
+            </div>
+        </div>
+           
         </div>
         <div class = "inpanel6">
-            
-            <p>
+             <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                     <p></br>
                 “The coaching you provided was fantastic.  We are able to apply the Agile principles in new ways after the time you spent with us.”  
             </p>
+                </div>
+                <div class="flip-card-back">
+                    <h1>name2</h1> 
+                    <p>Manager</p> 
+                </div>
+            </div>
+        </div>
+           
         </div>
         <div class = "inpanel6">
-           
-            <p>
+           <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <p></br>
                 “So far our team has found your courses invaluable.  Your reputation for excellence is well deserved.” 
             </p>
+                </div>
+                <div class="flip-card-back">
+                    <h1>name3</h1> 
+                    <p>Developer</p> 
+                </div>
+            </div>
+        </div>
+            
         </div>
         <div class = "inpanel6">
-            
-            <p>
-                “We were struggling with our Agile transformation, and you were able to identify areas that needed more focus.  Thanks for your guidance and insight.” 
-            </p>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <p></br>“We were struggling with our Agile transformation, and you were able to identify areas that needed more focus.  Thanks for your guidance and insight.”  </p>
+                </div>
+                <div class="flip-card-back">
+                    <h1>name4</h1> 
+                    <p>Engineer</p> 
+                </div>
+            </div>
+        </div>
+
         </div>
     </div>    
     
     
     <h3>Stay Connected</h3>
     <div class = "panel7">
-        Receive information regarding upcoming workshops and [can't read Raj's handwriting]</br>
-        Name _________________________	Email ___________________________</br>
-        [ ] I consent to receiving emails from Capital Services</br></br>
-        <button class="Collaborate" onclick="window.location.href = '/contact_us';">Submit</button></br>
+        Receive information regarding upcoming workshops</br>
+        <label for="name">Name:</label>
+        <input type="name" id="name" placeholder="Enter name" name="name"></br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter email" name="email"></br>
+        <label>
+            <input type="checkbox" name="remember">  I consent to receiving emails from Capital Services
+        </label>
+        </br>
+        <button class="Collaborate" type="submit">Submit</button></br>
     </div>
     
 </div>
-
+<div class="parallax"></div>
 {% endblock %}
 
 {% include "footer.html" %}
