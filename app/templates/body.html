@@ -4,27 +4,29 @@
 <link rel="stylesheet" href="{{ url_for('static', filename='/home.css') }}">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
+<div class = "panel0">
 <div class="parallax">
     <div class="content">
         <div class="w3-content w3-section" style="max-width:500px">
             <div class="mySlides w3-animate-fading">
-                <img src="static/contact-us.jpg" style="width:100%" onclick="window.location.href = '/contact_us';">
+                <img class = "carousel" src="static/contact-us.jpg" style="width:100%" onclick="window.location.href = '/contact_us';">
                 <button class="Collaborate" onclick="window.location.href = '/contact_us';">Collaborate</button>
             </div>
             <div class="mySlides w3-animate-fading">
-                <img src="static/assessment.jpg" style="width:100%" onclick="window.location.href = '/assessment';">
+                <img class = "carousel" src="static/assessment.jpg" style="width:100%" onclick="window.location.href = '/assessment';">
                 <button class="Schedule_an_Assesment" onclick="window.location.href = '/assessment';">Schedule an Assessment</button>
             </div>
             <div class="mySlides w3-animate-fading">
-                <img src="static/courses.jpg" style="width:100%" onclick="window.location.href = '/courses';">
+                <img class = "carousel" src="static/courses.jpg" style="width:100%" onclick="window.location.href = '/courses';">
                 <button class="View_Courses" onclick="window.location.href = '/courses';">View Courses</button>
             </div>
             <div class="mySlides w3-animate-fading">
-                <img src="static/coaching.jpg" style="width:100%" onclick="window.location.href = '/coaching';">
+                <img class = "carousel" src="static/coaching.jpg" style="width:100%" onclick="window.location.href = '/coaching';">
                 <button class="Our_Offerings" onclick="window.location.href = '/coaching';">Our Offerings</button>
             </div>
         </div>
     </div>
+</div>
 </div>
 
 <script>
@@ -44,31 +46,15 @@ function carousel() {
 }
 </script>
 
-<!-- <div class = "panel0">
-    <div class = "inpanel0">
-    </div>
-</div>
-     -->
-    
-<div class = "panel">
-    <div class = "panel1">    
-        <div class = "inpanel1">
-            <button class="Collaborate" onclick="window.location.href = '/contact_us';">Collaborate</button></br>
-            <button class="Schedule_an_Assesment" onclick="window.location.href = '/assessment';">Schedule an Assessment</button></br>
-            <button class="View_Courses" onclick="window.location.href = '/courses';">View Courses</button></br>
-            <button class="Our_Offerings" onclick="window.location.href = '/coaching';">Our Offerings</button></br>
-        </div>
-    </div>
+<div class = "panel"> 
     
     <hr>
     <h2>Our Services</h2>
-    
-    
     <div class = "panel3">
         <div class = "inpanel3">
             <button class="Schedule_an_Assesment" onclick="window.location.href = '/assessment';">Assessment</button>
             <p>
-                Embedded in the Agile principles is the concept of reflection, feedback, and continuous improvement.  The best way to progress is to assess your current Agile environment in order to identify areas for improvement.  Knowledge gained from assessments can be crucial in developing a plan to help you and your organization progress with Agile. 
+                Embedded in the Agile principles is the concept of reflection, feedback, and continuous improvement.  The best way to progress is to assess your current Agile environment in order to identify areas for improvement.  Knowledge gained from assessments can be crucial in developing a plan to help you and your organization progress with Agile.</br> 
                 <a class = "more1" href="/assessment">
                     <span>
                     Learn More
@@ -79,7 +65,7 @@ function carousel() {
         <div class = "inpanel3">
             <button class="Training" onclick="window.location.href = '/training';">Training</button>
             <p>
-                Getting the most out of the Agile process requires new skills and techniques.  Our trainers will give you the training you need,  keeping you engaged and energized as you progress toward your Agile certification.
+                Getting the most out of the Agile process requires new skills and techniques.  Our trainers will give you the training you need,  keeping you engaged and energized as you progress toward your Agile certification.</br>
                 <a class = "more1" href="/training">
                     <span>
                     Learn More
@@ -90,7 +76,7 @@ function carousel() {
         <div class = "inpanel3">
             <button class="Coaching" onclick="window.location.href = '/coaching';">Coaching</button>
             <p>
-                There's no need to take the journey toward an Agile organization alone. We can coach your leaders and individual team members and help you realize better outcomes. 
+                There's no need to take the journey toward an Agile organization alone. We can coach your leaders and individual team members and help you realize better outcomes. </br>
                 <a class = "more1" href="/coaching">
                     <span>
                     Learn More
@@ -130,13 +116,13 @@ function carousel() {
     
     <div class = "panel5">
         <div class = "inpanel5">
-            <img src="static/SAFe_provided_by_Scaled_Agile_368.png" alt="logo1" width="200" height="70">
+            <img class = "partner_logo" src="static/SAFe_provided_by_Scaled_Agile_368.png" alt="logo1" width="200" height="70" onclick="window.location.href = 'https://www.scaledagileframework.com';">
         </div>
         <div class = "inpanel5">
-             <img src="static/sai_logo_rgb-400.png" alt="logo2" width="200" height="70">
+             <img class = "partner_logo" src="static/sai_logo_rgb-400.png" alt="logo2" width="200" height="70" onclick="window.location.href = 'https://www.scrumalliance.org';">
         </div>
         <div class = "inpanel5">
-            <img src="static/scrum-org-logo.png" alt="logo3" width="200" height="70">
+            <img class = "partner_logo" src="static/scrum-org-logo.png" alt="logo3" width="200" height="70" onclick="window.location.href = 'https://www.scrum.org';">
         </div>
     </div>
     
