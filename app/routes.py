@@ -12,8 +12,7 @@ def index():
 	"""
 	index render;
 	"""
-	title = 'Home'
-	user = {'username': 'Bob'}
+	title, page_title = 'Home', 'Welcome to Capital Agile Services'
 	template_name = 'body.html'
 	# posts = [
 	# 	{
@@ -25,7 +24,7 @@ def index():
 	# 		'body': 'Another statement!'
 	# 	}
 	# ]
-	kwargs = {'user': user, 'title': title}
+	kwargs = {'title': title, 'page_title': page_title}
 	return render_template(template_name, **kwargs)
 
 @app.route('/assessment')
@@ -33,9 +32,9 @@ def assessment():
 	"""
 	assessment render;
 	"""
-	title = 'Assessment'
+	title, page_title = 'Assessment', 'Assessment'
 	template_name = 'assessment.html'
-	kwargs = {'title': title}
+	kwargs = {'title': title, 'page_title': page_title}
 	return render_template(template_name, **kwargs)
 
 @app.route('/training')

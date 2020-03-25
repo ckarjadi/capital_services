@@ -1,2 +1,16 @@
 
+.inner{
+	position: absolute;
+}
+.w160 {
+    width: 160ch;
+}
 
+
+.disc {
+	list-style-type: disc;
+}
+
+.pad {
+  padding-left: 30px;
+}

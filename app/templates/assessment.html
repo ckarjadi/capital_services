@@ -1,5 +1,41 @@
 {% include "header.html" %}
 {% block content %}
-	<h1>*Maturity Assessment Stuff</h1>
+<head>
+	<link rel="stylesheet" href="{{ url_for('static',    filename='/assessment.css') }}">
+</head>
+<div>
+	<div style='z-index: 1'>
+		<img src="{{url_for('static', filename='assessment_evaluation_image.png')}}"
+ 			style="width: 15vw; height: 10vw"/>
+	</div>
+	<div style='z-index: 2'>
+		<ul style="margin-left: 200px;">
+			<li class="disc">Why Assessment?</li>
+				<ul class="pad">
+					<li class="disc">Embedded in the Agile principles is the concept of reflection, feedback, and continuous improvement.  The best way to progress is to assess your current Agile environment in order to identify areas for improvement.  Knowledge gained from assessments can be crucial in developing a plan to help you and your organization progress with Agile.
+					</li>
+				</ul>
+			<li class="disc">What are the different types of assessment?</li>
+				<ul class="pad">
+					<li class="disc">Leadership Assessment</li>
+					<ul class="pad">
+					<li class="disc">An Agile leader is not merely an enlightened manager.  Agile requires a new set of skills to help guide your team.  A leadership assessment can help you recognize areas requiring further training and focus to assist in empowering your teams and coordinating your Agile efforts at an enterprise level.</li>
+					</ul>
+				</ul>
+				<ul class="pad">
+					<li class="disc">Organization Assessment</li>
+					<ul class="pad">
+					<li class="disc">Use an organization assessment to set a baseline for your overall Agile implementation.  See where you are taking advantage of Agile and where your company should focus their transformation efforts.  Sometimes an outside viewpoint is needed to be able to see the details that so often go unnoticed.</li>
+					</ul>
+				</ul>
+				<ul class="pad">
+					<li class="disc">Portfolio Assessment</li>
+					<ul class="pad">
+					<li class="disc">Use an organization assessment to set a baseline for your overall Agile implementation.  See where you are taking advantage of Agile and where your company should focus their transformation efforts.  Sometimes an outside viewpoint is needed to be able to see the details that so often go unnoticed.</li>
+					</ul>
+				</ul>
+		</ul>
+	</div>
+</div>
 {% endblock %}
 {% include "footer.html" %}
