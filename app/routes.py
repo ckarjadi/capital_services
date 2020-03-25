@@ -113,9 +113,9 @@ def resources():
 	"""
 	resources;
 	"""
-	title = 'Resources'
+	title, page_title = 'Resources', 'Resources'
 	template_name = 'resources.html'
-	kwargs = {'title': title}
+	kwargs = {'title': title, 'page_title': page_title}
 	return render_template(template_name, **kwargs)
 
 @app.route('/registration')

@@ -14,23 +14,13 @@
       <link rel="stylesheet" href="{{ url_for('static', filename='/header.css') }}">
     </head>
     <body>
-      <nav class="navbar navbar-expand-lg navbar-custom">
+      <nav class="navbar navbar-expand-lg navbar-custom bgimg">
 
-          <div class="collapse navbar-collapse bgimg" id="navbarCustom">
-<!--             <div class='bgimg'> -->
-              <div style="display:inline-block;vertical-align:top;">
+          <div class="collapse navbar-collapse navbar-custom new_line" id="navbarCustom">
+              <div style="display:inline-flex;vertical-align:top;">
                 <img src="{{url_for('static', filename='logo.png')}}" height=50, width=100 style="float:left"/>
-              </div>
-              <div style="display:inline-block;vertical-align:top;">
-                  <div>Capital Agile Services</div>
-              </div>
-
-              <br>
-              <ul class="navbar-nav mr-auto">
-<!--                   <li class="nav-item">
-                    Capital Agile Services&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-                  </li> -->
+                <font size="3">Capital Agile Services</font>
+                  <ul class="navbar-nav mr-auto" style="margin-left: 200px;margin-right:  0px;">
                   <li class="nav-item">
                     <a class="nav-link" href="/">Home</a>&emsp;
                   </li>
@@ -49,17 +39,6 @@
                       <a class="dropdown-item" href="/course_page">Individual Course Page</a>
                     </div>
                   </li>
-<!--       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="/assessment" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li> -->
                   <li class="nav-item">
                     <a href="/coaching" class="nav-link">Coaching</a>&emsp;
                   </li>
@@ -76,23 +55,17 @@
                     <a href="/contact_us" class="nav-link">Contact Us</a>&emsp;
                   </li>
               </ul>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <div class="new_line">
-              {% if page_title %}
-              <center><h1 class="new_line">{{ page_title }}</h1></center>
-              {% endif %}
               </div>
-              <br>
+              <p></p>
               <br>
               <br>
 
-<!--             </div> -->
          </div>
+              <div style="display: block;">
+                {% if page_title %}
+                <h1>{{ page_title }}</h1>
+                {% endif %}
+              </div>
       </nav>
         {% block content %}{% endblock %}
     </body>

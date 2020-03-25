@@ -1,9 +1,10 @@
 /*div {
     width: 100%;
 }*/
-body {
-    width: 100%;
-    height: 100%;
+html, body {
+    height:100%;
+    margin:0;
+    padding:0;
 }
 nav {
     width: 100%;
@@ -15,23 +16,50 @@ nav {
     background-image: linear-gradient(blue, purple);
     color: white;
     width: 100%;
+    height: 20%;
     background-size:cover;
+}
+.navbar-expand-lg .navbar-collapse {
+     display: -webkit-box!important; 
+  /*  display: -ms-flexbox!important;*/
+    /* display: flex!important; */
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
 }
 .href, href:visited {
   color: white;
 }
 
 .navbar-custom {
+    position: relative;
+    margin-right: 0px;
+    margin-left: 0px;
+
+    width:100%; /*full width*/
+    text-align:center;
+    display:table; /*acts like a table*/
 }
 .navbar-custom .nav-link {
     color: white;
 }
 .navbar-custom .navbar-nav{
-	float: left;
+	float: right;
 }
 .new_line {
-    display: block;
+    margin: 0 auto;
 }
+.center_h1 {
+    text-align-last: center; 
+}
+.center_div {
+    clear:both;
+    display: block;
+    width: 100%;
+}
+/*.new_line:before {
+    content: "";
+    display: block;
+}*/
 /*#wrapper{
     overflow:auto;
 }
