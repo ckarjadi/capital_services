@@ -1,11 +1,11 @@
 {% include "header.html" %}
 
 {% block content %}
-    <link rel="stylesheet" href="{{ url_for('static',    filename='/contact_us.css') }}">
-    
-	<h1>Contact Us</h1>
-	
-	<p>
+<link rel="stylesheet" href="{{ url_for('static',    filename='/contact_us.css') }}">
+
+<div class = "contact_us_panel">
+
+    <p>
     	Email: info@capitalservice.com<br/>
         Phone: 555-555-5555<br/>
         Social media logos and handles<br/>
@@ -13,6 +13,7 @@
         Have you completed one of our courses? Leave a review! <br/>
     </p>
     
+</div>
 {% endblock %}
 
 {% include "footer.html" %}

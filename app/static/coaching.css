@@ -8,7 +8,11 @@
 
 .coaching_panel1{
   display: block;
-margin: 5%;
+  margin: 5%;
   text-align: justify;
 }
 
+.coaching_panel2{
+  text-align: center;
+  margin: 3%;
+}
