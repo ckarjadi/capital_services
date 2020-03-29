@@ -70,20 +70,20 @@ def corporate_training():
 @app.route('/courses')
 def courses():
 	"""
-	course_page render;
+	individual course render;
 	"""
-	title = 'Upcoming Courses'
+	title = 'Individual Courses'
 	template_name = 'courses.html'
 	kwargs = {'title': title}
 	return render_template(template_name, **kwargs)
 
-@app.route('/course_page')
+@app.route('/upcoming_course')
 def course_page():
 	"""
-	course_page render;
+	upcoming_course render;
 	"""
-	title = 'Course Page'
-	template_name = 'course_page.html'
+	title = 'Upcoming Course Page'
+	template_name = 'upcoming_course.html'
 	kwargs = {'title': title}
 	return render_template(template_name, **kwargs)
 
