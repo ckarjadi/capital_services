@@ -1,3 +1,14 @@
+.about_us_panel1{  
+  display: flex;
+
+}
+
+.about_us_inpanel2{
+flex: 30%;
+}
+
+
+
 h1 {
   text-align: center;
 }

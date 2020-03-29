@@ -87,17 +87,6 @@ def course_page():
 	kwargs = {'title': title}
 	return render_template(template_name, **kwargs)
 
-@app.route('/consulting')
-def consulting():
-	"""
-	consulting render;
-	"""
-	title = 'Consulting'
-	user = {'username': 'Bob'}
-	template_name = 'consulting.html'
-	kwargs = {'user': user, 'title': title}
-	return render_template(template_name, **kwargs)
-
 @app.route('/coaching')
 def coaching():
 	"""
