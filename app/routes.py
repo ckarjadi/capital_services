@@ -67,6 +67,7 @@ def corporate_training():
 	kwargs = {'title': title}
 	return render_template(template_name, **kwargs)
 
+'''
 @app.route('/courses')
 def courses():
 	"""
@@ -76,6 +77,7 @@ def courses():
 	template_name = 'courses.html'
 	kwargs = {'title': title}
 	return render_template(template_name, **kwargs)
+'''
 
 @app.route('/upcoming_course')
 def course_page():
