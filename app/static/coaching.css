@@ -1,2 +1,14 @@
+.coaching_panel0{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+   text-align: center;
+}
 
+.coaching_panel1{
+  display: block;
+margin: 5%;
+  text-align: justify;
+}
 
