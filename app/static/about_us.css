@@ -1,13 +1,33 @@
+*{
+  box-sizing: border-box;
+}
+
 .about_us_panel1{  
+  margin: 5%;
+}
+
+.about_us_panel2{  
   display: flex;
-
+  margin: 5%;
 }
 
-.about_us_inpanel2{
-flex: 30%;
+.about_us_panel2a{
+    flex: 30%;
 }
 
+.about_us_panel2b{
+    flex: 70%;
+    text-align: justify;
+}
 
+.about_us_panel3{
+    margin: 5%;
+    text-align: justify;
+}
+
+.about_us_contact_us_link{
+    text-decoration: underline;
+}
 
 h1 {
   text-align: center;

@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="{{ url_for('static',    filename='/about_us.css') }}">
 	
 <div class = "about_us_panel">
-<div class = "about_us_panel1">
+<div class = "about_us_panel1" id = "who_we_are">
 	<h2>Who we are</h2>
 	<p>
 	Our group has been providing Agile training and coaching to leading organization for many years.  We are certified trainers for the leading Agile frameworks, allowing us to provide the most appropriate training for any situation.  Training courses are held at central locations or can be taught on-site if a client wishes to bring a class in house for a larger audience.
@@ -13,17 +13,34 @@
 </div>
 
 <div class = "about_us_panel2">
-    <div class = "about_us_inpanel2">
-        <img class = "about_us_img" src="static/Raj.jpg">
+    <div class = "about_us_panel2a">
+            <img class = "about_us_img" src="static/Raj.jpg">
     </div>
-     
-    <div class = "about_us_inpanel2">
-    <h2>Meet The Team</h2>
-    <p>
-    Raj Heda ia an energetic, accomplished and seasoned technology consultant with core competency in scaling software agility at large enterprises using SAFe/LeSS/SOS framework.  With over 22 years of proven experience in Fortune 500 companies across various industries (Education, Finance, Insurance, Healthcare, Energy, Retail and Manufacturing), Raj  has demonstrated his ability to lead, motivate and mentor multi-functional and global teams.  His strong communication and facilitation skills have helped clients succeed across all levels of their organization.  He's an  Enterprise Agile transformation coach, a DevOps coach, a Delivery lead and Trainer.
-    </p>
+    <div class = "about_us_panel2b" id = "meet_the_team">
+            <h2>Meet The Team</h2>
+                <p>
+                Raj Heda ia an energetic, accomplished and seasoned technology consultant with core competency in scaling software agility at large enterprises using SAFe/LeSS/SOS framework.  With over 22 years of proven experience in Fortune 500 companies across various industries (Education, Finance, Insurance, Healthcare, Energy, Retail and Manufacturing), Raj  has demonstrated his ability to lead, motivate and mentor multi-functional and global teams.  His strong communication and facilitation skills have helped clients succeed across all levels of their organization.  He's an  Enterprise Agile transformation coach, a DevOps coach, a Delivery lead and Trainer.
+                </br></br>Raj's expertise includes:</br>
+                <li>Scaled Agile Framework Implementation - SAFe, LeSS, SOS</li>
+                <li>Enterprise Agile Transformation - Scrum, Kanban</li>
+                <li>Enterprise Agile/DevOps Coach and Trainer</li>
+                <li>Lead Agile Management Office and Project Management Office</li>
+                <li>Agile Program/Project Management</li>
+                <li>Change Management</li>
+                <li>Client Relationships</li>
+                <li>Resource Management</li>
+                <li>Release Management</li>
+                <li>Software Development</li>
+                <li>Infrastructure Deployment</li>
+                </p>
     </div>
 </div>
+
+<div class = "about_us_panel3">
+    <h2>Contact Us</h2>
+    <a class = "about_us_contact_us_link" href="/contact_us">Here's how to learn how we can help your organization successfully implement Agile.</a>
+</div>
+
 </div>
 {% endblock %}
 
