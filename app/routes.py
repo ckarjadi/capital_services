@@ -47,26 +47,6 @@ def training():
 	kwargs = {'title': title}
 	return render_template(template_name, **kwargs)
 
-@app.route('/public_training')
-def public_training():
-	"""
-	public_training render;
-	"""
-	title = 'Public Training'
-	template_name = 'public_training.html'
-	kwargs = {'title': title}
-	return render_template(template_name, **kwargs)
-
-@app.route('/corporate_training')
-def corporate_training():
-	"""
-	corporate_training render;
-	"""
-	title = 'Corporate Training'
-	template_name = 'corporate_training.html'
-	kwargs = {'title': title}
-	return render_template(template_name, **kwargs)
-
 '''
 @app.route('/courses')
 def courses():
