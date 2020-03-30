@@ -1,10 +1,76 @@
+
 {% include "header.html" %}
 
 {% block content %}
 <link rel="stylesheet" href="{{ url_for('static', filename='/upcoming_course.css') }}">
+<link rel="import" href="/nodep-date-input-polyfill/*.js">
+
+<div class = "upcoming_course_panel">
+
+	<div class = "upcoming_course_panel0">
+        	<h2>Calendar</h2>
+    </div>
+    
+	<div class = "upcoming_course_panel1">
+
+        <div class = "upcoming_course_panel1a">
+        	
+        	<div class = "filter_header">Filter Events</div>
+        	
+        	<div class = "filter_body">
+            	<ul class = "upcoming_course_filters" style="list-style-type:none;">
+                	<li><select id="course_filter">
+                    	<option value="courses">All Courses</option>
+                    	<option value="events">All Events</option>
+                    	<option value="meetups">All Meetups</option>
+                    	<option value="webinars">All Webinars</option>
+                	</select></li></br>
+                	
+                	<li><select id="type_filter">
+                    	<option value="all_types">All Course Types</option>
+                	</select></li></br>
+                	
+                	
+                	<script src = "/nodep-date-input-polyfill.dist.js"></script>
+                	<li><input type = "date" lang="en"/></li></br>
+                	
+                    <li><input type = "date" lang="en"/></li></br>
+              
+                	<li><select id="country_filter">
+                    	<option value="all_countries">All Countries</option>
+                	</select></li></br>
+                	
+                	<!--functions for city filter -->
+                	<li><input type="text" id="myInput" onkeyup="myFunction()" placeholder="City" title="Type in a city"></li></br>
+          
+                  	<li><select id="trainer_filter">
+                    	<option value="all_trainers">All Trainers</option>
+                	</select></li></br>
+                	<li><select id="partner_filter">
+                    	<option value="all_partners">All Partners</option>
+                	</select></li>
+            	</ul>
+        	</div>
+        	
+        	<div class = "filter_footer">
+            	<button class="filter_clear" onclick="filterSelection('clear')">Clear Filters</button>
+        	</div>
+        	
+        </div>
+    	
+    	<div class = "upcoming_course_panel1b">
+    	
+    	</div>
+	</div>
 	
-	
-	
-	
+
+
+
+<!--functions for city filter -->
+
+
+
+</div>
+
 {% endblock %}
 {% include "footer.html" %}

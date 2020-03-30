@@ -1,0 +1,56 @@
+*{
+  box-sizing: border-box;
+}
+
+.upcoming_course_panel{
+    margin: 5%;
+}
+
+.upcoming_course_panel0{
+    text-align: center;
+    margin: 5%;
+}
+
+.upcoming_course_panel1{
+    display: flex;
+}
+
+.upcoming_course_panel1a{
+    flex: 20%;
+    border: 1px solid lightgrey;
+    
+}
+
+.filter_header{
+    border-bottom: 1px solid lightgrey;
+    padding:3%;
+    text-align: justify;
+}
+
+.filter_footer{
+    border-top: 1px solid lightgrey;
+    padding:3%;
+    text-align: right;
+}
+
+.filter_body{
+    padding:3%;
+    text-align: justify;
+}
+
+.filter_clear{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.filter_clear:hover{
+    color: blue;
+}
+
+.upcoming_course_panel1b{
+    flex: 80%;
+    margin-left: 1%;
+    border: 1px solid lightgrey;
+}
+
