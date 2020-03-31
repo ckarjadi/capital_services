@@ -1,7 +1,14 @@
 {% include "header.html" %}
 
 {% block content %}
-	<h1>*Training</h1>
+<head>
+	<link rel="stylesheet" href="{{ url_for('static',    filename='/training.css') }}">
+</head>
+<div class="row">
+  <div class="block"><button>Course Type</button></div>
+  <div class="block"><button>Certifying Body</button></div>
+  <div class="block"><button>Role</button></div>
+</div>
 {% endblock %}
 
 {% include "footer.html" %}
