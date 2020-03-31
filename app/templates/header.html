@@ -14,51 +14,66 @@
       <link rel="stylesheet" href="{{ url_for('static', filename='/header.css') }}">
     </head>
     <body>
-      <nav class="navbar navbar-expand-lg navbar-custom bgimg">
-
-          <div class="collapse navbar-collapse navbar-custom new_line" id="navbarCustom">
-              <div style="display:inline-flex;vertical-align:top;">
-                <img src="{{url_for('static', filename='logo.png')}}" height=50, width=100 style="float:left"/>
-                <font size="3">Capital Agile Services</font>
-                  <ul class="navbar-nav mr-auto" style="margin-left: 200px;margin-right:  0px;">
-                  <li class="nav-item">
-                    <a class="nav-link" href="/">Home</a>&emsp;
-                  </li>
-                  <li class="nav-item">
-                    <a href="/assessment" class="nav-link">Assessment</a>&emsp;
-                  </li>
-            
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" id="navbarDropdown role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-hover="dropdown">Training</a>&emsp;
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="/training">Public & Corporate</a>
-                      <a class="dropdown-item" href="/upcoming_course">Upcoming Courses</a>
-                    </div> 
-                  </li>
-                  <li class="nav-item">
-                    <a href="/coaching" class="nav-link">Coaching</a>&emsp;
-                  </li>
-                  <li class="nav-item">
-                    <a href="/resources" class="nav-link">Resources</a>&emsp;
-                  </li>
-                  <li class="nav-item">
-                    <a href="/about_us" class="nav-link">About Us</a>&emsp;
-                  </li>
-                  <li class="nav-item">
-                    <a href="/contact_us" class="nav-link">Contact Us</a>&emsp;
-                  </li>
-              </ul>
+      <nav class="navbar navbar-expand-lg navbar-custom bgimg" style="position:relative;height:25%;width:100%;">
+      	<div class="collapse navbar-collapse navbar-custom new_line" id="navbarCustom" style="position:relative;height:75%;width:100%;text-align:center;">
+      		<div style="display:block;vertical-align:top;width:25%;height:100%;">
+      			<div style="height:50%;clear:both;">
+      				<a href="/">
+	      				<img src="{{url_for('static', filename='logo.png')}}" height=50, width=100 style="float:left"/>
+	            	</a>
+      			</div>
+      			<div style="height:50%;clear:both;">
+      				<font size="3" style="float:left;">Capital Agile Services</font>
+      			</div>
+      		</div>
+      		<div style="display:inline-block;vertical-align: top;width:50%;height:100%;">
+      			<div>
+	                <ul class="navbar-nav mr-auto" style="margin-left: 200px;margin-right:0px;">
+	                  <li class="nav-item">
+	                    <a href="/assessment" class="nav-link">Assessment</a>&emsp;
+	                  </li>
+	                  <li class="nav-item dropdown">
+	                    <a class="nav-link dropdown-toggle" id="navbarDropdown role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-hover="dropdown">Training</a>&emsp;
+	                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	                      <a class="dropdown-item" href="/training">Public & Corporate</a>
+	                      <a class="dropdown-item" href="/upcoming_course">Upcoming Courses</a>
+	                    </div> 
+	                  </li>
+	                  <li class="nav-item">
+	                    <a href="/coaching" class="nav-link">Coaching</a>&emsp;
+	                  </li>
+	                  <li class="nav-item">
+	                    <a href="/resources" class="nav-link">Resources</a>&emsp;
+	                  </li>
+	              </ul>
+              	</div>
+              	<div>
+		         	{% if page_title %}
+		         	<h1>{{ page_title }}</h1>
+		            {% endif %}
+              	</div>
               </div>
-              <p></p>
-              <br>
-              <br>
-
+<!--               <div class="vertical" style="display:inline-block;height:75%">
+              </div>  -->
+              <div style="display:block;vertical-align:top;width:25%;height:100%;">
+              	<div style="float:right;clear:both;">
+              		<button onclick="window.location.href='/upcoming_course';">View Courses</button>
+              	</div>
+              	<div style="float:right;clear:both;">
+              		<ul class="social-icons">
+	                    <li><a href="" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+	                    <li><a href="" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+	                    <li><a href="" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+	                    <li><a href="" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+	                </ul>
+              	</div>
+              </div>
          </div>
-              <div style="display: block;">
-                {% if page_title %}
-                <h1>{{ page_title }}</h1>
-                {% endif %}
-              </div>
+<!--          <div style="position:relative;height:25%;width:100%;text-align:center">
+         	{% if page_title %}
+         	<h1>{{ page_title }}</h1>
+            {% endif %}
+         </div> -->
       </nav>
         {% block content %}{% endblock %}
     </body>

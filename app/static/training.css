@@ -1,12 +1,13 @@
 .row {
   width: 100%;
   /*margin: 0 auto;*/
-    text-align: center;
+  text-align: center;
+  display: inline-block;
 }
 .block {
-  width: 100px;
+  width: 33%;
   /*float: left;*/
-    display: inline-block;
-    zoom: 1;
+  display: inline-block;
+  zoom: 1;
 }
 

@@ -9,6 +9,12 @@ html, body {
 nav {
     width: 100%;
 }
+.vertical { 
+    border-left: 6px solid black; 
+    height: 200px; 
+    position:absolute; 
+    left: 50%; 
+} 
 .bgimg {
 /*    background-image: url('/static/darker_grey.png');
     background-repeat: no-repeat;
