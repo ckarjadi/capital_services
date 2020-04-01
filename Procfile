@@ -1,1 +1,1 @@
-web: gunicorn app.run:application
+web: gunicorn capital_services:app
