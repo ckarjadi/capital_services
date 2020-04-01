@@ -44,7 +44,7 @@ def training():
 	"""
 	title = 'Training'
 	template_name = 'training.html'
-	kwargs = {'title': title}
+	kwargs = {'title': title, 'page_title': 'Training'}
 	return render_template(template_name, **kwargs)
 
 '''
@@ -66,7 +66,7 @@ def course_page():
 	"""
 	title = 'Upcoming Course Page'
 	template_name = 'upcoming_course.html'
-	kwargs = {'title': title}
+	kwargs = {'title': title, 'page_title': 'Upcoming Courses'}
 	return render_template(template_name, **kwargs)
 
 @app.route('/coaching')
@@ -76,7 +76,7 @@ def coaching():
 	"""
 	title = 'Coaching'
 	template_name = 'coaching.html'
-	kwargs = {'title': title}
+	kwargs = {'title': title, 'page_title': 'Coaching'}
 	return render_template(template_name, **kwargs)
 
 @app.route('/resources')
@@ -105,9 +105,8 @@ def about_us():
 	about
 	"""
 	title = 'About Us'
-	user = {'username': 'Bob'}
 	template_name = 'about_us.html'
-	kwargs = {'user': user, 'title': title}
+	kwargs = {'title': title, 'page_title': 'About Us'}
 	return render_template(template_name, **kwargs)
 
 @app.route('/contact_us')
@@ -116,7 +115,6 @@ def contact_us():
 	contact;
 	"""
 	title = 'Contact Us'
-	user = {'username': 'Bob'}
 	template_name = 'contact_us.html'
-	kwargs = {'user': user, 'title': title}
+	kwargs = {'title': title, 'page_title': 'Contact Us'}
 	return render_template(template_name, **kwargs)

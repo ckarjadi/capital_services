@@ -11,3 +11,14 @@
   zoom: 1;
 }
 
+.disc {
+	list-style-type: disc;
+}
+
+.pad {
+  padding-left: 30px;
+}
+
+.left_text {
+	text-align: left;
+}
