@@ -2,10 +2,17 @@
 <link rel="stylesheet" href="{{ url_for('static',    filename='/footer.css') }}">
 	
 	<div class = "footer_panel">
-    	<div class = "infooterpanel">    
+    	<div class = "infooterpanel">  
+        	<img class = "footer_logo" src="{{url_for('static', filename='logo.png')}}" height=50, width=100 style="float:left" onclick="window.location.href = '/';"/>  
+        	</br></br>Capital Agile Services
+    	</div>
+    	
+    	<div class = "infooterpanel">
         	Related Links</br>
-        	Become a Trainer</br>
-        	Terms & Conditions
+        	<a class = "footer_about_us_link" href = "/about_us" style="color:white;">About Us</a></br>
+        	<a class = "footer_contact_us_link" href = "/contact_us" style="color:white;">Contact Us</a></br>
+        	<a class = "footer_contact_us_link" href = "/contact_us" style="color:white;">Become a Trainer</a></br>
+        	<a class = "footer_contact_us_link" href = "/contact_us" style="color:white;">Terms & Conditions</a></br>
     	</div>
     	<div class = "infooterpanel">    
         	<div class="footer-social-icons">
