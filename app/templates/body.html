@@ -6,7 +6,7 @@
 
 <div class = "panel0">
 <div class="parallax">
-    <div class="content">
+   <div class="content">
         <div class="w3-content w3-section" style="max-width:500px">
             <div class="mySlides w3-animate-fading">
                 <img class = "carousel" src="static/contact-us.jpg" style="width:100%" onclick="window.location.href = '/contact_us';">
@@ -25,9 +25,11 @@
                 <button class="Our_Offerings" onclick="window.location.href = '/coaching';">Our Offerings</button>
             </div>
         </div>
-    </div>
+    </div> 
+    
 </div>
 </div>
+
 
 <script>
 var myIndex = 0;
@@ -45,6 +47,7 @@ function carousel() {
   setTimeout(carousel, 3000);    
 }
 </script>
+
 
 <div class = "panel"> 
     
@@ -209,8 +212,69 @@ function carousel() {
         <button class="Collaborate" type="submit">Sign Up</button></br>
     </div>
     
+    
+
+    
+    
 </div>
 <div class="parallax"></div>
+   <!--
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<div class="parallax">
+
+<div class="w3-container">
+
+</div>
+
+<div class="w3-content w3-display-container">
+  <div class=" w3-center w3-container mySlides">
+      <img src="static/contact-us.jpg" width="100%", height="500px" onclick="window.location.href = '/contact_us';"></br>
+      <button onclick="window.location.href = '/contact_us';">Collaborate</button>
+  </div>
+
+  <img class="mySlides" src="static/assessment.jpg" width="100%", height="500px">
+  <img class="mySlides" src="static/courses.jpg" width="100%", height="500px">
+  <img class="mySlides" src="static/coaching_img.jpg" width="100%", height="500px">
+  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:80%">
+    <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
+  </div>
+</div>
+    
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+-->
+    </div>
 {% endblock %}
 
 {% include "footer.html" %}
