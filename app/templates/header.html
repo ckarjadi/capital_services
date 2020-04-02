@@ -26,14 +26,14 @@
       				<font size="3" style="float:left;">Capital Agile Services</font>
       			</div>
       		</div>
-      		<div style="display:inline-block;vertical-align: top;width:50%;height:100%;">
+      		<div style="position:absolute;top:0;right:250;">
       			<div>
 	                <ul class="navbar-nav mr-auto" style="margin-left: 200px;margin-right:0px;">
 	                  <li class="nav-item">
 	                    <a href="/assessment" class="nav-link">Assessment</a>&emsp;
 	                  </li>
 	                  <li class="nav-item dropdown">
-	                    <a class="nav-link dropdown-toggle" id="navbarDropdown role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-hover="dropdown">Training</a>&emsp;
+	                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button"data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-hover="dropdown">Training</a>&emsp;
 	                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 	                      <a class="dropdown-item" href="/training">Public & Corporate</a>
 	                      <a class="dropdown-item" href="/upcoming_course">Upcoming Courses</a>
@@ -47,15 +47,9 @@
 	                  </li>
 	              </ul>
               	</div>
-              	<div>
-		         	{% if page_title %}
-		         	<h1>{{ page_title }}</h1>
-		            {% endif %}
-              	</div>
+
               </div>
-<!--               <div class="vertical" style="display:inline-block;height:75%">
-              </div>  -->
-              <div style="display:block;vertical-align:top;width:25%;height:100%;">
+              <div style="position:absolute;top:0;right:0;">
               	<div style="float:right;clear:both;">
               		<button onclick="window.location.href='/upcoming_course';">View Courses</button>
               	</div>
@@ -69,6 +63,11 @@
               	</div>
               </div>
          </div>
+        <div>
+          {% if page_title %}
+          <h1>{{ page_title }}</h1>
+          {% endif %}
+        </div>
 <!--          <div style="position:relative;height:25%;width:100%;text-align:center">
          	{% if page_title %}
          	<h1>{{ page_title }}</h1>

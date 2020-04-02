@@ -12,7 +12,7 @@ def index():
 	"""
 	index render;
 	"""
-	title, page_title = 'Home', 'Welcome to Capital Agile Services'
+	title, page_title = 'Home', 'Capital Agile Services'
 	template_name = 'body.html'
 	# posts = [
 	# 	{
