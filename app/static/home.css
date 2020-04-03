@@ -387,3 +387,28 @@ h3{
 .carousel{
     cursor: pointer;
 }
+
+
+.mySlides {
+    display:none
+    margin:5%;
+position: relative;
+}
+
+.mySlides .btn{
+position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}

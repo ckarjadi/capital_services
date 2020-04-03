@@ -6,28 +6,33 @@
 
 <div class = "panel0">
 <div class="parallax">
-    <div class="content">
+   <div class="content">
         <div class="w3-content w3-section" style="max-width:500px">
             <div class="mySlides w3-animate-fading">
-                <img class = "carousel" src="static/contact-us.jpg" style="width:100%" onclick="window.location.href = '/contact_us';">
+                <img class = "carousel" src="{{ url_for('static', filename='contact-us.jpg') }}" style="width:100%" onclick="window.location.href = '/contact_us';">
                 <button class="Collaborate" onclick="window.location.href = '/contact_us';">Collaborate</button>
             </div>
             <div class="mySlides w3-animate-fading">
-                <img class = "carousel" src="static/assessment.jpg" style="width:100%" onclick="window.location.href = '/assessment';">
+                <img class = "carousel" src="{{ url_for('static', filename='assessment.jpg') }}
+" style="width:100%" onclick="window.location.href = '/assessment';">
                 <button class="Schedule_an_Assesment" onclick="window.location.href = '/assessment';">Schedule an Assessment</button>
             </div>
             <div class="mySlides w3-animate-fading">
-                <img class = "carousel" src="static/courses.jpg" style="width:100%" onclick="window.location.href = '/courses';">
+                <img class = "carousel" src="{{ url_for('static', filename='courses.jpg') }}
+" style="width:100%" onclick="window.location.href = '/courses';">
                 <button class="View_Courses" onclick="window.location.href = '/courses';">View Courses</button>
             </div>
             <div class="mySlides w3-animate-fading">
-                <img class = "carousel" src="static/coaching.jpg" style="width:100%" onclick="window.location.href = '/coaching';">
+                <img class = "carousel" src="{{ url_for('static', filename='coaching_img.jpg') }}
+" style="width:100%" onclick="window.location.href = '/coaching';">
                 <button class="Our_Offerings" onclick="window.location.href = '/coaching';">Our Offerings</button>
             </div>
         </div>
-    </div>
+    </div> 
+    
 </div>
 </div>
+
 
 <script>
 var myIndex = 0;
@@ -42,9 +47,10 @@ function carousel() {
   myIndex++;
   if (myIndex > x.length) {myIndex = 1}    
   x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 5000);    
+  setTimeout(carousel, 3000);    
 }
 </script>
+
 
 <div class = "panel"> 
     
@@ -116,13 +122,13 @@ function carousel() {
     
     <div class = "panel5">
         <div class = "inpanel5">
-            <img class = "partner_logo" src="static/SAFe_provided_by_Scaled_Agile_368.png" alt="logo1" width="200" height="70" onclick="window.location.href = 'https://www.scaledagileframework.com';">
+            <img class = "partner_logo" src="{{ url_for('static', filename='SAFe_provided_by_Scaled_Agile_368.png') }}" alt="logo1" width="200" height="70" onclick="window.location.href = 'https://www.scaledagileframework.com';">
         </div>
         <div class = "inpanel5">
-             <img class = "partner_logo" src="static/sai_logo_rgb-400.png" alt="logo2" width="200" height="70" onclick="window.location.href = 'https://www.scrumalliance.org';">
+             <img class = "partner_logo" src="{{ url_for('static', filename='sai_logo_rgb-400.png') }}" alt="logo2" width="200" height="70" onclick="window.location.href = 'https://www.scrumalliance.org';">
         </div>
         <div class = "inpanel5">
-            <img class = "partner_logo" src="static/scrum-org-logo.png" alt="logo3" width="200" height="70" onclick="window.location.href = 'https://www.scrum.org';">
+            <img class = "partner_logo" src="{{ url_for('static', filename='scrum_org_logo.png') }}" alt="logo3" width="200" height="70" onclick="window.location.href = 'https://www.scrum.org';">
         </div>
     </div>
     
@@ -209,8 +215,69 @@ function carousel() {
         <button class="Collaborate" type="submit">Sign Up</button></br>
     </div>
     
+    
+
+    
+    
 </div>
 <div class="parallax"></div>
+   <!--
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<div class="parallax">
+
+<div class="w3-container">
+
+</div>
+
+<div class="w3-content w3-display-container">
+  <div class=" w3-center w3-container mySlides">
+      <img src="static/contact-us.jpg" width="100%", height="500px" onclick="window.location.href = '/contact_us';"></br>
+      <button onclick="window.location.href = '/contact_us';">Collaborate</button>
+  </div>
+
+  <img class="mySlides" src="static/assessment.jpg" width="100%", height="500px">
+  <img class="mySlides" src="static/courses.jpg" width="100%", height="500px">
+  <img class="mySlides" src="static/coaching_img.jpg" width="100%", height="500px">
+  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:80%">
+    <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
+  </div>
+</div>
+    
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+-->
+    </div>
 {% endblock %}
 
 {% include "footer.html" %}

@@ -89,6 +89,18 @@ def course_page():
 	kwargs = {'title': title}
 	return render_template(template_name, **kwargs)
 
+@app.route('/course_description')
+def first_course():
+	"""
+	course_description render;
+	"""
+
+	title = 'Course Title'
+	template_name = 'course1.html'
+	kwargs = {'title': title}
+	return render_template (template_name, **kwargs)
+
+
 @app.route('/coaching')
 def coaching():
 	"""

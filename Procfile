@@ -1,0 +1,1 @@
+web: gunicorn capital_services:app

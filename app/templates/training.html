@@ -1,7 +1,56 @@
 {% include "header.html" %}
 
 {% block content %}
-	<h1>*Training</h1>
+<head>
+	<link rel="stylesheet" href="{{ url_for('static',    filename='/training.css') }}">
+</head>
+<div class="row">
+  <div class="block">
+  	<ul class = "course_type_filters" style="list-style-type:none;">
+		<li><select id="course_type_filter_list">
+	    	<option value="ct_default">Course Type</option>
+	    	<option value="1">Course Type 1</option>
+	    	<option value="2">Course Type 2</option>
+	    	<option value="3">Course Type 3</option>
+	    	</select>
+		</li>
+    </ul>
+  </div>
+  <div class="block">
+  	  <ul class = "certifying_body_filter" style="list-style-type:none;">
+		<li><select id="certifying_body_filter_list">
+	    	<option value="cb_default">Certifying Body</option>
+	    	<option value="1">Certifying Body 1</option>
+	    	<option value="2">Certifying Body 2</option>
+	    	<option value="3">Certifying Body 3</option>
+	    	</select>
+		</li>
+    </ul>
+  </div>
+  <div class="block">
+  	  <ul class = "role_filter" style="list-style-type:none;">
+		<li><select id="role_filter_list">
+	    	<option value="role_default">Role</option>
+	    	<option value="1">Role 1</option>
+	    	<option value="2">Role 2</option>
+	    	<option value="3">Role 3</option>
+	    	</select>
+		</li>
+    </ul>
+  </div>
+</div>
+<div class="row">
+	<ul style="margin-left: 50px;">
+		<li class="disc" style="text-align: left;">Leadership</li>
+			<ul class="pad">
+				<li class="left_text">Cali</li>
+			</ul>
+		<li class="disc" style="text-align: left;">Scaled Agile 5.0</li>
+			<ul class="pad">
+				<li class="left_text">Leading SAFe; SAFe for Teams; Lean Portfolio Management;</li>
+			</ul>
+	</ul>
+</div>
 {% endblock %}
 
 {% include "footer.html" %}
