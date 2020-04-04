@@ -12,7 +12,7 @@ def index():
 	"""
 	index render;
 	"""
-	title, page_title = 'Home', 'Welcome to Capital Agile Services'
+	title, page_title = 'Home', ''
 	template_name = 'body.html'
 	# posts = [
 	# 	{
@@ -32,7 +32,7 @@ def assessment():
 	"""
 	assessment render;
 	"""
-	title, page_title = 'Assessment', 'Assessment'
+	title, page_title = 'Assessment', ''
 	template_name = 'assessment.html'
 	kwargs = {'title': title, 'page_title': page_title}
 	return render_template(template_name, **kwargs)
@@ -116,7 +116,7 @@ def resources():
 	"""
 	resources;
 	"""
-	title, page_title = 'Resources', 'Resources'
+	title, page_title = 'Resources', ''
 	template_name = 'resources.html'
 	kwargs = {'title': title, 'page_title': page_title}
 	return render_template(template_name, **kwargs)
