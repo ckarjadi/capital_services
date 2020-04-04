@@ -375,6 +375,8 @@ h3{
 }
 
 .flip-card-back {
+  overflow-x: hidden;
+  overflow-y: hidden;
   background-color: #2980b9;
   color: white;
   transform: rotateY(180deg);
