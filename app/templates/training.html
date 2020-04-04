@@ -4,32 +4,55 @@
 <head>
 	<link rel="stylesheet" href="{{ url_for('static',    filename='/training.css') }}">
 	<script>
-		let class_name_to_filters = {"cal1": ['cal1'], "leading_safe": ['leading_safe'],
-			"safe_for_teams": ['safe_for_teams'], 'lean_portfolio_management': []}
-		function showDiv(divID, filter)
+		let ct_filters = {"cal1": ['cal1'], "leading_safe": ['leading_safe'],
+			"safe_for_teams": ['safe_for_teams'], 'lean_portfolio_management': []};
+		let cb_filters = {"cal1": ['scrum_alliance'], "leading_safe": ['safe'],
+			'safe_for_teams': ['safe'], 'lean_portfolio_management': []}
+		let role_filters = {}
+		let filter_to_obj = {"course_type_filter_list": ct_filters, "certifying_body_filter_list": cb_filters,
+			"role_filter_list": role_filters}
+		let default_values = ['ct_default', 'cb_default', 'role_default'];
+
+		function filterImages(divID)
 			{
+				let filters = document.getElementById("filters").getElementsByTagName("select");
 				let images = document.getElementById(divID).getElementsByTagName("img");
-				let option_value = filter.value;
-				for (var i = 0; i < images.length; i++) {
-					let image = images[i];
+				console.log(images);
+				console.log(images.length);
+				for (var j = 0; j < images.length; j++) {
+					console.log(j);
+					let booleans = [];
+					let image = images[j];
 					let image_id = image.id;
-					let image_alt = image.alt;
-					let accepted_filters = class_name_to_filters[image_alt];
-					if (!accepted_filters.includes(option_value)) {
+					console.log(image_id);
+					let image_alt = image.alt; // index into ct, cb, role_filters
+					for (var i = 0; i < filters.length; i++) {
+						let filter = filters[i];
+						console.log(filter.id);
+						let filter_object = filter_to_obj[filter.id]; // ct, cb, role_filters
+						var accepted_values;
+						if (image_alt in filter_object) {
+							accepted_values = filter_object[image_alt]; // ['list_of_accepted_values']
+						}
+						let option_value = filter.value; // option value = "ct_default", "cb_default", etc.
+						let decision = (default_values.includes(option_value) || accepted_values.includes(option_value))
+						booleans.push(decision);
+					}
+					console.log(booleans);
+					console.log(image_id);
+					if (booleans.every(v=> v === true)) {
+						document.getElementById(image_id).style.display = 'inline-block';
+					} else {
 						document.getElementById(image_id).style.display = 'none';
 					}
 				}
-/*				console.log(images);
-				console.log(option_value);
-				console.log(class_name_to_filters);*/				
-			    //document.getElementById(divId).style.display = element.value == 1 ? 'list-item' : 'none';
 			}
 	</script>
 </head>
-<div class="row">
+<div class="row" id="filters">
   <div class="block">
   	<ul class = "course_type_filters" style="list-style-type:none;">
-		<li><select id="course_type_filter_list" onchange="showDiv('class_div', this)">
+		<li><select id="course_type_filter_list" onchange="filterImages('class_div')">
 	    	<option value="ct_default">Course Type</option>
 	    	<option value="cal1">Cal 1</option>
 	    	<option value="leading_safe">Leading SAFe</option>
@@ -40,10 +63,10 @@
   </div>
   <div class="block">
   	  <ul class = "certifying_body_filter" style="list-style-type:none;">
-		<li><select id="certifying_body_filter_list">
+		<li><select id="certifying_body_filter_list" onchange="filterImages('class_div')">
 	    	<option value="cb_default">Certifying Body</option>
-	    	<option value="1">Certifying Body 1</option>
-	    	<option value="2">Certifying Body 2</option>
+	    	<option value="scrum_alliance">Scrum Alliance</option>
+	    	<option value="safe">SAFe</option>
 	    	<option value="3">Certifying Body 3</option>
 	    	</select>
 		</li>
