@@ -1,0 +1,47 @@
+.inner{
+	position: absolute;
+}
+.w160 {
+    width: 160ch;
+}
+
+
+.disc {
+	list-style-type: disc;
+}
+
+.pad {
+  padding-left: 30px;
+}
+
+.center_button {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#register {
+	align-items: center ;
+	width: 100px;
+  	height: 100px;
+  	padding: 5px;
+  	border: 1px solid blue;
+  	background-color: yellow;
+
+
+
+}
+
+#span.b {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;
+  background-color: yellow;
+}
