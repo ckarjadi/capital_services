@@ -9,6 +9,14 @@ html, body {
 nav {
     width: 100%;
 }
+div.vertical-line{
+  width: 1px; /* Line width */
+  background-color: black; /* Line color */
+  height: 75%; /* Override in-line if you want specific height. */
+  position: absolute;
+  top: 0;
+  right: 175;
+}
 .vertical { 
     border-left: 6px solid black; 
     height: 200px; 
