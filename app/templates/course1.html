@@ -1,63 +1,79 @@
 {% include "header.html" %}
 {% block content %}
 <head>
-	<link rel="stylesheet" href="{{ url_for('static',    filename='/assessment.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='/course1.css') }}">
 </head>
 <div>
-	<div style='z-index: 1'>
-		<img src="{{url_for('static', filename='assessment_evaluation_image.png')}}"
- 			style="width: 15vw; height: 10vw"/>
-        <button style="margin-left: 1000px"class="Contact Us" onclick="window.location.href = '/contact_us';">Contact Us</button>
+	<!-- <div style='z-index: 10'> -->
+		<img src="{{url_for('static', filename='safe_logo.png')}}"
+ 			style="width: 20vw; height: 10vw" "margin-top: 100px;">
 	</div>
+
 	<div style='z-index: 2'>
 		<ul style="margin-left: 200px;">
-			<title> class="disc">Course Title</title>
-				<ul class="pad">
-					<li class="disc">Course Description -------------------------------------------------------------------------------------------------------------------------
-					</li>
-				</ul>
-			<li class="disc">Leading SAFe</li>
-				<ul class="pad">
-					
-					<ul class="pad">
-					<li class="disc">This two-day course provides attendees with useful information about using the Scaled Agile Framework*(SAFe) to lead a Lean-Agile enterprise. We cover the principles derived from Lean, systems thinking and Agile development to bring new energy into your product development and DevOps process.</li>
-					</ul>
-				</ul>
-				<ul class="pad">
-					<li class="disc">Organization Assessment</li>
-					<ul class="pad">
-					<li class="disc">Use an organization assessment to set a baseline for your overall Agile implementation.  See where you are taking advantage of Agile and where your company should focus their transformation efforts.  Sometimes an outside viewpoint is needed to be able to see the details that so often go unnoticed.</li>
-					</ul>
-				</ul>
-				<ul class="pad">
-					<li class="disc">Portfolio Assessment</li>
-					<ul class="pad">
-					<li class="disc">Use an organization assessment to set a baseline for your overall Agile implementation.  See where you are taking advantage of Agile and where your company should focus their transformation efforts.  Sometimes an outside viewpoint is needed to be able to see the details that so often go unnoticed.</li>
-					</ul>
-				</ul>
-				<ul class="pad">
-					<li class="disc">Program Assessment</li>
-					<ul class="pad">
-					<li class="disc">Measure the effectiveness of your Agile implementation.  Identify targets for improvement across a number of development teams.  See where your planning and execution are working well, and where they can be improved</li>
-					</ul>
-				</ul>
-				<ul class="pad">
-					<li class="disc">Team Assessment</li>
-					<ul class="pad">
-					<li class="disc">A team is more than the sum of its parts - there's a synergy at work when there's a shared vision and everyone is in sync.  Uncover the dynamics of your team's environment to enable all the members to contribute up to their full potential.</li>
-					</ul>
-				</ul>
-				<ul class="pad">
-					<li class="disc">Individual Role/Talent</li>
-					<ul class="pad">
-					<li class="disc">Each member of an Agile team needs a consistent level of understanding in order to enable organizational transformation.  Learn how your team members are using Agile practices and where they need additional coaching. .</li>
-					</ul>
-				</ul>
-		</ul>
+      <h2> Leading SAFe (scaledagile.com) </h2>
+      <h4> May 1st 2020 - July 30th 2020</h4>
+      <h6> Location: Online </h6>
+    </ul>
+    </div>
+
+  <div style = 'z-index: 5' "text-align: center" id="register">
+   Register 
+  </div>
+
+
+    
+      <div class="leftside" style="display: inline-block" "margin-left: 10px;">
+  
+          <span class="key"><h3> About this course </h3>
+            <ul>This two-day course provides attendees with useful information about using the Scaled Agile Framework*(SAFe) to lead a Lean-Agile enterprise. We cover the principles derived from Lean, systems thinking and Agile development to bring new energy into your product development and DevOps process.
+            
+            <h3> What you will learn</h3>
+            The class shares insights into mastering Business Agility, allowing participants to compete more effectively in the marketplace. We will discuss how to organize and re-organize around the flow of value, which aids in establishing team and technical agility. Students also learn and practice the skills for supporting and executing PI Planning events and coordinating multiple Agile Release Trains (ARTs).Participants in the class explore the importance of adopting a customer-centric mindset and design thinking approach to agile product delivery. After completing the course, participants will develop an understanding for implementing a Lean Portfolio Management function in their enterprise, and will be eligible to take the certified SAFe® Agilist (SA) exam.</span>
+
+      </ul>
+      </div>
+
+      <div>
+        <h3> Meet the Instructors </h3> 
+        Raj Heda : __________________________________
+        <br/>
+        <br/>
+        John Doe : -------------------------------------
+        
+      </div>
+
+        </ul>
+      
+      <div class="rightside" style="display: inline-block">
+        
+        <div class="rightside-top">
+         <ul>
+          <li>
+            <span class="key">Length:</span>
+            <span class="value">2 days</span>
+          </li>
+           <li>
+            <span class="key">Effort:</span>
+            <span class="value">6hrs/week</span>
+          </li>
+            <li>
+            <span class="key">Price:</span>
+            <span class="value">$1500</span>
+          </li>
+          </ul>
+        </div>
+      </div>
+      
 	</div>
 	<div style='z-index: 3' id="wrapper">
         <button onclick="window.location.href = '/contact_us';">Contact Us</button>
 	</div>
 </div>
+
+ <div class="w3-bar" style='z-index: 3' id="wrapper">
+  <button class="w3-button w3-right">Register</button>
+</div>
+
 {% endblock %}
 {% include "footer.html" %}
