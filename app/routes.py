@@ -17,19 +17,8 @@ def index():
 		css = request.args['css']
 	title, page_title = 'Home', ''
 	template_name = 'body.html'
-	# posts = [
-	# 	{
-	# 		'author': {'username': 'John'},
-	# 		'body': 'Some statement!'
-	# 	},
-	# 	{
-	# 		'author': {'username': 'Sarah'},
-	# 		'body': 'Another statement!'
-	# 	}
-	# ]
 	kwargs = {'title': title, 'page_title': page_title,
 		'css': css}
-	print(kwargs)
 	return render_template(template_name, **kwargs)
 
 @app.route('/assessment')
@@ -37,7 +26,7 @@ def assessment():
 	"""
 	assessment render;
 	"""
-	title, page_title = 'Assessment', ''
+	title, page_title = 'Assessment', 'Assessment'
 	template_name = 'assessment.html'
 	kwargs = {'title': title, 'page_title': page_title}
 	return render_template(template_name, **kwargs)
@@ -103,6 +92,7 @@ def first_course():
 	title = 'Course Title'
 	template_name = 'course1.html'
 	kwargs = {'title': title}
+
 	return render_template (template_name, **kwargs)
 
 
@@ -142,7 +132,6 @@ def about_us():
 	about
 	"""
 	title = 'About Us'
-	user = {'username': 'Bob'}
 	template_name = 'about_us.html'
 	kwargs = {'user': user, 'title': title}
 	return render_template(template_name, **kwargs)
@@ -153,7 +142,6 @@ def contact_us():
 	contact;
 	"""
 	title = 'Contact Us'
-	user = {'username': 'Bob'}
 	template_name = 'contact_us.html'
 	kwargs = {'user': user, 'title': title}
 	return render_template(template_name, **kwargs)
