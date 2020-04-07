@@ -3,7 +3,7 @@
 		"course title": "Certified ScrumMaster",
 		"partner": "Scrum Alliance",
 		"course type": "Public",
-		"roles": ["Scrum Master", "Product Owner", "Business Analyst", "Developer", "QA", "UI/UX", "Content Writer"],
+		"roles": ["Scrum Master"],
 		"details": {
 			"cost": "1000",
 			"class hours": "16"
@@ -24,8 +24,10 @@
 	},
 	{
 		"course code": "CSPO",
+		"course title": "Certified Scrum Product Owner",
 		"partner": "Scrum Alliance",
 		"course type": "Public",
+		"roles": ["Product Owner", "Business Analyst"],
 		"details": {
 			"cost": "1000",
 			"class hours": "16"
@@ -45,9 +47,11 @@
 		]
 	},
 	{
-		"course": "CSD",
+		"course code": "CSD",
+		"course title": "Certified Scrum Developer",
 		"partner": "Scrum Alliance",
 		"course type": "Public",
+		"roles": ["Developer", "QA", "UI/UX"],
 		"details": {
 			"cost": "1000",
 			"class hours": "16"
@@ -67,9 +71,11 @@
 		]
 	},
 	{
-		"course": "PSM",
+		"course code": "PSM",
+		"course title": "Professional Scrum Master",
 		"partner": "Scrum.org",
 		"course type": "Public",
+		"roles": ["Scrum Master"],
 		"details": {
 			"cost": "1000",
 			"class hours": "16"
@@ -89,9 +95,11 @@
 		]
 	},
 	{
-		"course": "PSPO",
+		"course code": "PSPO",
+		"course title": "Professional Scrum Product Owner",
 		"partner": "Scrum.org",
 		"course type": "Public",
+		"roles": ["Product Owner", "Business Analyst"],
 		"details": {
 			"cost": "1000",
 			"class hours": "16"
@@ -111,9 +119,11 @@
 		]
 	},
 	{
-		"course": "PSD",
+		"course code": "PSD",
+		"course title": "Professional Scrum Developer",
 		"partner": "Scrum.org",
 		"course type": "Public",
+		"roles": ["Developer", "QA", "UI/UX", "Content Writer"],
 		"details": {
 			"cost": "1000",
 			"class hours": "16"
@@ -133,9 +143,11 @@
 		]
 	},
 	{
-		"course": "Certified SAFe Agilist",
+		"course code": "CSAG",
+		"course title": "Certified SAFe Agilist",
 		"partner": "Scrum Alliance",
 		"course type": "Public",
+		"roles": ["Scrum Master", "Product Owner", "Business Analyst", "Developer", "QA", "UI/UX", "Content Writer"],
 		"details": {
 			"cost": "1000",
 			"class hours": "16"
@@ -155,9 +167,11 @@
 		]
 	},
 	{
-		"course": "Certified SAFe Scrum Master",
+		"course code": "CSSM",
+		"course title": "Certified SAFe Scrum Master",
 		"partner": "Scrum Alliance",
 		"course type": "Public",
+		"roles": ["Scrum Master"],
 		"details": {
 			"cost": "1000",
 			"class hours": "16"
@@ -177,9 +191,11 @@
 		]
 	},
 	{
-		"course": "Certified SAFe® Product Owner / Product Manager",
+		"course code": "CSPOPM",
+		"course title": "Certified SAFe® Product Owner / Product Manager",
 		"partner": "Scrum Alliance",
 		"course type": "Public",
+		"roles": ["Product Owner", "Business Analyst"],
 		"details": {
 			"cost": "1000",
 			"class hours": "16"
@@ -199,9 +215,11 @@
 		]
 	},
 	{
-		"course": "Certified SAFe® Government Practitioner",
+		"course code": "CSGP",
+		"course title": "Certified SAFe® Government Practitioner",
 		"partner": "Scrum Alliance",
 		"course type": "Public",
+		"roles": ["Scrum Master", "Product Owner", "Business Analyst"],
 		"details": {
 			"cost": "1000",
 			"class hours": "16"
@@ -221,9 +239,11 @@
 		]
 	},
 	{
-		"course": "Certified SAFe® Program Consultant",
+		"course code": "CSPC",
+		"course title": "Certified SAFe® Program Consultant",
 		"partner": "Scrum Alliance",
 		"course type": "Public",
+		"roles": ["Scrum Master", "Product Owner", "Business Analyst"],
 		"details": {
 			"cost": "1000",
 			"class hours": "16"
@@ -243,9 +263,11 @@
 		]
 	},
 	{
-		"course": "Certified SAFe® Advanced Scrum Master",
+		"course code": "CSASM",
+		"course title": "Certified SAFe® Advanced Scrum Master",
 		"partner": "Scrum Alliance",
 		"course type": "Public",
+		"roles": ["Scrum Master"],
 		"details": {
 			"cost": "1000",
 			"class hours": "16"
@@ -265,9 +287,11 @@
 		]
 	},
 	{
-		"course": "Certified SAFe® DevOps Practitioner",
+		"course code": "CSDOP",
+		"course title": "Certified SAFe® DevOps Practitioner",
 		"partner": "Scrum Alliance",
 		"course type": "Public",
+		"roles": ["Developer", "QA", "UI/UX"],
 		"details": {
 			"cost": "1000",
 			"class hours": "16"
@@ -287,9 +311,11 @@
 		]
 	},
 	{
-		"course": "Certified SAFe® Architect",
+		"course code": "CSAR",
+		"course title": "Certified SAFe® Architect",
 		"partner": "Scrum Alliance",
 		"course type": "Public",
+		"roles": ["Scrum Master", "Product Owner"],
 		"details": {
 			"cost": "1000",
 			"class hours": "16"
@@ -309,9 +335,11 @@
 		]
 	},
 	{
-		"course": "Certified SAFe® Practitioner",
+		"course code": "CSP",
+		"course title": "Certified SAFe® Practitioner",
 		"partner": "Scaled Agile",
 		"course type": "Public",
+		"roles": ["Scrum Master", "Product Owner", "Business Analyst", "Developer", "QA", "UI/UX", "Content Writer"],
 		"details": {
 			"cost": "1000",
 			"class hours": "16"
@@ -331,9 +359,11 @@
 		]
 	},
 	{
-		"course": "Certified SAFe® Release Train Engineer",
+		"course code": "CSRTE",
+		"course title": "Certified SAFe® Release Train Engineer",
 		"partner": "Scaled Agile",
 		"course type": "Public",
+		"roles": ["Scrum Master", "Product Owner", "Business Analyst", "Developer", "QA"],
 		"details": {
 			"cost": "1000",
 			"class hours": "16"
@@ -353,9 +383,11 @@
 		]
 	},
 	{
-		"course": "Certified SAFe® Agile Software Engineer",
+		"course code": "CSASE",
+		"course title": "Certified SAFe® Agile Software Engineer",
 		"partner": "Scaled Agile",
 		"course type": "Public",
+		"roles": ["Developer", "QA", "UI/UX"],
 		"details": {
 			"cost": "1000",
 			"class hours": "16"
@@ -375,9 +407,11 @@
 		]
 	},
 	{
-		"course": "Certified SAFe® Lean Portfolio Manager",
+		"course code": "CSLPM",
+		"course title": "Certified SAFe® Lean Portfolio Manager",
 		"partner": "Scaled Agile",
 		"course type": "Public",
+		"roles": ["Scrum Master", "Product Owner", "Business Analyst"],
 		"details": {
 			"cost": "1000",
 			"class hours": "16"
@@ -397,9 +431,11 @@
 		]
 	},
 	{
-		"course": "Certified SAFe® Agile Product Manager",
+		"course code": "CSAPM",
+		"course title": "Certified SAFe® Agile Product Manager",
 		"partner": "Scaled Agile",
 		"course type": "Public",
+		"roles": ["Scrum Master", "Product Owner", "Business Analyst"],
 		"details": {
 			"cost": "1000",
 			"class hours": "16"
@@ -419,9 +455,11 @@
 		]
 	},
 	{
-		"course": "Leadership CAL1",
+		"course code": "CAL1",
+		"course title": "Certified Agile Leadership I",
 		"partner": "Scrum Alliance",
 		"course type": "Public",
+		"roles": ["Scrum Master", "Product Owner", "Business Analyst", "Developer", "QA", "UI/UX", "Content Writer"],
 		"details": {
 			"cost": "1000",
 			"class hours": "16"
@@ -441,9 +479,11 @@
 		]
 	},
 	{
-		"course": "PMP",
+		"course code": "PMP",
+		"course title": "Project Management Professional",
 		"partner": "PMI",
 		"course type": "Public",
+		"roles": ["Scrum Master", "Product Owner", "Business Analyst"],
 		"details": {
 			"cost": "1000",
 			"class hours": "16"
@@ -463,9 +503,11 @@
 		]
 	},
 	{
-		"course": "PMI-ACP",
+		"course code": "ACP",
+		"course title": "PMI Agile Certified Practitioner",
 		"partner": "PMI",
 		"course type": "Public",
+		"roles": ["Scrum Master", "Product Owner", "Business Analyst", "Developer", "QA", "UI/UX", "Content Writer"],
 		"details": {
 			"cost": "1000",
 			"class hours": "16"
@@ -485,9 +527,11 @@
 		]
 	},
 	{
-		"course": "Value-Stream Workshop",
+		"course code": "VSW",
+		"course title": "Value-Stream Workshop",
 		"partner": "Custom",
 		"course type": "Corporate",
+		"roles": ["Scrum Master", "Product Owner", "Business Analyst", "Developer", "QA", "UI/UX", "Content Writer"],
 		"details": {
 			"cost": "5000",
 			"class hours": "16"
@@ -507,9 +551,11 @@
 		]
 	},
 	{
-		"course": "SAFe Portfolio Management",
+		"course code": "SPM",
+		"course title": "SAFe Portfolio Management",
 		"partner": "Custom",
 		"course type": "Corporate",
+		"roles": ["Scrum Master", "Product Owner", "Business Analyst"],
 		"details": {
 			"cost": "5000",
 			"class hours": "16"
@@ -529,9 +575,11 @@
 		]
 	},
 	{
-		"course": "Program Increment Workshop",
+		"course code": "PIW",
+		"course title": "Program Increment Workshop",
 		"partner": "Custom",
 		"course type": "Corporate",
+		"roles": ["Scrum Master", "Product Owner", "Business Analyst"],
 		"details": {
 			"cost": "6000",
 			"class hours": "24"
@@ -551,9 +599,11 @@
 		]
 	},
 	{
-		"course": "Inspect & Adapt",
+		"course code": "IA",
+		"course title": "Inspect & Adapt",
 		"partner": "Custom",
 		"course type": "Corporate",
+		"roles": ["Scrum Master", "Product Owner", "Business Analyst", "Developer", "QA", "UI/UX", "Content Writer"],
 		"details": {
 			"cost": "5000",
 			"class hours": "20"
@@ -573,9 +623,11 @@
 		]
 	},
 	{
-		"course": "Product Management Workshop",
+		"course code": "PMW",
+		"course title": "Product Management Workshop",
 		"partner": "Custom",
 		"course type": "Corporate",
+		"roles": ["Scrum Master", "Product Owner", "Business Analyst"],
 		"details": {
 			"cost": "5000",
 			"class hours": "8"
@@ -595,9 +647,11 @@
 		]
 	},
 	{
-		"course": "Team Building",
+		"course code": "TB",
+		"course title": "Team Building",
 		"partner": "Custom",
 		"course type": "Corporate",
+		"roles": ["Scrum Master", "Product Owner"],
 		"details": {
 			"cost": "5000",
 			"class hours": "12"
@@ -617,9 +671,11 @@
 		]
 	},
 	{
-		"course": "Customized Scrum/Kanban Workshop",
+		"course code": "CSKW",
+		"course title": "Customized Scrum/Kanban Workshop",
 		"partner": "Custom",
 		"course type": "Corporate",
+		"roles": ["Scrum Master", "Product Owner", "Business Analyst", "Developer", "QA", "UI/UX", "Content Writer"],
 		"details": {
 			"cost": "5000",
 			"class hours": "24"
