@@ -2,16 +2,19 @@
 routes.py
 routing logic;
 """
-from flask import render_template
+from flask import render_template, request
 from app import app
 from app.forms import LoginForm
 
-@app.route('/')
-@app.route('/index')
+@app.route('/', methods=['GET', 'POST'])
+@app.route('/index', methods=['GET', 'POST'])
 def index():
 	"""
 	index render;
 	"""
+	css = ''
+	if request.method == "GET" and 'css' in request.args:
+		css = request.args['css']
 	title, page_title = 'Home', ''
 	template_name = 'body.html'
 	# posts = [
@@ -24,7 +27,9 @@ def index():
 	# 		'body': 'Another statement!'
 	# 	}
 	# ]
-	kwargs = {'title': title, 'page_title': page_title}
+	kwargs = {'title': title, 'page_title': page_title,
+		'css': css}
+	print(kwargs)
 	return render_template(template_name, **kwargs)
 
 @app.route('/assessment')
