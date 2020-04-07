@@ -70,6 +70,10 @@ div.vertical-line{
     display: block;
     width: 100%;
 }
+.social-icons {
+  list-style-type: none;
+  display: inline;
+}
 /*.new_line:before {
     content: "";
     display: block;
