@@ -26,7 +26,7 @@ def assessment():
 	"""
 	assessment render;
 	"""
-	title, page_title = 'Assessment', 'Assessment'
+	title, page_title = 'Assessment', ''
 	template_name = 'assessment.html'
 	kwargs = {'title': title, 'page_title': page_title}
 	return render_template(template_name, **kwargs)
