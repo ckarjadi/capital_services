@@ -70,9 +70,8 @@ div.vertical-line{
     display: block;
     width: 100%;
 }
-.social-icons {
-  list-style-type: none;
-  display: inline;
+.social-icons{
+  margin: 0 10px;
 }
 /*.new_line:before {
     content: "";
