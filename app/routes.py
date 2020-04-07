@@ -12,7 +12,7 @@ def index():
 	"""
 	index render;
 	"""
-	title, page_title = 'Home', ''
+	title, page_title = 'Home', 'Welcome to Capital Agile Services'
 	template_name = 'body.html'
 	# posts = [
 	# 	{
@@ -32,7 +32,7 @@ def assessment():
 	"""
 	assessment render;
 	"""
-	title, page_title = 'Assessment', ''
+	title, page_title = 'Assessment', 'Assessment'
 	template_name = 'assessment.html'
 	kwargs = {'title': title, 'page_title': page_title}
 	return render_template(template_name, **kwargs)
@@ -98,6 +98,7 @@ def first_course():
 	title = 'Course Title'
 	template_name = 'course1.html'
 	kwargs = {'title': title}
+
 	return render_template (template_name, **kwargs)
 
 
@@ -116,7 +117,7 @@ def resources():
 	"""
 	resources;
 	"""
-	title, page_title = 'Resources', ''
+	title, page_title = 'Resources', 'Resources'
 	template_name = 'resources.html'
 	kwargs = {'title': title, 'page_title': page_title}
 	return render_template(template_name, **kwargs)
@@ -152,3 +153,6 @@ def contact_us():
 	template_name = 'contact_us.html'
 	kwargs = {'user': user, 'title': title}
 	return render_template(template_name, **kwargs)
+
+
+
