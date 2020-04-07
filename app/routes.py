@@ -89,8 +89,33 @@ def first_course():
 	course_description render;
 	"""
 
-	title = 'Course Title'
+	title = 'Leading SAFe'
 	template_name = 'course1.html'
+	kwargs = {'title': title}
+
+
+	return render_template (template_name, **kwargs)
+
+@app.route('/course_psm')
+def second_course():
+	"""
+	course_description render;
+	"""
+
+	title = 'SM - Professional Scrum Master'
+	template_name = 'course2.html'
+	kwargs = {'title': title}
+
+	return render_template (template_name, **kwargs)
+
+@app.route('/course_csm')
+def third_course():
+	"""
+	course_description render;
+	"""
+
+	title = 'CSM - Certified ScrumMaster'
+	template_name = 'course3.html'
 	kwargs = {'title': title}
 
 	return render_template (template_name, **kwargs)
