@@ -7,7 +7,9 @@
 
 .footer_panel{
     display: flex; 
-    background-image: linear-gradient(royalblue, #fc85fb);
+/*    background-image: linear-gradient(royalblue, #fc85fb);*/
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(158,0,255,1) 73%);
 }
 
 .footer_logo{
