@@ -28,8 +28,11 @@ div.vertical-line{
     background-repeat: no-repeat;
     background-size: 200% 1000%;*/
 /*    background-image: linear-gradient(blue, purple);*/
-    background: rgb(0,57,247);
+/*    background: rgb(0,57,247);
     background: linear-gradient(180deg, rgba(0,57,247,1) 47%, rgba(255,0,243,1) 100%);
+*/
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(102,0,255,1) 46%);
     color: white;
     width: 100%;
     height: 20%;
@@ -71,6 +74,9 @@ div.vertical-line{
     clear:both;
     display: block;
     width: 100%;
+}
+.social-icons{
+  margin: 0 10px;
 }
 /*.new_line:before {
     content: "";
