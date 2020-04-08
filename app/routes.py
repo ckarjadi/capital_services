@@ -158,7 +158,7 @@ def about_us():
 	"""
 	title = 'About Us'
 	template_name = 'about_us.html'
-	kwargs = {'user': user, 'title': title}
+	kwargs = {'title': title}
 	return render_template(template_name, **kwargs)
 
 @app.route('/contact_us')
@@ -168,5 +168,5 @@ def contact_us():
 	"""
 	title = 'Contact Us'
 	template_name = 'contact_us.html'
-	kwargs = {'user': user, 'title': title}
+	kwargs = {'title': title}
 	return render_template(template_name, **kwargs)
