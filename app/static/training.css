@@ -16,10 +16,22 @@
 }
 
 .pad {
-  padding-left: 30px;
+/*  padding-left: 30px;*/
+/*  padding-left: 0pt;*/
+  margin: 0;
+  padding: 0;
   list-style-type: none;
+   overflow: hidden;
 }
 
 .left_text {
 	text-align: left;
+
+}
+
+li.class_icons {
+  float: left;
+/*  display:inline-block;*/
+  display:block;
+  padding: 10px 40px;
 }

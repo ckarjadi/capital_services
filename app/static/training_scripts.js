@@ -21,9 +21,13 @@ function filterImages(divID, data)
 				let decision = (default_values.includes(option_value) || accepted_values.includes(option_value))
 				booleans.push(decision);
 			}
+			let li_id = image_id.replace('img', 'li');
 			if (booleans.every(v=> v === true)) {
-				document.getElementById(image_id).style.display = 'inline-block';
+				
+				document.getElementById(li_id).style.display = 'block';
+				document.getElementById(image_id).style.display = 'block';
 			} else {
+				document.getElementById(li_id).style.display = 'none';
 				document.getElementById(image_id).style.display = 'none';
 			}
 		}
