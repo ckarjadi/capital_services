@@ -5,6 +5,17 @@ routing logic;
 from flask import render_template, request
 from app import app
 from app.forms import LoginForm
+from app.training_filters_from_json import get_training_filters
+import os
+import json
+
+def jsonify(text):
+	"""
+	jsonify filter
+	"""
+	return json.dumps(text)
+
+app.add_template_filter(jsonify)
 
 @app.route('/', methods=['GET', 'POST'])
 @app.route('/index', methods=['GET', 'POST'])
@@ -38,7 +49,9 @@ def training():
 	"""
 	title = 'Training'
 	template_name = 'training.html'
-	kwargs = {'title': title}
+	json_file = os.path.join('app', 'static', 'json', 'courses_2020041110.json')
+	data = get_training_filters(json_file)
+	kwargs = {'title': title, 'filter_data': data}
 	return render_template(template_name, **kwargs)
 
 @app.route('/public_training')

@@ -3,82 +3,41 @@
 {% block content %}
 <head>
 	<link rel="stylesheet" href="{{ url_for('static',    filename='/training.css') }}">
-	<script>
-		let ct_filters = {"cal1": ['cal1'], "leading_safe": ['leading_safe'],
-			"safe_for_teams": ['safe_for_teams'], 'lean_portfolio_management': []};
-		let cb_filters = {"cal1": ['scrum_alliance'], "leading_safe": ['safe'],
-			'safe_for_teams': ['safe'], 'lean_portfolio_management': []}
-		let role_filters = {}
-		let filter_to_obj = {"course_type_filter_list": ct_filters, "certifying_body_filter_list": cb_filters,
-			"role_filter_list": role_filters}
-		let default_values = ['ct_default', 'cb_default', 'role_default'];
-
-		function filterImages(divID)
-			{
-				let filters = document.getElementById("filters").getElementsByTagName("select");
-				let images = document.getElementById(divID).getElementsByTagName("img");
-				console.log(images);
-				console.log(images.length);
-				for (var j = 0; j < images.length; j++) {
-					console.log(j);
-					let booleans = [];
-					let image = images[j];
-					let image_id = image.id;
-					console.log(image_id);
-					let image_alt = image.alt; // index into ct, cb, role_filters
-					for (var i = 0; i < filters.length; i++) {
-						let filter = filters[i];
-						console.log(filter.id);
-						let filter_object = filter_to_obj[filter.id]; // ct, cb, role_filters
-						var accepted_values;
-						if (image_alt in filter_object) {
-							accepted_values = filter_object[image_alt]; // ['list_of_accepted_values']
-						}
-						let option_value = filter.value; // option value = "ct_default", "cb_default", etc.
-						let decision = (default_values.includes(option_value) || accepted_values.includes(option_value))
-						booleans.push(decision);
-					}
-					console.log(booleans);
-					console.log(image_id);
-					if (booleans.every(v=> v === true)) {
-						document.getElementById(image_id).style.display = 'inline-block';
-					} else {
-						document.getElementById(image_id).style.display = 'none';
-					}
-				}
-			}
-	</script>
+	<script src="{{ url_for('static',    filename='/training_scripts.js') }}"></script>
 </head>
 <div class="row" id="filters">
   <div class="block">
   	<ul class = "course_type_filters" style="list-style-type:none;">
-		<li><select id="course_type_filter_list" onchange="filterImages('class_div')">
+		<li><select id="course_type_filter_list" onchange="filterImages('class_div', '{{ filter_data | jsonify }}')">
 	    	<option value="ct_default">Course Type</option>
-	    	<option value="cal1">Cal 1</option>
-	    	<option value="leading_safe">Leading SAFe</option>
-	    	<option value="safe_for_teams">SAFe for Teams</option>
+	    	<option value="Public">Public</option>
+	    	<option value="Corporate">Corporate</option>
 	    	</select>
 		</li>
     </ul>
   </div>
   <div class="block">
   	  <ul class = "certifying_body_filter" style="list-style-type:none;">
-		<li><select id="certifying_body_filter_list" onchange="filterImages('class_div')">
+		<li><select id="certifying_body_filter_list" onchange="filterImages('class_div', '{{ filter_data | jsonify }}')">
 	    	<option value="cb_default">Certifying Body</option>
-	    	<option value="scrum_alliance">Scrum Alliance</option>
-	    	<option value="safe">SAFe</option>
-	    	<option value="3">Certifying Body 3</option>
+	    	<option value="Scrum Alliance">Scrum Alliance</option>
+	    	<option value="Scaled Agile">Scaled Agile</option>
+	    	<option value="Scrum.org">Scrum.org</option>
 	    	</select>
 		</li>
     </ul>
   </div>
   <div class="block">
   	  <ul class = "role_filter" style="list-style-type:none;">
-		<li><select id="role_filter_list">
+		<li><select id="role_filter_list" onchange="filterImages('class_div', '{{ filter_data | jsonify }}')">
 	    	<option value="role_default">Role</option>
-	    	<option value="1">Role 1</option>
-	    	<option value="2">Role 2</option>
-	    	<option value="3">Role 3</option>
+	    	<option value="Business Analyst">Business Analyst</option>
+	    	<option value="Content Writer">Content Writer</option>
+	    	<option value="Developer">Developer</option>
+	    	<option value="Product Owner">Product Owner</option>
+	    	<option value="Scrum Master">Scrum Master</option>
+	    	<option value="QA">QA</option>
+	    	<option value="UI/UX">UI/UX</option>
 	    	</select>
 		</li>
     </ul>
@@ -97,14 +56,22 @@
 		<li class="disc" style="text-align: left;">Scaled Agile 5.0</li>
 			<ul class="pad">
 				<li class="left_text">
-					<a href = "/course_description">
+<!-- 					<a href = "/course_description">
 						<img src="{{ url_for('static', filename='Leading-SAFe-5-Courseware-Thumbnails-SA-1.png') }}" width="120px" height="150px" alt="leading_safe" id="leading_safe_img">
-					</a>
-					<a href = "/course_description">
+					</a> -->
+<!-- 					<a href = "/course_description">
 						<img src="{{ url_for('static', filename='SAFe-5-for teams.png') }}" width="120px" height="150px" alt="safe_for_teams" id="safe_for_teams_img">
-					</a>
+					</a> -->
 					<a href = "/course_description">
-						<img src="{{ url_for('static', filename='custom-logo-safe-portfolio-management.png') }}" width="120px" height="120px" alt="lean_portfolio_management" id="lean_portfolio_management_img">
+						<img src="{{ url_for('static', filename='custom-logo-safe-portfolio-management.png') }}" width="120px" height="120px" alt="cslpm" id="lean_portfolio_management_img">
+					</a>
+				</li>
+			</ul>
+		<li class="disc" style="text-align: left;">Scrum.org</li>
+			<ul class="pad">
+				<li class="left_text">
+					<a href = "/course_description">
+						<img src="{{ url_for('static', filename='PSM Logo.png') }}" width="120px" height="120px" alt="psm" id="professional_scrum_master_img">
 					</a>
 				</li>
 			</ul>

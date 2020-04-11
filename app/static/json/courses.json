@@ -4,10 +4,22 @@
 		"partner": "Scrum Alliance",
 		"course type": "Public",
 		"roles": ["Scrum Master"],
+		"icon file": "SAI_BadgeSizes_DigitalBadging_CSM.png",
 		"details": {
 			"cost": "1000",
-			"class hours": "16"
+			"class hours": "16",
+			"about this course": "A Certified ScrumMaster® is able to assist a scrum team to perform at their optimum level, as well as buffering the team from distractions.  The certification process teaches the Scrum framework and enables CSMs to expand their career opportunities using Agile practices.",
+			"what youll learn": "After successfully completing the course, participants will have an understanding of team roles, events and artifacts.  They will be eligible to take CSM test, and upon passing the test, will be asked to accept the CSM License Agreement and complete their Scrum Alliance profile.",
+			"length": "Length: 16 hours (2 days) in-person class, or 25 hours in-person coaching",
+			"effort": "5 hrs/week",
+			"reviews": [
+				"This class gave me the exposure to agile and the scrum process that I needed. Thanks!",
+				"I started with very little knowledge about how agile actually works, but the class provided more than enough to start implementing the techniques at my company.",
+				"When I began my training I thought that a scrum master was just a project manager.  The class showed me how the roles are different and how to get a team to work toward a common goal.",
+				"My instructor was great. They kept the energy level high, and everyone in the class passed the CSM certification on their first try.  Highly recommended."
+			]
 		},
+			
 		"classes": [{
 				"start date": "2020-06-10",
 				"instructor": "Heda",
