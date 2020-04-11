@@ -8,8 +8,10 @@
 .footer_panel{
     display: flex; 
 /*    background-image: linear-gradient(royalblue, #fc85fb);*/
-    background: rgb(2,0,36);
-    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(158,0,255,1) 73%);
+/*    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(158,0,255,1) 73%);*/
+    background: rgb(0,159,255);
+    background: linear-gradient(180deg, rgba(148,202,235,1) 9%, rgba(0,159,255,1) 91%);
 }
 
 .footer_logo{
