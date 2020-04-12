@@ -215,7 +215,7 @@
 		"partner": "Scaled Agile",
 		"course type": "Public",
 		"roles": ["Scrum Master", "Product Owner", "Business Analyst", "Developer", "QA", "UI/UX", "Content Writer"],
-		"icon file": "SAFe-5-Courseware-Thumbnails-SA-1.png",
+		"icon file": "Implementing-SAFe-5-Courseware-Thumbnails-SPC-1.png",
 		"details": {
 			"cost": "1000",
 			"class hours": "16",
@@ -245,7 +245,7 @@
 		]
 	},
 	{
-		"course code": "CSM",
+		"course code": "SSM",
 		"course title": "SAFe Scrum Master",
 		"partner": "Scaled Agile",
 		"course type": "Public",

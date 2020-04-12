@@ -296,34 +296,34 @@
                 "city": "London",
                 "country": "UK",
                 "instructor": "Heda",
-                "start date": "2020-12-07"
+                "start date": "2020-06-10"
             },
             {
                 "city": "Boston",
                 "country": "US",
                 "instructor": "Heda",
-                "start date": "2020-11-22"
+                "start date": "2020-07-14"
             }
         ],
         "course_code": "csm",
-        "course_title": "SAFe Scrum Master",
+        "course_title": "Certified ScrumMaster",
         "course_type": "Public",
         "details": {
-            "about_this_course": "During this course, you will learn about the Scrum Master role within an enterprise operating in the SAFe environment. This course will delve into the specifics of what a Scrum Master role looks like at an enterprise level, not just in the context of a Scrum team. You will step away from this course enabled to plan and implement the Program Increment (PI), which is essential to align every level of an organization operating in a SAFe environment. Because this course is focused on how a Scrum Master fits into an organization at an enterprise level, you will learn how to apply Scrum in every part of your organization, as well as how to use iterative planning in your organization.",
+            "about_this_course": "A Certified ScrumMaster\u00c2\u00ae is able to assist a scrum team to perform at their optimum level, as well as buffering the team from distractions.  The certification process teaches the Scrum framework and enables CSMs to expand their career opportunities using Agile practices.",
             "class_hours": "16",
             "cost": "1000",
-            "effort": "16 hrs/week",
-            "length": "2 days",
+            "effort": "5 hrs/week",
+            "length": "Length: 16 hours (2 days) in-person class, or 25 hours in-person coaching",
             "reviews": [
-                "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
-                "Fantastic experience! Highly recommended! I am looking forward to sharing what I\u00e2\u20ac\u2122ve learned with my enterprise.",
-                "Raj is an excellent instructor, always willing to help and great at explaining concepts.",
-                "This course equipped me with the skills I needed to grow and advance in my career. Many thanks!"
+                "This class gave me the exposure to agile and the scrum process that I needed. Thanks!",
+                "I started with very little knowledge about how agile actually works, but the class provided more than enough to start implementing the techniques at my company.",
+                "When I began my training I thought that a scrum master was just a project manager.  The class showed me how the roles are different and how to get a team to work toward a common goal.",
+                "My instructor was great. They kept the energy level high, and everyone in the class passed the CSM certification on their first try.  Highly recommended."
             ],
-            "what_youll_learn": "In addition to learning about the role of Scrum Master at an enterprise level, you will also discover how acting as a coach and using servant leadership methods will enable you to create successful Agile teams. Trainers will also demonstrate how the formation of these Agile teams can help your organization reach goals and thrive as they seek to met business goals.\nWhen you complete this course and gain the Certified SAFe\u00c2\u00ae Scrum Master certificate, this certification will demonstrate to companies that you are equipped and ready to lead Agile teams in a SAFe environment, and that your servant leadership and coaching skills will bring tremendous growth and value to their organizations."
+            "what_youll_learn": "After successfully completing the course, participants will have an understanding of team roles, events and artifacts.  They will be eligible to take CSM test, and upon passing the test, will be asked to accept the CSM License Agreement and complete their Scrum Alliance profile."
         },
-        "icon_file": "SAFe-5-Courseware-Thumbnails-SSM-1.png",
-        "partner": "Scaled Agile",
+        "icon_file": "SAI_BadgeSizes_DigitalBadging_CSM.png",
+        "partner": "Scrum Alliance",
         "roles": [
             "Scrum Master"
         ]
@@ -1008,7 +1008,7 @@
             ],
             "what_youll_learn": "The course is divided into two sections. The first section will take place on the first two days. During this time, you will gain a thorough understanding of what Leading SAFe\u00c2\u00ae is all about and why it is important in a Lean organization. The last two days of the course will be an intensive time looking at how to implement the SAFe\u00c2\u00ae concepts. You will learn exactly what needs to taken place and what you will need to do in order to implement these concepts as you lead an organization into a Lean transformation. After this course, you will be fully equipped to coach and direct an enterprise at any level to success in the Lean transformative process."
         },
-        "icon_file": "SAFe-5-Courseware-Thumbnails-SA-1.png",
+        "icon_file": "Implementing-SAFe-5-Courseware-Thumbnails-SPC-1.png",
         "partner": "Scaled Agile",
         "roles": [
             "Scrum Master",
@@ -1058,6 +1058,44 @@
             "Scrum Master",
             "Product Owner",
             "Business Analyst"
+        ]
+    },
+    "ssm": {
+        "classes": [
+            {
+                "city": "London",
+                "country": "UK",
+                "instructor": "Heda",
+                "start date": "2020-12-07"
+            },
+            {
+                "city": "Boston",
+                "country": "US",
+                "instructor": "Heda",
+                "start date": "2020-11-22"
+            }
+        ],
+        "course_code": "ssm",
+        "course_title": "SAFe Scrum Master",
+        "course_type": "Public",
+        "details": {
+            "about_this_course": "During this course, you will learn about the Scrum Master role within an enterprise operating in the SAFe environment. This course will delve into the specifics of what a Scrum Master role looks like at an enterprise level, not just in the context of a Scrum team. You will step away from this course enabled to plan and implement the Program Increment (PI), which is essential to align every level of an organization operating in a SAFe environment. Because this course is focused on how a Scrum Master fits into an organization at an enterprise level, you will learn how to apply Scrum in every part of your organization, as well as how to use iterative planning in your organization.",
+            "class_hours": "16",
+            "cost": "1000",
+            "effort": "16 hrs/week",
+            "length": "2 days",
+            "reviews": [
+                "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
+                "Fantastic experience! Highly recommended! I am looking forward to sharing what I\u00e2\u20ac\u2122ve learned with my enterprise.",
+                "Raj is an excellent instructor, always willing to help and great at explaining concepts.",
+                "This course equipped me with the skills I needed to grow and advance in my career. Many thanks!"
+            ],
+            "what_youll_learn": "In addition to learning about the role of Scrum Master at an enterprise level, you will also discover how acting as a coach and using servant leadership methods will enable you to create successful Agile teams. Trainers will also demonstrate how the formation of these Agile teams can help your organization reach goals and thrive as they seek to met business goals.\nWhen you complete this course and gain the Certified SAFe\u00c2\u00ae Scrum Master certificate, this certification will demonstrate to companies that you are equipped and ready to lead Agile teams in a SAFe environment, and that your servant leadership and coaching skills will bring tremendous growth and value to their organizations."
+        },
+        "icon_file": "SAFe-5-Courseware-Thumbnails-SSM-1.png",
+        "partner": "Scaled Agile",
+        "roles": [
+            "Scrum Master"
         ]
     },
     "tb": {
