@@ -175,20 +175,22 @@ function carousel() {
     <div class = "panel7">
         Receive information regarding upcoming workshops</br>
 <!--         <label for="name">Name:</label> -->
-        <div class="aligned_input">
-            <input type="name" id="name" placeholder="Enter name" name="name"></br>
-        </div>
-<!--         <label for="email">Email:</label> -->
-        <div class="aligned_input">
-            <input type="email" id="email" placeholder="Enter email" name="email"></br>
-        </div>
-        <div>
-            <label>
-                <input type="checkbox" name="remember">  I consent to receiving emails from Capital Services
-            </label>
-        </div>
-        </br>
-        <button class="Collaborate" type="submit">Sign Up</button></br>
+        <form action="/stay_connected_email/" method="post">
+            <div class="aligned_input">
+                <input type="name" id="name" placeholder="Enter name" name="name"></br>
+            </div>
+    <!--         <label for="email">Email:</label> -->
+            <div class="aligned_input">
+                <input type="email" id="email" placeholder="Enter email" name="email"></br>
+            </div>
+            <div>
+                <label>
+                    <input type="checkbox" name="remember">  I consent to receiving emails from Capital Services
+                </label>
+            </div>
+            </br>
+            <button class="Collaborate" type="submit">Sign Up</button></br>
+        </form>
     </div>
     
     

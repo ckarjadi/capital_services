@@ -6,6 +6,7 @@ from flask import render_template, request
 from app import app
 from app.forms import LoginForm
 from app.training_filters_from_json import get_training_filters
+from app.send_email import send_email
 import os
 import json
 
@@ -49,7 +50,7 @@ def training():
 	"""
 	title = 'Training'
 	template_name = 'training.html'
-	json_file = os.path.join('app', 'static', 'json', 'courses_2020041110.json')
+	json_file = os.path.join('app', 'static', 'json', 'courses_2020041150.json')
 	data = get_training_filters(json_file)
 	kwargs = {'title': title, 'filter_data': data}
 	return render_template(template_name, **kwargs)
@@ -182,4 +183,16 @@ def contact_us():
 	title = 'Contact Us'
 	template_name = 'contact_us.html'
 	kwargs = {'title': title}
+	return render_template(template_name, **kwargs)
+
+@app.route('/stay_connected_email/', methods=['POST'])
+def stay_connected_email():
+	"""
+	send the stay connected email
+	"""
+	data = request.form
+	send_email(data['email'], data['name'])
+	title = 'Stay Connected'
+	template_name = 'stay_connected.html'
+	kwargs = {'name': data['name']}
 	return render_template(template_name, **kwargs)

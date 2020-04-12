@@ -135,3 +135,7 @@ dmypy.json
 
 # specific files
 heroku_notes.txt
+secret_mail_data.py
+
+# specific folders
+_old
