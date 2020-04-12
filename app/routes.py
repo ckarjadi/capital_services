@@ -50,7 +50,7 @@ def training():
 	"""
 	title = 'Training'
 	template_name = 'training.html'
-	json_file = os.path.join('app', 'static', 'json', 'courses_2020041150.json')
+	json_file = os.path.join('app', 'static', 'json', 'courses_2020041224.json')
 	data = get_training_filters(json_file)
 	kwargs = {'title': title, 'filter_data': data}
 	return render_template(template_name, **kwargs)
