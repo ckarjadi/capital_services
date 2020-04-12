@@ -1,0 +1,1146 @@
+{
+    "acp": {
+        "classes": [
+            {
+                "city": "London",
+                "country": "UK",
+                "instructor": "Heda",
+                "start date": "2020-08-18"
+            },
+            {
+                "city": "Boston",
+                "country": "US",
+                "instructor": "Heda",
+                "start date": "2020-07-01"
+            }
+        ],
+        "course_code": "acp",
+        "course_title": "PMI Agile Certified Practitioner",
+        "course_type": "Public",
+        "details": {
+            "about_this_course": "",
+            "class_hours": "16",
+            "cost": "1000",
+            "effort": "",
+            "length": "",
+            "reviews": [
+                "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
+                "Fantastic experience! Highly recommended! I am looking forward to sharing what I\u00e2\u20ac\u2122ve learned with my enterprise.",
+                "Raj is an excellent instructor, always willing to help and great at explaining concepts.",
+                "This course equipped me with the skills I needed to grow and advance in my career. Many thanks!"
+            ],
+            "what_youll_learn": ""
+        },
+        "icon_file": "pmi-acp-new.png",
+        "partner": "PMI",
+        "roles": [
+            "Scrum Master",
+            "Product Owner",
+            "Business Analyst",
+            "Developer",
+            "QA",
+            "UI/UX",
+            "Content Writer"
+        ]
+    },
+    "apm": {
+        "classes": [
+            {
+                "city": "London",
+                "country": "UK",
+                "instructor": "Heda",
+                "start date": "2020-04-28"
+            },
+            {
+                "city": "Boston",
+                "country": "US",
+                "instructor": "Heda",
+                "start date": "2020-07-12"
+            }
+        ],
+        "course_code": "apm",
+        "course_title": "Agile Product Management",
+        "course_type": "Public",
+        "details": {
+            "about_this_course": "",
+            "class_hours": "16",
+            "cost": "1000",
+            "effort": "",
+            "length": "",
+            "reviews": [
+                "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
+                "Fantastic experience! Highly recommended! I am looking forward to sharing what I\u00e2\u20ac\u2122ve learned with my enterprise.",
+                "Raj is an excellent instructor, always willing to help and great at explaining concepts.",
+                "This course equipped me with the skills I needed to grow and advance in my career. Many thanks!"
+            ],
+            "what_youll_learn": ""
+        },
+        "icon_file": "SAFe-5-Courseware-Thumbnails-APM.png",
+        "partner": "Scaled Agile",
+        "roles": [
+            "Scrum Master",
+            "Product Owner",
+            "Business Analyst"
+        ]
+    },
+    "arch": {
+        "classes": [
+            {
+                "city": "London",
+                "country": "UK",
+                "instructor": "Heda",
+                "start date": "2020-10-12"
+            },
+            {
+                "city": "Boston",
+                "country": "US",
+                "instructor": "Heda",
+                "start date": "2020-10-21"
+            }
+        ],
+        "course_code": "arch",
+        "course_title": "SAFe for Architects",
+        "course_type": "Public",
+        "details": {
+            "about_this_course": "Architects in an Agile environment need to understand how to engage their entire organization to improve value flow.  Senior System, Solution and Enterprise Architects will learn how to architect in a way that enables DevOps and Release on Demand.  They\u00e2\u20ac\u2122ll understand how to incorporate vision, intent and roadmaps in their designs, and will obtain a deeper appreciation for how architects contribute to an Agile/Lean organization.",
+            "class_hours": "16",
+            "cost": "1000",
+            "effort": "5 hrs/week",
+            "length": "24 hours (3 days) in-person class",
+            "reviews": [
+                "I\u00e2\u20ac\u2122ve been a system architect for years \u00e2\u20ac\u201c this class enabled me to integrate my experience with the principles of Agile/Lean. Thanks!",
+                "I started with very little knowledge about how agile actually works, but the class provided more than enough to start implementing the techniques in my architecture.",
+                "Wow \u00e2\u20ac\u201c three days was like drinking from a fire hose, and at the end we could understand how to align architecture with business value.",
+                "My instructor was great. They kept the energy level high, and we were all engaged.  A must for any architect looking to employ Agile principles. "
+            ],
+            "what_youll_learn": "The SAFe for Architects course will give senior technical contributors the skills and understanding to align their designs with the business value, and to steer toward the continuous system-of-systems flow.  Completion of the course allows the participant to take the Certified SAFe\u00c2\u00ae Architect exam."
+        },
+        "icon_file": "SAFe-5-Courseware-Thumbnails-ARCH.png",
+        "partner": "Scaled Agile",
+        "roles": [
+            "Scrum Master",
+            "Product Owner"
+        ]
+    },
+    "ase": {
+        "classes": [
+            {
+                "city": "London",
+                "country": "UK",
+                "instructor": "Heda",
+                "start date": "2020-06-02"
+            },
+            {
+                "city": "Boston",
+                "country": "US",
+                "instructor": "Heda",
+                "start date": "2020-07-05"
+            }
+        ],
+        "course_code": "ase",
+        "course_title": "Agile Software Engineering",
+        "course_type": "Public",
+        "details": {
+            "about_this_course": "",
+            "class_hours": "16",
+            "cost": "1000",
+            "effort": "",
+            "length": "",
+            "reviews": [
+                "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
+                "Fantastic experience! Highly recommended! I am looking forward to sharing what I\u00e2\u20ac\u2122ve learned with my enterprise.",
+                "Raj is an excellent instructor, always willing to help and great at explaining concepts.",
+                "This course equipped me with the skills I needed to grow and advance in my career. Many thanks!"
+            ],
+            "what_youll_learn": ""
+        },
+        "icon_file": "ASE_cover_rev.png",
+        "partner": "Scaled Agile",
+        "roles": [
+            "Developer",
+            "QA",
+            "UI/UX"
+        ]
+    },
+    "cal1": {
+        "classes": [
+            {
+                "city": "London",
+                "country": "UK",
+                "instructor": "Heda",
+                "start date": "2021-01-10"
+            },
+            {
+                "city": "Boston",
+                "country": "US",
+                "instructor": "Heda",
+                "start date": "2020-11-11"
+            }
+        ],
+        "course_code": "cal1",
+        "course_title": "Certified Agile Leadership I",
+        "course_type": "Public",
+        "details": {
+            "about_this_course": "",
+            "class_hours": "16",
+            "cost": "1000",
+            "effort": "",
+            "length": "",
+            "reviews": [
+                "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
+                "Fantastic experience! Highly recommended! I am looking forward to sharing what I\u00e2\u20ac\u2122ve learned with my enterprise.",
+                "Raj is an excellent instructor, always willing to help and great at explaining concepts.",
+                "This course equipped me with the skills I needed to grow and advance in my career. Many thanks!"
+            ],
+            "what_youll_learn": ""
+        },
+        "icon_file": "SAI_Certification_CAL1_RGB.png",
+        "partner": "Scrum Alliance",
+        "roles": [
+            "Scrum Master",
+            "Product Owner",
+            "Business Analyst",
+            "Developer",
+            "QA",
+            "UI/UX",
+            "Content Writer"
+        ]
+    },
+    "csd": {
+        "classes": [
+            {
+                "city": "London",
+                "country": "UK",
+                "instructor": "Heda",
+                "start date": "2020-06-17"
+            },
+            {
+                "city": "Boston",
+                "country": "US",
+                "instructor": "Heda",
+                "start date": "2020-07-21"
+            }
+        ],
+        "course_code": "csd",
+        "course_title": "Certified Scrum Developer",
+        "course_type": "Public",
+        "details": {
+            "about_this_course": "Designed for developers, this course will hone your agile skills.  Through both formal training and an assessment of your technical skills, you\u00e2\u20ac\u2122ll obtain a working knowledge of Scrum and Agile principles.  In addition, you\u00e2\u20ac\u2122ll learn the engineering skills used by Agile developers.  The course instructs developers in the tools and techniques for delivering code in an iterative process, key to Agile software development.",
+            "class_hours": "16",
+            "cost": "1000",
+            "effort": "5 hrs/week",
+            "length": "40 hours (5 days) in-person class, or 50 hours in-person coaching",
+            "reviews": [
+                "This class gave me the exposure to agile and the scrum process that I needed. Thanks!",
+                "I started with very little knowledge about how agile actually works, but the class provided more than enough to start implementing the techniques at my company.",
+                "Developing in an Agile environment is different than I had expected.  The class showed me the iterative approach and the tools used to deliver good code.",
+                "My instructor was great. Five days of training seemed like it would be tough, but the time was well spent.  Highly recommended."
+            ],
+            "what_youll_learn": "Upon completing this course, you will have mastered the skill set required to engage in an Agile development environment.  You\u00e2\u20ac\u2122ll become proficient with the tools and techniques used to contribute to an agile team.  Certification as a Certified Scrum Developer demonstrates your commitment to the Agile principles."
+        },
+        "icon_file": "SAI_BadgeSizes_DigitalBadging_CSD.png",
+        "partner": "Scrum Alliance",
+        "roles": [
+            "Developer",
+            "QA",
+            "UI/UX"
+        ]
+    },
+    "cskw": {
+        "classes": [
+            {
+                "city": "London",
+                "country": "UK",
+                "instructor": "Heda",
+                "start date": "2020-08-17"
+            },
+            {
+                "city": "Boston",
+                "country": "US",
+                "instructor": "Heda",
+                "start date": "2020-08-12"
+            }
+        ],
+        "course_code": "cskw",
+        "course_title": "Customized Scrum/Kanban Workshop",
+        "course_type": "Corporate",
+        "details": {
+            "about_this_course": "",
+            "class_hours": "24",
+            "cost": "5000",
+            "effort": "",
+            "length": "",
+            "reviews": [
+                "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
+                "Fantastic experience! Highly recommended! I am looking forward to sharing what I\u00e2\u20ac\u2122ve learned with my enterprise.",
+                "Raj is an excellent instructor, always willing to help and great at explaining concepts.",
+                "This course equipped me with the skills I needed to grow and advance in my career. Many thanks!"
+            ],
+            "what_youll_learn": ""
+        },
+        "icon_file": "custom-logo-scrum-kanban.png",
+        "partner": "Custom",
+        "roles": [
+            "Scrum Master",
+            "Product Owner",
+            "Business Analyst",
+            "Developer",
+            "QA",
+            "UI/UX",
+            "Content Writer"
+        ]
+    },
+    "csm": {
+        "classes": [
+            {
+                "city": "London",
+                "country": "UK",
+                "instructor": "Heda",
+                "start date": "2020-12-07"
+            },
+            {
+                "city": "Boston",
+                "country": "US",
+                "instructor": "Heda",
+                "start date": "2020-11-22"
+            }
+        ],
+        "course_code": "csm",
+        "course_title": "SAFe Scrum Master",
+        "course_type": "Public",
+        "details": {
+            "about_this_course": "During this course, you will learn about the Scrum Master role within an enterprise operating in the SAFe environment. This course will delve into the specifics of what a Scrum Master role looks like at an enterprise level, not just in the context of a Scrum team. You will step away from this course enabled to plan and implement the Program Increment (PI), which is essential to align every level of an organization operating in a SAFe environment. Because this course is focused on how a Scrum Master fits into an organization at an enterprise level, you will learn how to apply Scrum in every part of your organization, as well as how to use iterative planning in your organization.",
+            "class_hours": "16",
+            "cost": "1000",
+            "effort": "16 hrs/week",
+            "length": "2 days",
+            "reviews": [
+                "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
+                "Fantastic experience! Highly recommended! I am looking forward to sharing what I\u00e2\u20ac\u2122ve learned with my enterprise.",
+                "Raj is an excellent instructor, always willing to help and great at explaining concepts.",
+                "This course equipped me with the skills I needed to grow and advance in my career. Many thanks!"
+            ],
+            "what_youll_learn": "In addition to learning about the role of Scrum Master at an enterprise level, you will also discover how acting as a coach and using servant leadership methods will enable you to create successful Agile teams. Trainers will also demonstrate how the formation of these Agile teams can help your organization reach goals and thrive as they seek to met business goals.\nWhen you complete this course and gain the Certified SAFe\u00c2\u00ae Scrum Master certificate, this certification will demonstrate to companies that you are equipped and ready to lead Agile teams in a SAFe environment, and that your servant leadership and coaching skills will bring tremendous growth and value to their organizations."
+        },
+        "icon_file": "SAFe-5-Courseware-Thumbnails-SSM-1.png",
+        "partner": "Scaled Agile",
+        "roles": [
+            "Scrum Master"
+        ]
+    },
+    "cspo": {
+        "classes": [
+            {
+                "city": "London",
+                "country": "UK",
+                "instructor": "Heda",
+                "start date": "2020-08-18"
+            },
+            {
+                "city": "Boston",
+                "country": "US",
+                "instructor": "Heda",
+                "start date": "2020-09-08"
+            }
+        ],
+        "course_code": "cspo",
+        "course_title": "Certified Scrum Product Owner",
+        "course_type": "Public",
+        "details": {
+            "about_this_course": "A Scrum Product Owner generally comes from the business side of the organization.  In the agile world, the product owner not only manages the vision and backlog, they also help focus the team on providing the outcomes that will delight the customers.",
+            "class_hours": "16",
+            "cost": "1000",
+            "effort": "5 hrs/week",
+            "length": "16 hours (2 days) in-person class, or 25 hours in-person coaching",
+            "reviews": [
+                "I got a lot from this class.  I\u00e2\u20ac\u2122m now able to better manage my team\u00e2\u20ac\u2122s backlog, and our outcomes have really improved.",
+                "I started with very little knowledge about how agile actually works, but the class provided more than enough to start implementing the techniques at my company.",
+                "The class showed me how the product manager role guides a team to work toward a common goal.",
+                "My instructor was great. He kept the energy level high, and made it easy to learn the material.  Highly recommended."
+            ],
+            "what_youll_learn": "After successfully completing the course, product owners will have experience as the conduit between the business and the rest of the scrum team.  They\u00e2\u20ac\u2122ll learn the skill set that will help them direct the backlog and impart their vision to the team. They will be asked to accept the CSPO License Agreement and complete their Scrum Alliance profile."
+        },
+        "icon_file": "SAI_BadgeSizes_DigitalBadging_CSPO.png",
+        "partner": "Scrum Alliance",
+        "roles": [
+            "Product Owner",
+            "Business Analyst"
+        ]
+    },
+    "ia": {
+        "classes": [
+            {
+                "city": "London",
+                "country": "UK",
+                "instructor": "Heda",
+                "start date": "2020-12-08"
+            },
+            {
+                "city": "Boston",
+                "country": "US",
+                "instructor": "Heda",
+                "start date": "2020-12-07"
+            }
+        ],
+        "course_code": "ia",
+        "course_title": "Inspect & Adapt",
+        "course_type": "Corporate",
+        "details": {
+            "about_this_course": "",
+            "class_hours": "20",
+            "cost": "5000",
+            "effort": "",
+            "length": "",
+            "reviews": [
+                "",
+                "",
+                "",
+                ""
+            ],
+            "what_youll_learn": ""
+        },
+        "icon_file": "custom-logo-inspect-and-adapt.png",
+        "partner": "Custom",
+        "roles": [
+            "Scrum Master",
+            "Product Owner",
+            "Business Analyst",
+            "Developer",
+            "QA",
+            "UI/UX",
+            "Content Writer"
+        ]
+    },
+    "lpm": {
+        "classes": [
+            {
+                "city": "London",
+                "country": "UK",
+                "instructor": "Heda",
+                "start date": "2020-09-22"
+            },
+            {
+                "city": "Boston",
+                "country": "US",
+                "instructor": "Heda",
+                "start date": "2020-09-28"
+            }
+        ],
+        "course_code": "lpm",
+        "course_title": "Lean Portfolio Management",
+        "course_type": "Public",
+        "details": {
+            "about_this_course": "",
+            "class_hours": "16",
+            "cost": "1000",
+            "effort": "",
+            "length": "",
+            "reviews": [
+                "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
+                "Fantastic experience! Highly recommended! I am looking forward to sharing what I\u00e2\u20ac\u2122ve learned with my enterprise.",
+                "Raj is an excellent instructor, always willing to help and great at explaining concepts.",
+                "This course equipped me with the skills I needed to grow and advance in my career. Many thanks!"
+            ],
+            "what_youll_learn": ""
+        },
+        "icon_file": "SAFe-5-Courseware-Thumbnails-LPM-1.png",
+        "partner": "Scaled Agile",
+        "roles": [
+            "Scrum Master",
+            "Product Owner",
+            "Business Analyst"
+        ]
+    },
+    "piw": {
+        "classes": [
+            {
+                "city": "London",
+                "country": "UK",
+                "instructor": "Heda",
+                "start date": "2020-05-16"
+            },
+            {
+                "city": "Boston",
+                "country": "US",
+                "instructor": "Heda",
+                "start date": "2020-06-14"
+            }
+        ],
+        "course_code": "piw",
+        "course_title": "Program Increment Workshop",
+        "course_type": "Corporate",
+        "details": {
+            "about_this_course": "",
+            "class_hours": "24",
+            "cost": "6000",
+            "effort": "",
+            "length": "",
+            "reviews": [
+                "",
+                "",
+                "",
+                ""
+            ],
+            "what_youll_learn": ""
+        },
+        "icon_file": "custom-logo-program-increment.png",
+        "partner": "Custom",
+        "roles": [
+            "Scrum Master",
+            "Product Owner",
+            "Business Analyst"
+        ]
+    },
+    "pmp": {
+        "classes": [
+            {
+                "city": "London",
+                "country": "UK",
+                "instructor": "Heda",
+                "start date": "2020-05-11"
+            },
+            {
+                "city": "Boston",
+                "country": "US",
+                "instructor": "Heda",
+                "start date": "2020-07-20"
+            }
+        ],
+        "course_code": "pmp",
+        "course_title": "Project Management Professional",
+        "course_type": "Public",
+        "details": {
+            "about_this_course": "",
+            "class_hours": "16",
+            "cost": "1000",
+            "effort": "",
+            "length": "",
+            "reviews": [
+                "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
+                "Fantastic experience! Highly recommended! I am looking forward to sharing what I\u00e2\u20ac\u2122ve learned with my enterprise.",
+                "Raj is an excellent instructor, always willing to help and great at explaining concepts.",
+                "This course equipped me with the skills I needed to grow and advance in my career. Many thanks!"
+            ],
+            "what_youll_learn": ""
+        },
+        "icon_file": "pmi-pmp-new.png",
+        "partner": "PMI",
+        "roles": [
+            "Scrum Master",
+            "Product Owner",
+            "Business Analyst"
+        ]
+    },
+    "pmw": {
+        "classes": [
+            {
+                "city": "London",
+                "country": "UK",
+                "instructor": "Heda",
+                "start date": "2020-09-21"
+            },
+            {
+                "city": "Boston",
+                "country": "US",
+                "instructor": "Heda",
+                "start date": "2020-08-30"
+            }
+        ],
+        "course_code": "pmw",
+        "course_title": "Product Management Workshop",
+        "course_type": "Corporate",
+        "details": {
+            "about_this_course": "",
+            "class_hours": "8",
+            "cost": "5000",
+            "effort": "",
+            "length": "",
+            "reviews": [
+                "",
+                "",
+                "",
+                ""
+            ],
+            "what_youll_learn": ""
+        },
+        "icon_file": "custom-logo-product-management.png",
+        "partner": "Custom",
+        "roles": [
+            "Scrum Master",
+            "Product Owner",
+            "Business Analyst"
+        ]
+    },
+    "popm": {
+        "classes": [
+            {
+                "city": "London",
+                "country": "UK",
+                "instructor": "Heda",
+                "start date": "2021-01-10"
+            },
+            {
+                "city": "Boston",
+                "country": "US",
+                "instructor": "Heda",
+                "start date": "2021-02-13"
+            }
+        ],
+        "course_code": "popm",
+        "course_title": "SAFe Product Owner / Product Manager",
+        "course_type": "Public",
+        "details": {
+            "about_this_course": "If you are seeking to learn how to become a successful Product Owner or Product Manager within a Lean enterprise, this course is designed for you. In this two day course, you will learn the skills necessary to be able to lead a team to deliver high value as you seek to deliver successful products in your organization.",
+            "class_hours": "16",
+            "cost": "1000",
+            "effort": "16 hrs/week",
+            "length": "2 days",
+            "reviews": [
+                "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
+                "Fantastic experience! Highly recommended! I am looking forward to sharing what I\u00e2\u20ac\u2122ve learned with my enterprise.",
+                "Raj is an excellent instructor, always willing to help and great at explaining concepts.",
+                "This course equipped me with the skills I needed to grow and advance in my career. Many thanks!"
+            ],
+            "what_youll_learn": "Trainers will equip you with the knowledge and understanding you need in order to be an effective Product Owner/Product Manager within the Agile Release Train (ART). You will discover how you can utilize Lean thinking within the Agile process as you break down Epics first into Features, and then into Stories. In addition, you will learn about the refinement process and how to best refine and manage features, stories, and product backlogs within Iterations and any Program Increments set forth by your enterprise. Finally, you will learn about Continuous Delivery and DevOps, and how these two entities add to the ongoing improvement that takes place within the Agile Release Train (ART)."
+        },
+        "icon_file": "SAFe-5-Courseware-Thumbnails-POPM.png",
+        "partner": "Scaled Agile",
+        "roles": [
+            "Product Owner",
+            "Business Analyst"
+        ]
+    },
+    "psd": {
+        "classes": [
+            {
+                "city": "London",
+                "country": "UK",
+                "instructor": "Heda",
+                "start date": "2020-04-22"
+            },
+            {
+                "city": "Boston",
+                "country": "US",
+                "instructor": "Heda",
+                "start date": "2020-04-05"
+            }
+        ],
+        "course_code": "psd",
+        "course_title": "Professional Scrum Developer",
+        "course_type": "Public",
+        "details": {
+            "about_this_course": "Preparation for Scrum.org\u00e2\u20ac\u2122s certification as a Professional Scrum Developer ",
+            "class_hours": "16",
+            "cost": "1000",
+            "effort": "8 hrs/week",
+            "length": "3 days",
+            "reviews": [
+                "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
+                "Fantastic experience! Highly recommended! I am looking forward to sharing what I\u00e2\u20ac\u2122ve learned with my enterprise.",
+                "Raj is an excellent instructor, always willing to help and great at explaining concepts.",
+                "This course equipped me with the skills I needed to grow and advance in my career. Many thanks!"
+            ],
+            "what_youll_learn": "The Professional Scrum Developer training provides an in-depth understanding of the most important Scrum lessons, drawing from classic texts like the Agile Manifesto and the Scrum Guide, by Ken Schwaber and Jeff Sutherland. The course is hands-on, with activities drawn from real-world situations. You will be a member of an Agile team, face real-world challenges, and participate in an actual iterative development effort. All the while, our expert trainers will be there to demonstrate proper technique and to guide you to prepare for the certification exam."
+        },
+        "icon_file": "PSD Logo.png",
+        "partner": "Scrum.org",
+        "roles": [
+            "Developer",
+            "QA",
+            "UI/UX",
+            "Content Writer"
+        ]
+    },
+    "psm": {
+        "classes": [
+            {
+                "city": "London",
+                "country": "UK",
+                "instructor": "Heda",
+                "start date": "2020-10-15"
+            },
+            {
+                "city": "Boston",
+                "country": "US",
+                "instructor": "Heda",
+                "start date": "2020-10-21"
+            }
+        ],
+        "course_code": "psm",
+        "course_title": "Professional Scrum Master",
+        "course_type": "Public",
+        "details": {
+            "about_this_course": "This two-day course covers the principles and theory that provide the foundation for the Scrum framework, as well as the Scrum Master\u00e2\u20ac\u2122s role in that process.  In this team learning approach, students not only learn the tools for success as a Scrum Master, they also hone their new skills with their classmates to better prepare them to return to their workplaces with a new outlook.\nThe PSM course goes beyond presenting slides and charts.  It includes interactive discussions, hands-on exercises based on real world experience, and incorporates these to reinforce scrum values.",
+            "class_hours": "16",
+            "cost": "1000",
+            "effort": "5 hrs/week",
+            "length": "16 hours (2 days) in-person class, or 25 hours in-person coaching",
+            "reviews": [
+                "This class gave me the exposure to agile and the scrum process that I needed. Thanks!",
+                "I started with very little knowledge about how agile actually works, but the class provided more than enough to start implementing the techniques at my company.",
+                "When I began my training I thought that a scrum master was just a project manager.  The class showed me how the roles are different and how to get a team to work toward a common goal.",
+                "My instructor was great. They kept the energy level high, and everyone in the class passed the PSM I assessment on their first try.  Highly recommended."
+            ],
+            "what_youll_learn": "After completing the course, participants will have gained a background in the various components of the Scrum framework.  They will also be provided a password to attempt the Professional Scrum Master I (PSM-I) certification assessment."
+        },
+        "icon_file": "PSM Logo.png",
+        "partner": "Scrum.org",
+        "roles": [
+            "Scrum Master"
+        ]
+    },
+    "pspo": {
+        "classes": [
+            {
+                "city": "London",
+                "country": "UK",
+                "instructor": "Heda",
+                "start date": "2020-05-02"
+            },
+            {
+                "city": "Boston",
+                "country": "US",
+                "instructor": "Heda",
+                "start date": "2020-05-30"
+            }
+        ],
+        "course_code": "pspo",
+        "course_title": "Professional Scrum Product Owner",
+        "course_type": "Public",
+        "details": {
+            "about_this_course": "A course to prepare for Professional Scrum Product Owner Certification",
+            "class_hours": "16",
+            "cost": "1000",
+            "effort": "2 days",
+            "length": "2 days",
+            "reviews": [
+                "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
+                "Fantastic experience! Highly recommended! I am looking forward to sharing what I\u00e2\u20ac\u2122ve learned with my enterprise.",
+                "Raj is an excellent instructor, always willing to help and great at explaining concepts.",
+                "This course equipped me with the skills I needed to grow and advance in my career. Many thanks!"
+            ],
+            "what_youll_learn": "This two-day course is intended for those with a background in the software industry, whether or not you have previous experience as a product owner. From the product owner\u00e2\u20ac\u2122s perspective we examine the key concepts behind iterative software development in an Agile Scrum environment. Our instructors provide real examples from industry that demonstrate the product owner\u00e2\u20ac\u2122s roles and responsibilities. From creating user stories to managing product backlogs, to demonstrating value and incremental and iterative delivery, the product owner\u00e2\u20ac\u2122s role is clearly explained Our instructors also cover the daily responsibilities of Agile team members and their use of Scrum, Kanban, and Extreme Programming."
+        },
+        "icon_file": "PSPO Logo.png",
+        "partner": "Scrum.org",
+        "roles": [
+            "Product Owner",
+            "Business Analyst"
+        ]
+    },
+    "rte": {
+        "classes": [
+            {
+                "city": "London",
+                "country": "UK",
+                "instructor": "Heda",
+                "start date": "2020-04-20"
+            },
+            {
+                "city": "Boston",
+                "country": "US",
+                "instructor": "Heda",
+                "start date": "2020-07-24"
+            }
+        ],
+        "course_code": "rte",
+        "course_title": "SAFe Release Train Engineer",
+        "course_type": "Public",
+        "details": {
+            "about_this_course": "",
+            "class_hours": "16",
+            "cost": "1000",
+            "effort": "",
+            "length": "",
+            "reviews": [
+                "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
+                "Fantastic experience! Highly recommended! I am looking forward to sharing what I\u00e2\u20ac\u2122ve learned with my enterprise.",
+                "Raj is an excellent instructor, always willing to help and great at explaining concepts.",
+                "This course equipped me with the skills I needed to grow and advance in my career. Many thanks!"
+            ],
+            "what_youll_learn": ""
+        },
+        "icon_file": "SAFe-5-Courseware-Thumbnails-RTE.png",
+        "partner": "Scaled Agile",
+        "roles": [
+            "Scrum Master",
+            "Product Owner",
+            "Business Analyst",
+            "Developer",
+            "QA"
+        ]
+    },
+    "sa": {
+        "classes": [
+            {
+                "city": "London",
+                "country": "UK",
+                "instructor": "Heda",
+                "start date": "2020-05-24"
+            },
+            {
+                "city": "Boston",
+                "country": "US",
+                "instructor": "Heda",
+                "start date": "2020-07-29"
+            }
+        ],
+        "course_code": "sa",
+        "course_title": "Leading SAFe",
+        "course_type": "Public",
+        "details": {
+            "about_this_course": "The goal of this two day course is to equip you with the knowledge that is needed in order to be at the forefront of a Lean-Agile enterprise. Leading a Lean-Agile enterprise is a demanding task, and this course will provide you with a deep understanding of the Scaled Agile Framework\u00c2\u00ae (SAFe\u00c2\u00ae), so that you can take that framework and apply it to an enterprise.",
+            "class_hours": "16",
+            "cost": "1000",
+            "effort": "16 hrs/week",
+            "length": "2 days",
+            "reviews": [
+                "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
+                "Fantastic experience! Highly recommended! I am looking forward to sharing what I\u00e2\u20ac\u2122ve learned with my enterprise.",
+                "Raj is an excellent instructor, always willing to help and great at explaining concepts.",
+                "This course equipped me with the skills I needed to grow and advance in my career. Many thanks!"
+            ],
+            "what_youll_learn": "During the course, attendees will learn about how to become masters of Business Agility so that they can use that expertise to rise to the top in the market. Discussions will be centered around how to develop agility within teams and in the technical space, and how to use that agility to reorient how value flows in the organization. Additional discussions and sessions will provide attendees with training on how to embrace a mindset centered around the customer, as well as how to implement design thinking, as they deliver products within an agile methodology. Attendees will also be instructed on how to orchestrate and use PI Planning events, as well as how to manage and direct different Agile Release Trains (ARTs) that run concurrently. Finally, attendees will learn how to execute a Lean Portfolio Management function within their enterprises."
+        },
+        "icon_file": "SAFe-5-Courseware-Thumbnails-SA-1.png",
+        "partner": "Scaled Agile",
+        "roles": [
+            "Scrum Master",
+            "Product Owner",
+            "Business Analyst",
+            "Developer",
+            "QA",
+            "UI/UX",
+            "Content Writer"
+        ]
+    },
+    "sasm": {
+        "classes": [
+            {
+                "city": "London",
+                "country": "UK",
+                "instructor": "Heda",
+                "start date": "2020-06-20"
+            },
+            {
+                "city": "Boston",
+                "country": "US",
+                "instructor": "Heda",
+                "start date": "2020-07-24"
+            }
+        ],
+        "course_code": "sasm",
+        "course_title": "SAFe Advanced Scrum Master",
+        "course_type": "Public",
+        "details": {
+            "about_this_course": "Are you a current Scrum Master looking to sharpen your skills and move up in your career? This course is designed with you in mind. In this two day course, you will learn how to use your leadership skills to utilize Agile skills and principles in order to lead teams, programs, and whole enterprises to great success as they seek to implement a Scaled Agile Framework (SAFe\u00c2\u00ae).",
+            "class_hours": "16",
+            "cost": "1000",
+            "effort": "16 hrs/week",
+            "length": "2 days",
+            "reviews": [
+                "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
+                "Fantastic experience! Highly recommended! I am looking forward to sharing what I\u00e2\u20ac\u2122ve learned with my enterprise.",
+                "Raj is an excellent instructor, always willing to help and great at explaining concepts.",
+                "This course equipped me with the skills I needed to grow and advance in my career. Many thanks!"
+            ],
+            "what_youll_learn": "As a Scrum Master you are focused on leading your teams, and this course will help take you to the next step by providing instruction on how to facilitate communication and interaction across multiple teams as they work in unison to support and encourage program goals. Trainers will show you how to improve your current Scrum mindset by introducing you to the concept of scalable engineering and the practices of DevOps. In addition, trainers will demonstrate how you can use Kanban principles to create value that maintains a constant flow of improvement, and how you can best support the interactions of key stakeholders involved at both the program and enterprise levels. Finally, you will be equipped with knowledge and tools that will enable you to create teams who perform at the highest levels."
+        },
+        "icon_file": "SAFe-5-Courseware-Thumbnails-SASM.png",
+        "partner": "Scaled Agile",
+        "roles": [
+            "Scrum Master"
+        ]
+    },
+    "sdp": {
+        "classes": [
+            {
+                "city": "London",
+                "country": "UK",
+                "instructor": "Heda",
+                "start date": "2020-12-09"
+            },
+            {
+                "city": "Boston",
+                "country": "US",
+                "instructor": "Heda",
+                "start date": "2020-09-14"
+            }
+        ],
+        "course_code": "sdp",
+        "course_title": "SAFe DevOps",
+        "course_type": "Public",
+        "details": {
+            "about_this_course": "This is a two-day course focused on highlighting the DevOps mindset to enable Agile team members to deliver solutions in a rapidly changing world.  Encompassing problem definition, development, testing, deployment and support, DevOps is crucial to success in the current fast-paced environment.  This course will furnish a strong background in DevOps, not only to developers but also to every member of an agile team.",
+            "class_hours": "16",
+            "cost": "1000",
+            "effort": "5 hrs/week",
+            "length": "16 hours (2 days) in-person class",
+            "reviews": [
+                "There\u00e2\u20ac\u2122s a lot more to DevOps than learning how to program \u00e2\u20ac\u201c this class highlights the areas in the pipeline that really matter.",
+                "I was able to pass the certification exam and implement better DevOps after taking this class.",
+                "I'm not a developer, but I found this course invaluable in understanding the DevOps process.  It really helped my career progression.",
+                "My instructor was great. The interactivity helped to drive home the information, and I was able to put it to use quickly.  Highly recommended."
+            ],
+            "what_youll_learn": "After this two-day intensive course, participants will learn the basics of DevOps, how it fits into the Agile development process, and how to build a customized development/deployment pipeline that works for their organization.  You\u00e2\u20ac\u2122ll learn a CALMR approach to DevOps which will enable you to recognize broken processes and not merely automate them.  In addition, you\u00e2\u20ac\u2122ll learn a set of tools and practices that will speed and secure your develop/deploy pipeline.  Upon completing the course, you will be eligible to take the Certified SAFe\u00c2\u00ae DevOps Practitioner exam."
+        },
+        "icon_file": "SAFe-5-Courseware-Thumbnails-SDP-343x400-2.png",
+        "partner": "Scaled Agile",
+        "roles": [
+            "Developer",
+            "QA",
+            "UI/UX"
+        ]
+    },
+    "sgp": {
+        "classes": [
+            {
+                "city": "London",
+                "country": "UK",
+                "instructor": "Heda",
+                "start date": "2020-08-22"
+            },
+            {
+                "city": "Boston",
+                "country": "US",
+                "instructor": "Heda",
+                "start date": "2020-08-27"
+            }
+        ],
+        "course_code": "sgp",
+        "course_title": "SAFe for Governments",
+        "course_type": "Public",
+        "details": {
+            "about_this_course": "This course is designed to enable you to be prepared and ready to be at the forefront of a Lean-Agile transformation initiative within a program operating in an agency run by the government. Attendees will learn how to utilize the Scaled Agile Framework\u00c2\u00ae in their government agency in order to provide maximum value through the Lean-Agile transformation.",
+            "class_hours": "16",
+            "cost": "1000",
+            "effort": "16 hrs/week",
+            "length": "2 days",
+            "reviews": [
+                "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
+                "Fantastic experience! Highly recommended! I am looking forward to sharing what I\u00e2\u20ac\u2122ve learned with my enterprise.",
+                "Raj is an excellent instructor, always willing to help and great at explaining concepts.",
+                "This course equipped me with the skills I needed to grow and advance in my career. Many thanks!"
+            ],
+            "what_youll_learn": "During this course you will learn how and why Lean-Agile is a mindset, and the reasons it is essential to bring this mindset as a foundation in a government agency before beginning the transformation. Additionally, you will learn about Agile Release Trains (ART) and how to best utilize them once transformation begins. You will also learn about tailor-made leadership skills and strategies that are best suited to delivering successful transformation and change in the government sector. Trainers will provide best practices and advice on how to best create successful Agile teams, programs, and how to best manage the technology investments that take place in government agencies within the Lean mindset and flow. Finally, you will learn about how to contract in an Agile environment, how to launch your program, and how to ensure you are using SAFe to plan in such a way that ensures you will deliver value to your government agency."
+        },
+        "icon_file": "SAFe-5-Courseware-Thumbnails-SGP-1.png",
+        "partner": "Scaled Agile",
+        "roles": [
+            "Scrum Master",
+            "Product Owner",
+            "Business Analyst"
+        ]
+    },
+    "sp": {
+        "classes": [
+            {
+                "city": "London",
+                "country": "UK",
+                "instructor": "Heda",
+                "start date": "2020-05-21"
+            },
+            {
+                "city": "Boston",
+                "country": "US",
+                "instructor": "Heda",
+                "start date": "2020-06-11"
+            }
+        ],
+        "course_code": "sp",
+        "course_title": "SAFe for Teams",
+        "course_type": "Public",
+        "details": {
+            "about_this_course": "",
+            "class_hours": "16",
+            "cost": "1000",
+            "effort": "",
+            "length": "",
+            "reviews": [
+                "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
+                "Fantastic experience! Highly recommended! I am looking forward to sharing what I\u00e2\u20ac\u2122ve learned with my enterprise.",
+                "Raj is an excellent instructor, always willing to help and great at explaining concepts.",
+                "This course equipped me with the skills I needed to grow and advance in my career. Many thanks!"
+            ],
+            "what_youll_learn": ""
+        },
+        "icon_file": "SAFe-5-Courseware-Thumbnails-SP-1.png",
+        "partner": "Scaled Agile",
+        "roles": [
+            "Scrum Master",
+            "Product Owner",
+            "Business Analyst",
+            "Developer",
+            "QA",
+            "UI/UX",
+            "Content Writer"
+        ]
+    },
+    "spc": {
+        "classes": [
+            {
+                "city": "London",
+                "country": "UK",
+                "instructor": "Heda",
+                "start date": "2020-04-25"
+            },
+            {
+                "city": "Boston",
+                "country": "US",
+                "instructor": "Heda",
+                "start date": "2020-10-06"
+            }
+        ],
+        "course_code": "spc",
+        "course_title": "Implementing SAFe",
+        "course_type": "Public",
+        "details": {
+            "about_this_course": " If you are looking to learn the skills needed in order to lead a Lean-Agile transformation in an organization at any level, this course is for you. In four days, you will learn how to best use and incorporate the Scaled Agile Framework\u00c2\u00ae (SAFe\u00c2\u00ae) in order to lead any organization through  the Lean-Agile transformative process. You will learn about seven different core competencies that have been identified within any Lean Enterprise. Trainers will provide you not only with knowledge and skills, but with hands-on practice on coaching programs, constructing a Continuous Delivery Pipeline, strengthening a Lean Portfolio in an organization, and leading the start of Agile Release Trains.",
+            "class_hours": "16",
+            "cost": "1000",
+            "effort": "32 hrs/week",
+            "length": "4 days",
+            "reviews": [
+                "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
+                "Fantastic experience! Highly recommended! I am looking forward to sharing what I\u00e2\u20ac\u2122ve learned with my enterprise.",
+                "Raj is an excellent instructor, always willing to help and great at explaining concepts.",
+                "This course equipped me with the skills I needed to grow and advance in my career. Many thanks!"
+            ],
+            "what_youll_learn": "The course is divided into two sections. The first section will take place on the first two days. During this time, you will gain a thorough understanding of what Leading SAFe\u00c2\u00ae is all about and why it is important in a Lean organization. The last two days of the course will be an intensive time looking at how to implement the SAFe\u00c2\u00ae concepts. You will learn exactly what needs to taken place and what you will need to do in order to implement these concepts as you lead an organization into a Lean transformation. After this course, you will be fully equipped to coach and direct an enterprise at any level to success in the Lean transformative process."
+        },
+        "icon_file": "SAFe-5-Courseware-Thumbnails-SA-1.png",
+        "partner": "Scaled Agile",
+        "roles": [
+            "Scrum Master",
+            "Product Owner",
+            "Business Analyst",
+            "Developer",
+            "QA",
+            "UI/UX",
+            "Content Writer"
+        ]
+    },
+    "spm": {
+        "classes": [
+            {
+                "city": "London",
+                "country": "UK",
+                "instructor": "Heda",
+                "start date": "2020-08-17"
+            },
+            {
+                "city": "Boston",
+                "country": "US",
+                "instructor": "Heda",
+                "start date": "2020-09-12"
+            }
+        ],
+        "course_code": "spm",
+        "course_title": "SAFe Portfolio Management",
+        "course_type": "Corporate",
+        "details": {
+            "about_this_course": "",
+            "class_hours": "16",
+            "cost": "5000",
+            "effort": "",
+            "length": "",
+            "reviews": [
+                "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
+                "Fantastic experience! Highly recommended! I am looking forward to sharing what I\u00e2\u20ac\u2122ve learned with my enterprise.",
+                "Raj is an excellent instructor, always willing to help and great at explaining concepts.",
+                "This course equipped me with the skills I needed to grow and advance in my career. Many thanks!"
+            ],
+            "what_youll_learn": ""
+        },
+        "icon_file": "custom-logo-safe-portfolio-management.png",
+        "partner": "Custom",
+        "roles": [
+            "Scrum Master",
+            "Product Owner",
+            "Business Analyst"
+        ]
+    },
+    "tb": {
+        "classes": [
+            {
+                "city": "London",
+                "country": "UK",
+                "instructor": "Heda",
+                "start date": "2020-07-29"
+            },
+            {
+                "city": "Boston",
+                "country": "US",
+                "instructor": "Heda",
+                "start date": "2020-06-29"
+            }
+        ],
+        "course_code": "tb",
+        "course_title": "Team Building",
+        "course_type": "Corporate",
+        "details": {
+            "about_this_course": "",
+            "class_hours": "12",
+            "cost": "5000",
+            "effort": "",
+            "length": "",
+            "reviews": [
+                "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
+                "Fantastic experience! Highly recommended! I am looking forward to sharing what I\u00e2\u20ac\u2122ve learned with my enterprise.",
+                "Raj is an excellent instructor, always willing to help and great at explaining concepts.",
+                "This course equipped me with the skills I needed to grow and advance in my career. Many thanks!"
+            ],
+            "what_youll_learn": ""
+        },
+        "icon_file": "custom-logo-team-building.png",
+        "partner": "Custom",
+        "roles": [
+            "Scrum Master",
+            "Product Owner"
+        ]
+    },
+    "vsw": {
+        "classes": [
+            {
+                "city": "London",
+                "country": "UK",
+                "instructor": "Heda",
+                "start date": "2020-11-03"
+            },
+            {
+                "city": "Boston",
+                "country": "US",
+                "instructor": "Heda",
+                "start date": "2020-11-12"
+            }
+        ],
+        "course_code": "vsw",
+        "course_title": "Value-Stream Workshop",
+        "course_type": "Corporate",
+        "details": {
+            "about_this_course": "",
+            "class_hours": "16",
+            "cost": "5000",
+            "effort": "",
+            "length": "",
+            "reviews": [
+                "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
+                "Fantastic experience! Highly recommended! I am looking forward to sharing what I\u00e2\u20ac\u2122ve learned with my enterprise.",
+                "Raj is an excellent instructor, always willing to help and great at explaining concepts.",
+                "This course equipped me with the skills I needed to grow and advance in my career. Many thanks!"
+            ],
+            "what_youll_learn": ""
+        },
+        "icon_file": "custom-logo-value-stream.png",
+        "partner": "Custom",
+        "roles": [
+            "Scrum Master",
+            "Product Owner",
+            "Business Analyst",
+            "Developer",
+            "QA",
+            "UI/UX",
+            "Content Writer"
+        ]
+    }
+}
