@@ -13,6 +13,7 @@
 
 .upcoming_course_panel1{
     display: flex;
+    height: 500px;
 }
 
 .upcoming_course_panel1a{
@@ -52,5 +53,13 @@
     flex: 80%;
     margin-left: 1%;
     border: 1px solid lightgrey;
+    overflow-x: hidden; 
+    overflow-y: scroll; 
+}
+
+.cell{
+    width: 100%;
+    text-align: justify;
+    margin-top: 1%;
 }
 
