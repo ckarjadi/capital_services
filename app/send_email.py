@@ -37,6 +37,6 @@ def send_email(recipient, name):
 	msg = Message("Staying Connected with Capital Agile Services",
 		sender=username, recipients=[recipient])
 	msg.body = f"Hello {name},\n"+\
-		"\tThank you for choosing to stay connected with Capital Agile Services."+\
+		"\tThank you for choosing to stay connected with Capital Agile Services. "+\
 		"You have successfully signed up for our mailing list!"
 	mail.send(msg)
