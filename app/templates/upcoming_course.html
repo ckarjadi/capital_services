@@ -29,6 +29,8 @@
                 	
                 	<li><select id="type_filter">
                     	<option value="all_types">All Course Types</option>
+                    	<option value="Public">Public</option>
+                    	<option value="Corporate">Corporate</option>
                 	</select></li></br>
                 	
                 	
@@ -39,6 +41,8 @@
               
                 	<li><select id="country_filter">
                     	<option value="all_countries">All Countries</option>
+                    	<option value="UK">UK</option>
+                    	<option value="US">US</option>
                 	</select></li></br>
                 	
                 	<!--functions for city filter -->
@@ -46,9 +50,16 @@
           
                   	<li><select id="trainer_filter">
                     	<option value="all_trainers">All Trainers</option>
+                    	<option value="Heda">Heda</option>
                 	</select></li></br>
                 	<li><select id="partner_filter">
                     	<option value="all_partners">All Partners</option>
+                    	<option value="Scrum Alliance">Scrum Alliance</option>
+                    	<option value="Scrum.org">Scrum.org</option>
+                    	<option value="Scaled Agile">Scaled Agile</option>
+                    	<option value="PMI">PMI</option>
+                    	<option value="Custom">Custom</option>
+                    	
                 	</select></li>
             	</ul>
         	</div>
@@ -57,7 +68,6 @@
             	<button class="filter_clear" onclick="filterSelection('clear')">Clear Filters</button>
         	</div>	
         </div>
-    	
     	
     	
     	<div class = "upcoming_course_panel1b">
@@ -500,16 +510,10 @@
                 	
             	</ul>
         	</li>
+        	
         </div>
 	</div>
 	
-
-
-
-<!--functions for city filter -->
-
-
-
 </div>
 
 {% endblock %}
