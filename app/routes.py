@@ -4,7 +4,7 @@ routing logic;
 """
 from flask import render_template, request
 from app import app
-from app.forms import LoginForm
+from app.forms import LoginForm, RegistrationForm
 from app.training_filters_from_json import get_training_filters
 from app.send_email import send_email
 import os
@@ -134,7 +134,6 @@ def third_course():
 
 	return render_template (template_name, **kwargs)
 
-
 @app.route('/coaching')
 def coaching():
 	"""
@@ -155,13 +154,13 @@ def resources():
 	kwargs = {'title': title, 'page_title': page_title}
 	return render_template(template_name, **kwargs)
 
-@app.route('/registration')
+@app.route('/registration', methods=['GET', 'POST'])
 def registration():
 	"""
 	registration route
 	"""
 	title = 'Registration'
-	form = LoginForm()
+	form = RegistrationForm()
 	kwargs = {'title': title, 'form': form}
 	return render_template('registration.html', **kwargs)
 

@@ -4,6 +4,7 @@
 {% block content %}
 <link rel="stylesheet" href="{{ url_for('static', filename='/upcoming_course.css') }}">
 <link rel="import" href="/nodep-date-input-polyfill/*.js">
+<script src="{{ url_for('static',    filename='/upcoming_course_scripts.js') }}"></script>
 
 <div class = "upcoming_course_panel">
 
@@ -18,6 +19,7 @@
         	<div class = "filter_header">Filter Events</div>
         	
         	<div class = "filter_body">
+        	
             	<ul class = "upcoming_course_filters" style="list-style-type:none;">
                 	<li><select id="course_filter">
                     	<option value="courses">All Courses</option>
@@ -26,9 +28,24 @@
                     	<option value="webinars">All Webinars</option>
                 	</select></li></br>
                 	
+                	
+                	
+                	
+                	<!-- test start here -->
+                	
+                	
+                	
                 	<li><select id="type_filter">
                     	<option value="all_types">All Course Types</option>
+                    	<option value="Public">Public</option>
+                    	<option value="Corporate">Corporate</option>
                 	</select></li></br>
+                
+            
+                	
+                	<!-- test end here -->
+                	
+                	
                 	
                 	
                 	<script src = "/nodep-date-input-polyfill.dist.js"></script>
@@ -38,6 +55,8 @@
               
                 	<li><select id="country_filter">
                     	<option value="all_countries">All Countries</option>
+                    	<option value="UK">UK</option>
+                    	<option value="US">US</option>
                 	</select></li></br>
                 	
                 	<!--functions for city filter -->
@@ -45,31 +64,473 @@
           
                   	<li><select id="trainer_filter">
                     	<option value="all_trainers">All Trainers</option>
+                    	<option value="Heda">Heda</option>
                 	</select></li></br>
                 	<li><select id="partner_filter">
                     	<option value="all_partners">All Partners</option>
+                    	<option value="Scrum Alliance">Scrum Alliance</option>
+                    	<option value="Scrum.org">Scrum.org</option>
+                    	<option value="Scaled Agile">Scaled Agile</option>
+                    	<option value="PMI">PMI</option>
+                    	<option value="Custom">Custom</option>
+                    	
                 	</select></li>
             	</ul>
         	</div>
         	
         	<div class = "filter_footer">
             	<button class="filter_clear" onclick="filterSelection('clear')">Clear Filters</button>
-        	</div>
-        	
+        	</div>	
         </div>
+    	
     	
     	<div class = "upcoming_course_panel1b">
     	
-    	</div>
+    	<div class="list", id="class_div">
+    	
+        	<li class="disc" style="text-align: left;">Leadership</li>
+            	<ul class="pad" style="list-style: none;">
+            	
+                	<li class="class_icons" id="cal1_li">
+    					<div class="cell">
+        					<a href = "/course_description">
+        						<img src="{{ url_for('static', filename='SAI_Certification_CAL1_RGB.png') }}" width="120px" height="120px" alt="cal1" id="cal1_img" align="left">
+        					</a>
+        					</br>Course Name: Certified Agile Leadership I</br>
+                    		Location: Online</br>
+                    		Instructor Name: Heda</br>
+    					</div>
+    				</li>
+            	
+            	</ul>
+        	</li>
+        	
+            </br>
+            
+        	<li class="disc" style="text-align: left;">Scaled Agile 5.0</li>
+            	<ul class="pad" style="list-style: none;">
+        	
+        		<li class="class_icons" id="leading_safe_li">
+					<div class="cell">
+    					<a href = "/course_description">
+    						<img src="{{ url_for('static', filename='SAFe-5-Courseware-Thumbnails-SA-1.png') }}" width="120px" height="150px" alt="sa" id="leading_safe_img" align="left">
+    					</a>
+    					</br>Course Name: Leading SAFe</br>
+                		Location: Online</br>
+                		Instructor Name: Heda</br>
+					</div>
+				</li>
+				
+				</br>
+				</br>
+				</br>
+				
+				<li class="class_icons" id="safe_csp_li">
+					<div class="cell">
+    					<a href = "/course_description">
+    						<img src="{{ url_for('static', filename='SAFe-5-Courseware-Thumbnails-SP-1.png') }}" width="120px" height="150px" alt="sp" id="safe_csp_img" align="left">
+    					</a>
+    					</br>Course Name: Certified Scrum Product Owner</br>
+                		Location: Online</br>
+                		Instructor Name: Heda</br>
+					</div>
+				</li>
+				
+				</br>
+				</br>
+				</br>
+				
+				<li class="class_icons" id="ssm_li">
+					<div class="cell">
+    					<a href = "/course_description">
+    						<img src="{{ url_for('static', filename='SAFe-5-Courseware-Thumbnails-SSM-1.png') }}" width="120px" height="150px" alt="ssm" id="ssm_img" align="left">
+    					</a>
+    					</br>Course Name: SAFe Scrum Master</br>
+                		Location: Online</br>
+                		Instructor Name: Heda</br>
+					</div>
+				</li>
+				
+				</br>
+				</br>
+				</br>
+				
+				<li class="class_icons" id="safe_lpm_li">
+					<div class="cell">
+    					<a href = "/course_description">
+    						<img src="{{ url_for('static', filename='SAFe-5-Courseware-Thumbnails-LPM-1.png') }}" width="120px" height="150px" alt="lpm" id="safe_lpm_img" align="left">
+    					</a>
+    					</br>Course Name: Lean Portfolio Management</br>
+                		Location: Online</br>
+                		Instructor Name: Heda</br>
+					</div>
+				</li>
+				
+				</br>
+				</br>
+				</br>
+				
+				<li class="class_icons" id="spc_li">
+					<div class="cell">
+    					<a href = "/course_description">
+    						<img src="{{ url_for('static', filename='Implementing-SAFe-5-Courseware-Thumbnails-SPC-1.png') }}" width="120px" height="150px" alt="spc" id="spc_img" align="left">
+    					</a>
+    					</br>Course Name: Implementing SAFe</br>
+                		Location: Online</br>
+                		Instructor Name: Heda</br>
+					</div>
+				</li>
+				
+				</br>
+				</br>
+				</br>
+				
+				<li class="class_icons" id="safe_apm_li">
+					<div class="cell">
+    					<a href = "/course_description">
+    						<img src="{{ url_for('static', filename='SAFe-5-Courseware-Thumbnails-APM.png') }}" width="120px" height="150px" alt="apm" id="safe_apm_img" align="left">
+    					</a>
+    					</br>Course Name: Agile Product Management</br>
+                		Location: Online</br>
+                		Instructor Name: Heda</br>
+					</div>
+				</li>
+				
+				</br>
+				</br>
+				</br>
+				
+				<li class="class_icons" id="sasm_li">
+					<div class="cell">
+    					<a href = "/course_description">
+    						<img src="{{ url_for('static', filename='SAFe-5-Courseware-Thumbnails-SASM.png') }}" width="120px" height="150px" alt="sasm" id="sasm_img" align="left">
+    					</a>
+    					</br>Course Name: SAFe Advanced Scrum Master</br>
+            			Location: Online</br>
+            			Instructor Name: Heda</br>
+					</div>
+				</li>
+				
+				</br>
+				</br>
+				</br>
+				
+				<li class="class_icons" id="popm_li">
+					<div class="cell">
+    					<a href = "/course_description">
+    						<img src="{{ url_for('static', filename='SAFe-5-Courseware-Thumbnails-POPM.png') }}" width="120px" height="150px" alt="popm" id="popm_img" align="left">
+    					</a>
+    					</br>Course Name: SAFe Product Owner / Product Manager</br>
+            			Location: Online</br>
+            			Instructor Name: Heda</br>
+					</div>
+				</li>
+				
+				</br>
+				</br>
+				</br>
+				
+				<li class="class_icons" id="safe_rte_li">
+					<div class="cell">
+    					<a href = "/course_description">
+    						<img src="{{ url_for('static', filename='SAFe-5-Courseware-Thumbnails-RTE.png') }}" width="120px" height="150px" alt="rte" id="safe_rte_img" align="left">
+    					</a>
+    					</br>Course Name: SAFe Release Train Engineer</br>
+            			Location: Online</br>
+            			Instructor Name: Heda</br>
+					</div>
+				</li>
+				
+				</br>
+				</br>
+				</br>
+				
+				<li class="class_icons" id="sdp_li">
+					<div class="cell">
+    					<a href = "/course_description">
+    						<img src="{{ url_for('static', filename='SAFe-5-Courseware-Thumbnails-SDP-343x400-2.png') }}" width="120px" height="150px" alt="sdp" id="sdp_img" align="left">
+    					</a>
+    					</br>Course Name: SAFe DevOps</br>
+            			Location: Online</br>
+            			Instructor Name: Heda</br>
+					</div>
+				</li>
+				
+				</br>
+				</br>
+				</br>
+				
+				<li class="class_icons" id="sgp_li">
+					<div class="cell">
+    					<a href = "/course_description">
+    						<img src="{{ url_for('static', filename='SAFe-5-Courseware-Thumbnails-SGP-1.png') }}" width="120px" height="150px" alt="sgp" id="sgp_img" align="left">
+    					</a>
+    					</br>Course Name: SAFe for Governments</br>
+            			Location: Online</br>
+            			Instructor Name: Heda</br>
+					</div>
+				</li>
+				
+				</br>
+				</br>
+				</br>
+				
+				<li class="class_icons" id="safe_ase_li">
+					<div class="cell">
+    					<a href = "/course_description">
+    						<img src="{{ url_for('static', filename='ASE_cover_rev.png') }}" width="120px" height="150px" alt="ase" id="safe_ase_img" align="left">
+    					</a>
+    					</br>Course Name: Agile Software Engineering</br>
+            			Location: Online</br>
+            			Instructor Name: Heda</br>
+					</div>
+				</li>
+				
+				</br>
+				</br>
+				</br>
+				
+				<li class="class_icons" id="arch_li">
+    				<div class="cell">
+    					<a href = "/course_description">
+    						<img src="{{ url_for('static', filename='SAFe-5-Courseware-Thumbnails-ARCH.png') }}" width="120px" height="150px" alt="arch" id="arch_img" align="left">
+    					</a>
+    					</br>Course Name: SAFe for Architects</br>
+            			Location: Online</br>
+            			Instructor Name: Heda</br>
+					</div>
+				</li>
+        	
+        	
+            	</ul>
+        	</li>
+    	
+        	</br>
+        	</br>
+    	
+        	<li class="disc" style="text-align: left;">Scrum.org</li>
+            	<ul class="pad" style="list-style: none;">
+                	
+                	<li class="class_icons" id="professional_scrum_master_li">
+    					<div class="cell">
+        					<a href = "/course_description">
+        						<img src="{{ url_for('static', filename='PSM Logo.png') }}" width="120px" height="120px" alt="psm" id="professional_scrum_master_img" align="left">
+        					</a>
+        					</br>Course Name: Professional Scrum Master</br>
+            				Location: Online</br>
+            				Instructor Name: Heda</br>
+    					</div>
+    				</li>
+                	
+                	</br>
+                	
+                	<li class="class_icons" id="professional_scrum_product_owner_li">
+    					<div class="cell">
+        					<a href = "/course_description">
+        						<img src="{{ url_for('static', filename='PSPO Logo.png') }}" width="120px" height="120px" alt="pspo" id="professional_scrum_product_owner_img" align="left">
+        					</a>
+        					</br>Course Name: Professional Scrum Product Owner</br>
+        					Location: Online</br>
+        					Instructor Name: Heda</br>
+    					</div>
+    				</li>
+                	
+                	</br>
+                	
+                	<li class="class_icons" id="professional_scrum_developer_li">
+    					<div class="cell">
+        					<a href = "/course_description">
+        						<img src="{{ url_for('static', filename='PSD Logo.png') }}" width="120px" height="120px" alt="psd" id="professional_scrum_developer_img" align="left">
+        					</a>
+        					</br>Course Name: Professional Scrum Developer</br>
+        					Location: Online</br>
+        					Instructor Name: Heda</br>
+    					</div>
+    				</li>
+    				
+            	</ul>
+        	</li>
+    	
+        	</br>
+    	
+        	<li class="disc" style="text-align: left;">Scrum Alliance</li>
+            	<ul class="pad" style="list-style: none;">
+        	
+            		<li class="class_icons" id="certified_scrum_master_li">
+    					<div class="cell">
+        					<a href = "/course_description">
+        						<img src="{{ url_for('static', filename='SAI_BadgeSizes_DigitalBadging_CSM.png') }}" width="120px" height="120px" alt="csm" id="certified_scrum_master_img" align="left">
+        					</a>
+        					</br>Course Name: Certified ScrumMaster</br>
+        					Location: Online</br>
+        					Instructor Name: Heda</br>
+    					</div>
+    				</li>
+            		
+            		</br>
+            		
+            		<li class="class_icons" id="certified_scrum_product_owner_li">
+    					<div class="cell">
+        					<a href = "/course_description">
+        						<img src="{{ url_for('static', filename='SAI_BadgeSizes_DigitalBadging_CSPO.png') }}" width="120px" height="120px" alt="cspo" id="certified_scrum_product_owner_img" align="left">
+        					</a>
+        					</br>Course Name: Certified Scrum Product Owner</br>
+        					Location: Online</br>
+        					Instructor Name: Heda</br>
+    					</div>
+    				</li>
+        			
+        			</br>
+        			
+        			<li class="class_icons" id="certified_scrum_developer_li">
+    					<div class="cell">
+        					<a href = "/course_description">
+        						<img src="{{ url_for('static', filename='SAI_BadgeSizes_DigitalBadging_CSD.png') }}" width="120px" height="120px" alt="csd" id="certified_scrum_developer_img" align="left">
+        					</a>
+        					</br>Course Name: Certified Scrum Developer</br>
+        					Location: Online</br>
+        					Instructor Name: Heda</br>
+        				</div>
+    				</li>
+    				
+            	</ul>
+        	</li>
+        	
+        	</br>
+        	
+        	<li class="disc" style="text-align: left;">Project Management Institute</li>
+            	<ul class="pad" style="list-style: none;">
+                	
+                	<li class="class_icons" id="project_management_professional_li">
+                    	<div class="cell">
+        					<a href = "/course_description">
+        						<img src="{{ url_for('static', filename='pmi-pmp-new.png') }}" width="200px" height="140px" alt="pmp" id="project_management_professional_img" align="left">
+        					</a>
+        					</br>Course Name: Project Management Professional</br>
+        					Location: Online</br>
+        					Instructor Name: Heda</br>
+    					</div>
+    				</li>
+    				
+    				</br>
+    				</br>
+    				
+    				<li class="class_icons" id="project_management_agile_certified_practitioner_li">
+    					<div class="cell">
+        					<a href = "/course_description">
+        						<img src="{{ url_for('static', filename='pmi-acp-new.png') }}" width="200px" height="140px" alt="acp" id="project_management_agile_certified_practitioner_img" align="left">
+        					</a>
+        					</br>Course Name: PMI Agile Certified Practitioner</br>
+            				Location: Online</br>
+            				Instructor Name: Heda</br>
+    					</div>
+    				</li>
+
+            	</ul>
+        	</li>
+        	
+        	</br>
+        	</br>
+    	
+        	<li class="disc" style="text-align: left;">Corporate Training</li>
+            	<ul class="pad" style="list-style: none;">
+                	
+                	<li class="class_icons" id="value_stream_workshop_li">
+                    	<div class="cell">
+        					<a href = "/course_description">
+        						<img src="{{ url_for('static', filename='custom-logo-value-stream.png') }}" width="120px" height="120px" alt="vsw" id="value_stream_workshop_img" align="left">
+        					</a>
+        					</br>Course Name: Value-Stream Workshop</br>
+        					Location: Online</br>
+        					Instructor Name: Heda</br>
+    					</div>
+    				</li>
+    				
+    				</br>
+    				
+    			    <li class="class_icons" id="safe_portfolio_management_li">
+    					<div class="cell">
+        					<a href = "/course_description">
+        						<img src="{{ url_for('static', filename='custom-logo-safe-portfolio-management.png') }}" width="120px" height="120px" alt="spm" id="safe_portfolio_management_img" align="left">
+        					</a>
+        					</br>Course Name: SAFe Portfolio Management</br>
+        					Location: Online</br>
+        					Instructor Name: Heda</br>
+    					</div>
+    				</li>
+    				
+    				</br>
+    				
+    				<li class="class_icons" id="program_increment_workshop_li">
+    					<div class="cell">
+        					<a href = "/course_description">
+        						<img src="{{ url_for('static', filename='custom-logo-program-increment.png') }}" width="120px" height="120px" alt="piw" id="program_increment_workshop_img" align="left">
+        					</a>
+        					</br>Course Name: Program Increment Workshop</br>
+        					Location: Online</br>
+        					Instructor Name: Heda</br>
+    					</div>
+    				</li>
+    				
+    				</br>
+    				
+    				<li class="class_icons" id="inspect_and_adapt_li">
+    					<div class="cell">
+        					<a href = "/course_description">
+        						<img src="{{ url_for('static', filename='custom-logo-inspect-and-adapt.png') }}" width="120px" height="120px" alt="ia" id="inspect_and_adapt_img" align="left">
+        					</a>
+        					</br>Course Name: Inspect & Adapt</br>
+        					Location: Online</br>
+        					Instructor Name: Heda</br>
+    					</div>
+    				</li>
+    				
+    				</br>
+            	
+            		<li class="class_icons" id="product_management_workshop_li">
+    					<div class="cell">
+        					<a href = "/course_description">
+        						<img src="{{ url_for('static', filename='custom-logo-product-management.png') }}" width="120px" height="120px" alt="pmw" id="product_management_workshop_img" align="left">
+        					</a>
+        					</br>Course Name: Product Management Workshop</br>
+        					Location: Online</br>
+        					Instructor Name: Heda</br>
+    					</div>
+    				</li>
+    				
+    				</br>
+    				
+    				<li class="class_icons" id="team_building_li">
+    					<div class="cell">
+        					<a href = "/course_description">
+        						<img src="{{ url_for('static', filename='custom-logo-team-building.png') }}" width="120px" height="120px" alt="tb" id="team_building_img" align="left">
+        					</a>
+        					</br>Course Name: Team Building</br>
+        					Location: Online</br>
+        					Instructor Name: Heda</br>
+        				</div>
+    				</li>
+    				
+    				</br>
+    				
+    				<li class="class_icons" id="scrum_kanban_li">
+    					<div class="cell">
+        					<a href = "/course_description">
+        						<img src="{{ url_for('static', filename='custom-logo-scrum-kanban.png') }}" width="120px" height="120px" alt="cskw" id="scrum_kanban_img" align="left">
+        					</a>
+        					</br>Course Name: Customized Scrum/Kanban Workshop</br>
+        					Location: Online</br>
+        					Instructor Name: Heda</br>
+    					</div>
+    				</li>
+                	
+            	</ul>
+        	</li>
+        </div>
+        	
+        </div>
 	</div>
 	
-
-
-
-<!--functions for city filter -->
-
-
-
 </div>
 
 {% endblock %}
