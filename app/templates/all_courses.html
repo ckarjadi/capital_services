@@ -1,0 +1,148 @@
+{% include "header.html" %}
+{% block content %}
+<head>
+  <link rel="stylesheet" href="{{ url_for('static', filename='course1.css') }}">
+  <style>
+  </style>
+</head>
+
+<div class="section-title">
+  <div class="title-left">
+   <img src="{{url_for('static', filename=icon_file)}}">
+ </div>
+  <div class="title-right">
+    <p>{{ course_title }}</p>
+    <p>{{ start_date }} - {{ end_date }}</p>
+    <p>Location: {{ location }} </p>
+  </div>
+
+  <div class="title-button">
+    <a href="/registration"><button>Register</button></a>
+ 
+  </div> 
+</div>
+<br>
+<div class="general-body">
+  <div class="body-left">
+    <div class="content">
+      <h3> About this course </h3>
+      <p>{{ about_this_course }}</p>
+      <h3> What you will learn</h3>
+      <p>
+        {{ what_youll_learn }}
+<!--         <br>
+        <br>
+        Prerequisites: Highly recommended that participants have 5+ years of experience working in software development, business analysis, testing, project management, or product management fields. Experience working in a Scrum environment is also highly desirable.
+         -->
+      </p>
+    </div>
+
+    <div class="instructor">
+      <h3> Meet the Instructors </h3>
+    </br>
+    
+      <div class="instructor-left">
+        <img src="{{url_for('static', filename='Raj.jpg')}}">
+      </div>
+
+        <div class="instructor-right">
+          <p><b>Raj Heda:</b> Raj Heda has been teaching SAFe Agilist courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results. Raj currently teaches at Boston University and Brandeis University in the Boston area.</p>
+          </br>
+        </div>
+    </div>
+  </div>
+
+  <div class="body-right"> 
+    <ul>
+      <li>
+        <span class="info-key">Length: </span>
+        <span class="info-val">{{ length }} Days</span>
+      </li> 
+      <li>
+        <span class="info-key">Effort: </span>
+        <span class="info-val">{{ effort }}</span>
+      </li>  
+       <li>
+        <span class="info-key">Price: </span>
+        <span class="info-val">${{ cost }}</span>
+      </li>     
+    </ul>
+  </br>
+
+  <div class="reviews">
+    <ul>
+
+      <h2>Reviews</h2>
+      </br>
+
+    
+      <li>
+        
+        <div class="review-image-left"> 
+          <img src="{{url_for('static', filename='face3.jpg')}}">
+        </div>
+
+        <div class="review-content-right">
+        <b>Review 1:</b> Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization. 
+        </div>
+        </br>
+        </br>
+      </li>
+
+      <li>
+        
+        <div class="review-image2-left"> 
+          <img src="{{url_for('static', filename='face2.jpg')}}">
+        </div>
+
+        <div class="review-content2-right">
+        <b>Review 2:</b> Fantastic experience! Highly recommended! I am looking forward to sharing what I’ve learned with my enterprise.
+        </div>
+
+      </li>
+    </br>
+      <li>
+        
+        <div class="review-image3-left"> 
+          <img src="{{url_for('static', filename='face1.jpg')}}">
+        </div>
+
+        <div class="review-content3-right">
+        <b>Review 3:</b> Raj is an excellent instructor, always willing to help and great at explaining concepts.
+
+      </li>
+      </br>
+      <li>
+        
+        <div class="review-image4-left"> 
+          <img src="{{url_for('static', filename='face4.jpg')}}">
+        </div>
+
+        <div class="review-content4-right">
+        <b>Review 4:</b> This course equipped me with the skills I needed to grow and advance in my career. Many thanks!
+        </div>
+        </br>
+      </li>
+    </ul>
+
+  </div>
+
+    </div>
+  </div>
+  </div> 
+</div>
+
+</br>
+</br>
+
+<div class="button">
+  <button onclick="window.location.href = '/contact_us';">Contact Us</button>
+</div>
+
+
+<div class= "center-button" align=center>
+  <a href="/registration"><button>Register</button></a>
+</div>
+
+{% endblock %}
+{% include "footer.html" %}

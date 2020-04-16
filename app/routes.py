@@ -6,6 +6,7 @@ from flask import render_template, request
 from app import app
 from app.forms import LoginForm, RegistrationForm
 from app.training_filters_from_json import get_training_filters
+from app.course_data_from_json import get_course_data_from_json
 from app.send_email import send_email
 import os
 import json
@@ -17,6 +18,9 @@ def jsonify(text):
 	return json.dumps(text)
 
 app.add_template_filter(jsonify)
+
+STATIC_PATH = os.path.join('app', 'static')
+COURSES_JSON = os.path.join(STATIC_PATH, 'json', 'courses_2020041224.json')
 
 @app.route('/', methods=['GET', 'POST'])
 @app.route('/index', methods=['GET', 'POST'])
@@ -50,42 +54,10 @@ def training():
 	"""
 	title = 'Training'
 	template_name = 'training.html'
-	json_file = os.path.join('app', 'static', 'json', 'courses_2020041224.json')
+	json_file = COURSES_JSON
 	data = get_training_filters(json_file)
 	kwargs = {'title': title, 'filter_data': data}
 	return render_template(template_name, **kwargs)
-
-@app.route('/public_training')
-def public_training():
-	"""
-	public_training render;
-	"""
-	title = 'Public Training'
-	template_name = 'public_training.html'
-	kwargs = {'title': title}
-	return render_template(template_name, **kwargs)
-
-@app.route('/corporate_training')
-def corporate_training():
-	"""
-	corporate_training render;
-	"""
-	title = 'Corporate Training'
-	template_name = 'corporate_training.html'
-	kwargs = {'title': title}
-	return render_template(template_name, **kwargs)
-
-'''
-@app.route('/courses')
-def courses():
-	"""
-	individual course render;
-	"""
-	title = 'Individual Courses'
-	template_name = 'courses.html'
-	kwargs = {'title': title}
-	return render_template(template_name, **kwargs)
-'''
 
 @app.route('/upcoming_course')
 def course_page():
@@ -106,8 +78,6 @@ def first_course():
 	title = 'Leading SAFe'
 	template_name = 'course1.html'
 	kwargs = {'title': title}
-
-
 	return render_template (template_name, **kwargs)
 
 @app.route('/course_psm')
@@ -195,3 +165,15 @@ def stay_connected_email():
 	template_name = 'stay_connected.html'
 	kwargs = {'name': data['name']}
 	return render_template(template_name, **kwargs)
+
+@app.route('/courses/<course_name>')
+def render_course(course_name):
+	"""
+	render course pages
+	"""
+	data = get_course_data_from_json(COURSES_JSON, course_name)
+	title = 'Leading SAFe'
+	template_name = 'all_courses.html'
+	kwargs = {'title': title}
+	kwargs.update(data)
+	return render_template (template_name, **kwargs)
