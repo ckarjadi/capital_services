@@ -25,7 +25,7 @@
             "length": "2 days",
             "reviews": [
                 "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
-                "Fantastic experience! Highly recommended! I am looking forward to sharing what I\u00e2\u20ac\u2122ve learned with my enterprise.",
+                "Fantastic experience! Highly recommended! I am looking forward to sharing what I've learned with my enterprise.",
                 "Raj is an excellent instructor, always willing to help and great at explaining concepts.",
                 "This course equipped me with the skills I needed to grow and advance in my career. Many thanks!"
             ],
@@ -62,18 +62,18 @@
         "course_title": "Agile Product Management",
         "course_type": "Public",
         "details": {
-            "about_this_course": "This foundational three-day course provides attendees the background required to achieve the Certified SAFe\u00c2\u00ae Agile Product Manager certification. The training is oriented towards product managers, leaders and coaches. Starting with a review of Lean-Agile principles, you will be guided through the intricacies of Agile product management and the challenges for implementing these principles in an enterprise setting. ",
+            "about_this_course": "This foundational three-day course provides attendees the background required to achieve the Certified SAFe Agile Product Manager certification. The training is oriented towards product managers, leaders and coaches. Starting with a review of Lean-Agile principles, you will be guided through the intricacies of Agile product management and the challenges for implementing these principles in an enterprise setting. ",
             "class_hours": "16",
             "cost": "1000",
             "effort": "24 hrs/week",
             "length": "3 days",
             "reviews": [
                 "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
-                "Fantastic experience! Highly recommended! I am looking forward to sharing what I\u00e2\u20ac\u2122ve learned with my enterprise.",
+                "Fantastic experience! Highly recommended! I am looking forward to sharing what I've learned with my enterprise.",
                 "Raj is an excellent instructor, always willing to help and great at explaining concepts.",
                 "This course equipped me with the skills I needed to grow and advance in my career. Many thanks!"
             ],
-            "what_youll_learn": "A Certified SAFe\u00c2\u00ae Agile Product Manager certificate holder will be expected to have a thorough understanding of key Lean-Agile concepts and practices for both software development as well as product management. From the perspective of an Agile product manager, the course prepares the student for advanced leadership and management responsibilities in a enterprise SAFe environment. Course instructors draw from their own real-life experience to immerse the student in actual business scenarios.  From there, instructors guide students to create, manage and deploy ARTs."
+            "what_youll_learn": "A Certified SAFe Agile Product Manager certificate holder will be expected to have a thorough understanding of key Lean-Agile concepts and practices for both software development as well as product management. From the perspective of an Agile product manager, the course prepares the student for advanced leadership and management responsibilities in a enterprise SAFe environment. Course instructors draw from their own real-life experience to immerse the student in actual business scenarios.  From there, instructors guide students to create, manage and deploy ARTs."
         },
         "icon_file": "SAFe-5-Courseware-Thumbnails-APM.png",
         "partner": "Scaled Agile",
@@ -102,18 +102,18 @@
         "course_title": "SAFe for Architects",
         "course_type": "Public",
         "details": {
-            "about_this_course": "Architects in an Agile environment need to understand how to engage their entire organization to improve value flow.  Senior System, Solution and Enterprise Architects will learn how to architect in a way that enables DevOps and Release on Demand.  They\u00e2\u20ac\u2122ll understand how to incorporate vision, intent and roadmaps in their designs, and will obtain a deeper appreciation for how architects contribute to an Agile/Lean organization.",
+            "about_this_course": "Architects in an Agile environment need to understand how to engage their entire organization to improve value flow.  Senior System, Solution and Enterprise Architects will learn how to architect in a way that enables DevOps and Release on Demand.  They'll understand how to incorporate vision, intent and roadmaps in their designs, and will obtain a deeper appreciation for how architects contribute to an Agile/Lean organization.",
             "class_hours": "16",
             "cost": "1000",
             "effort": "5 hrs/week",
             "length": "24 hours (3 days) in-person class",
             "reviews": [
-                "I\u00e2\u20ac\u2122ve been a system architect for years \u00e2\u20ac\u201c this class enabled me to integrate my experience with the principles of Agile/Lean. Thanks!",
+                "I've been a system architect for years - this class enabled me to integrate my experience with the principles of Agile/Lean. Thanks!",
                 "I started with very little knowledge about how agile actually works, but the class provided more than enough to start implementing the techniques in my architecture.",
-                "Wow \u00e2\u20ac\u201c three days was like drinking from a fire hose, and at the end we could understand how to align architecture with business value.",
+                "Wow - three days was like drinking from a fire hose, and at the end we could understand how to align architecture with business value.",
                 "My instructor was great. They kept the energy level high, and we were all engaged.  A must for any architect looking to employ Agile principles. "
             ],
-            "what_youll_learn": "The SAFe for Architects course will give senior technical contributors the skills and understanding to align their designs with the business value, and to steer toward the continuous system-of-systems flow.  Completion of the course allows the participant to take the Certified SAFe\u00c2\u00ae Architect exam."
+            "what_youll_learn": "The SAFe for Architects course will give senior technical contributors the skills and understanding to align their designs with the business value, and to steer toward the continuous system-of-systems flow.  Completion of the course allows the participant to take the Certified SAFe Architect exam."
         },
         "icon_file": "SAFe-5-Courseware-Thumbnails-ARCH.png",
         "partner": "Scaled Agile",
@@ -141,18 +141,18 @@
         "course_title": "Agile Software Engineering",
         "course_type": "Public",
         "details": {
-            "about_this_course": "This three-day course provides attendees with the foundational knowledge required to establish their credentials as a Certified Scaled Agile Framework\u00c2\u00ae (SAFe\u00c2\u00ae) Agile Software Engineer. We start with principles behind iterative software development in a SAFe environment, which include the key concepts of managing product backlogs from user stories and requirements, demonstrating value, and incremental and iterative delivery.  An Agile Software Engineer must be equally knowledgeable in DevOps as well as in Lean-Agile, and our expert faculty provide a comprehensive overview.",
+            "about_this_course": "This three-day course provides attendees with the foundational knowledge required to establish their credentials as a Certified Scaled Agile Framework (SAFe) Agile Software Engineer. We start with principles behind iterative software development in a SAFe environment, which include the key concepts of managing product backlogs from user stories and requirements, demonstrating value, and incremental and iterative delivery.  An Agile Software Engineer must be equally knowledgeable in DevOps as well as in Lean-Agile, and our expert faculty provide a comprehensive overview.",
             "class_hours": "16",
             "cost": "1000",
             "effort": "24 hrs/week",
             "length": "3 days",
             "reviews": [
                 "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
-                "Fantastic experience! Highly recommended! I am looking forward to sharing what I\u00e2\u20ac\u2122ve learned with my enterprise.",
+                "Fantastic experience! Highly recommended! I am looking forward to sharing what I've learned with my enterprise.",
                 "Raj is an excellent instructor, always willing to help and great at explaining concepts.",
                 "This course equipped me with the skills I needed to grow and advance in my career. Many thanks!"
             ],
-            "what_youll_learn": "A Certified Agile Software Developer certificate holder will be expected to show competency in all aspects of an Agile iterative software development environment.  From the SAFe software developer\u00e2\u20ac\u2122s perspective, the course prepares the student in all aspects of the Agile software development process.  Instructors use real-life examples to show students key SAFe skills and then students are given an opportunity to practice the same skills.  As in other SAFe certificate programs, participants in the class explore the importance of adopting a customer-centric mindset and design thinking approach to agile product delivery."
+            "what_youll_learn": "A Certified Agile Software Developer certificate holder will be expected to show competency in all aspects of an Agile iterative software development environment.  From the SAFe software developer's perspective, the course prepares the student in all aspects of the Agile software development process.  Instructors use real-life examples to show students key SAFe skills and then students are given an opportunity to practice the same skills.  As in other SAFe certificate programs, participants in the class explore the importance of adopting a customer-centric mindset and design thinking approach to agile product delivery."
         },
         "icon_file": "ASE_cover_rev.png",
         "partner": "Scaled Agile",
@@ -188,11 +188,11 @@
             "length": "2 days",
             "reviews": [
                 "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
-                "Fantastic experience! Highly recommended! I am looking forward to sharing what I\u00e2\u20ac\u2122ve learned with my enterprise.",
+                "Fantastic experience! Highly recommended! I am looking forward to sharing what I've learned with my enterprise.",
                 "Raj is an excellent instructor, always willing to help and great at explaining concepts.",
                 "This course equipped me with the skills I needed to grow and advance in my career. Many thanks!"
             ],
-            "what_youll_learn": "The applicability of Agile management techniques extends throughout the IT industry and beyond. This course will demonstrate many of those techniques that prove useful for common organizational and management challenges, such as, effective leadership of distributed and diverse teams, delivering value, and promoting the Scrum values of courage, focus, commitment, respect and openness. From their experience in both the Agile and non-Agile worlds, Apex\u00e2\u20ac\u2122s instructors will show you how to value: individuals and interactions over processes and tools, working software over comprehensive documentation, customer collaboration over contract negotiation, and responding to change over following a plan.\nA Certified Agile Leadership 1 certificate holder will be expected to have an understanding of management practices, particularly those found in IT organizations. From the perspective of an experienced IT manager, the course prepares the student to apply Agile techniques to attain advanced leadership and management responsibilities in a enterprise environment. Course instructors draw from their own real-life experience to immerse the student in actual business scenarios.  From there, instructors provide guidance in the application of Agile techniques."
+            "what_youll_learn": "The applicability of Agile management techniques extends throughout the IT industry and beyond. This course will demonstrate many of those techniques that prove useful for common organizational and management challenges, such as, effective leadership of distributed and diverse teams, delivering value, and promoting the Scrum values of courage, focus, commitment, respect and openness. From their experience in both the Agile and non-Agile worlds, Apex's instructors will show you how to value: individuals and interactions over processes and tools, working software over comprehensive documentation, customer collaboration over contract negotiation, and responding to change over following a plan.\nA Certified Agile Leadership 1 certificate holder will be expected to have an understanding of management practices, particularly those found in IT organizations. From the perspective of an experienced IT manager, the course prepares the student to apply Agile techniques to attain advanced leadership and management responsibilities in a enterprise environment. Course instructors draw from their own real-life experience to immerse the student in actual business scenarios.  From there, instructors provide guidance in the application of Agile techniques."
         },
         "icon_file": "SAI_Certification_CAL1_RGB.png",
         "partner": "Scrum Alliance",
@@ -225,7 +225,7 @@
         "course_title": "Certified Scrum Developer",
         "course_type": "Public",
         "details": {
-            "about_this_course": "Designed for developers, this course will hone your agile skills.  Through both formal training and an assessment of your technical skills, you\u00e2\u20ac\u2122ll obtain a working knowledge of Scrum and Agile principles.  In addition, you\u00e2\u20ac\u2122ll learn the engineering skills used by Agile developers.  The course instructs developers in the tools and techniques for delivering code in an iterative process, key to Agile software development.",
+            "about_this_course": "Designed for developers, this course will hone your agile skills.  Through both formal training and an assessment of your technical skills, you'll obtain a working knowledge of Scrum and Agile principles.  In addition, you'll learn the engineering skills used by Agile developers.  The course instructs developers in the tools and techniques for delivering code in an iterative process, key to Agile software development.",
             "class_hours": "16",
             "cost": "1000",
             "effort": "5 hrs/week",
@@ -236,7 +236,7 @@
                 "Developing in an Agile environment is different than I had expected.  The class showed me the iterative approach and the tools used to deliver good code.",
                 "My instructor was great. Five days of training seemed like it would be tough, but the time was well spent.  Highly recommended."
             ],
-            "what_youll_learn": "Upon completing this course, you will have mastered the skill set required to engage in an Agile development environment.  You\u00e2\u20ac\u2122ll become proficient with the tools and techniques used to contribute to an agile team.  Certification as a Certified Scrum Developer demonstrates your commitment to the Agile principles."
+            "what_youll_learn": "Upon completing this course, you will have mastered the skill set required to engage in an Agile development environment.  You'll become proficient with the tools and techniques used to contribute to an agile team.  Certification as a Certified Scrum Developer demonstrates your commitment to the Agile principles."
         },
         "icon_file": "SAI_BadgeSizes_DigitalBadging_CSD.png",
         "partner": "Scrum Alliance",
@@ -272,7 +272,7 @@
             "length": "1 day",
             "reviews": [
                 "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
-                "Fantastic experience! Highly recommended! I am looking forward to sharing what I\u00e2\u20ac\u2122ve learned with my enterprise.",
+                "Fantastic experience! Highly recommended! I am looking forward to sharing what I've learned with my enterprise.",
                 "Raj is an excellent instructor, always willing to help and great at explaining concepts.",
                 "This course equipped me with the skills I needed to grow and advance in my career. Many thanks!"
             ],
@@ -309,7 +309,7 @@
         "course_title": "Certified ScrumMaster",
         "course_type": "Public",
         "details": {
-            "about_this_course": "A Certified ScrumMaster\u00c2\u00ae is able to assist a scrum team to perform at their optimum level, as well as buffering the team from distractions.  The certification process teaches the Scrum framework and enables CSMs to expand their career opportunities using Agile practices.",
+            "about_this_course": "A Certified ScrumMaster is able to assist a scrum team to perform at their optimum level, as well as buffering the team from distractions.  The certification process teaches the Scrum framework and enables CSMs to expand their career opportunities using Agile practices.",
             "class_hours": "16",
             "cost": "1000",
             "effort": "5 hrs/week",
@@ -353,12 +353,12 @@
             "effort": "5 hrs/week",
             "length": "16 hours (2 days) in-person class, or 25 hours in-person coaching",
             "reviews": [
-                "I got a lot from this class.  I\u00e2\u20ac\u2122m now able to better manage my team\u00e2\u20ac\u2122s backlog, and our outcomes have really improved.",
+                "I got a lot from this class.  I'm now able to better manage my team's backlog, and our outcomes have really improved.",
                 "I started with very little knowledge about how agile actually works, but the class provided more than enough to start implementing the techniques at my company.",
                 "The class showed me how the product manager role guides a team to work toward a common goal.",
                 "My instructor was great. He kept the energy level high, and made it easy to learn the material.  Highly recommended."
             ],
-            "what_youll_learn": "After successfully completing the course, product owners will have experience as the conduit between the business and the rest of the scrum team.  They\u00e2\u20ac\u2122ll learn the skill set that will help them direct the backlog and impart their vision to the team. They will be asked to accept the CSPO License Agreement and complete their Scrum Alliance profile."
+            "what_youll_learn": "After successfully completing the course, product owners will have experience as the conduit between the business and the rest of the scrum team.  They'll learn the skill set that will help them direct the backlog and impart their vision to the team. They will be asked to accept the CSPO License Agreement and complete their Scrum Alliance profile."
         },
         "icon_file": "SAI_BadgeSizes_DigitalBadging_CSPO.png",
         "partner": "Scrum Alliance",
@@ -392,12 +392,12 @@
             "effort": "3 hrs/day",
             "length": "Customized for each engagement; typically 2-3 working days",
             "reviews": [
-                "We didn\u00e2\u20ac\u2122t know the difference between a sprint and a program increment.  Now we do, and it has really improved our value flow. Thanks!",
+                "We didn't know the difference between a sprint and a program increment.  Now we do, and it has really improved our value flow. Thanks!",
                 "My company was getting stuck between sprints, so this workshop helped us to keep the train on the track.",
                 "Every day we learned something new.  It was a great benefit to our team.",
-                "Highly recommended \u00e2\u20ac\u201c Raj showed us how to define program increments that make sense, enabling us to succeed."
+                "Highly recommended - Raj showed us how to define program increments that make sense, enabling us to succeed."
             ],
-            "what_youll_learn": "The Inspect & Adapt workshop allows you to release the potential of compounding your triumphs using Agile.  You\u00e2\u20ac\u2122ll see how to demonstrate the program increment, how to measure its benefits both qualitatively and quantitatively, and how to master the complicated process of reflection and continuous improvement."
+            "what_youll_learn": "The Inspect & Adapt workshop allows you to release the potential of compounding your triumphs using Agile.  You'll see how to demonstrate the program increment, how to measure its benefits both qualitatively and quantitatively, and how to master the complicated process of reflection and continuous improvement."
         },
         "icon_file": "custom-logo-inspect-and-adapt.png",
         "partner": "Custom",
@@ -437,7 +437,7 @@
             "length": "3 days",
             "reviews": [
                 "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
-                "Fantastic experience! Highly recommended! I am looking forward to sharing what I\u00e2\u20ac\u2122ve learned with my enterprise.",
+                "Fantastic experience! Highly recommended! I am looking forward to sharing what I've learned with my enterprise.",
                 "Raj is an excellent instructor, always willing to help and great at explaining concepts.",
                 "This course equipped me with the skills I needed to grow and advance in my career. Many thanks!"
             ],
@@ -476,12 +476,12 @@
             "effort": "6 hrs/day",
             "length": "Customized for each engagement; typically 3-6 working days",
             "reviews": [
-                "We didn\u00e2\u20ac\u2122t know the difference between a sprint and a program increment.  Now we do, and it has really improved our value flow. Thanks!",
+                "We didn't know the difference between a sprint and a program increment.  Now we do, and it has really improved our value flow. Thanks!",
                 "My company was getting stuck between sprints, so this workshop helped us to keep the train on the track.",
                 "Every day we learned something new.  It was a great benefit to our team.",
-                "Highly recommended \u00e2\u20ac\u201c Raj showed us how to define program increments that make sense, enabling us to succeed."
+                "Highly recommended - Raj showed us how to define program increments that make sense, enabling us to succeed."
             ],
-            "what_youll_learn": "Everyone in the Agile team will benefit from this workshop.  You\u00e2\u20ac\u2122ll learn how to set realistic goals for the program increment, how to ensure sprints will deliver the PI, and how to utilize program increments to continuously improve the outcomes of your agile development process."
+            "what_youll_learn": "Everyone in the Agile team will benefit from this workshop.  You'll learn how to set realistic goals for the program increment, how to ensure sprints will deliver the PI, and how to utilize program increments to continuously improve the outcomes of your agile development process."
         },
         "icon_file": "custom-logo-program-increment.png",
         "partner": "Custom",
@@ -517,7 +517,7 @@
             "length": "4 days",
             "reviews": [
                 "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
-                "Fantastic experience! Highly recommended! I am looking forward to sharing what I\u00e2\u20ac\u2122ve learned with my enterprise.",
+                "Fantastic experience! Highly recommended! I am looking forward to sharing what I've learned with my enterprise.",
                 "Raj is an excellent instructor, always willing to help and great at explaining concepts.",
                 "This course equipped me with the skills I needed to grow and advance in my career. Many thanks!"
             ],
@@ -556,9 +556,9 @@
             "effort": "3 hrs/day",
             "length": "Customized for each engagement; typically 2-4 working days",
             "reviews": [
-                "This was great \u00e2\u20ac\u201c I now understand how to incorporate the Agile principles with product management. Thanks!",
+                "This was great - I now understand how to incorporate the Agile principles with product management. Thanks!",
                 "Well worth the time.  Our product management has improved and will continue to do so as we continue our implementation.",
-                "We got a lot out of the workshop \u00e2\u20ac\u201c I was glad to have been invited to participate.",
+                "We got a lot out of the workshop - I was glad to have been invited to participate.",
                 "This was the best use of my time in a long while.  Implement Agile requires a new way to do our jobs, and this workshop has opened my eyes.  Just great."
             ],
             "what_youll_learn": "This workshop highlights the ways that product management in an Agile environment can maintain high standards while taking advantage of the flexibility and quick delivery of value to customers.  Product managers learn how to set a clear vision for the team, guide the backlog, and maintain alignment with the business goals. Using skills from this workshop, project managers and other stakeholders will get first-hand experience in how to identify and prioritize features, manage the backlog, and see that the goals of each program increment are realized."
@@ -597,7 +597,7 @@
             "length": "2 days",
             "reviews": [
                 "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
-                "Fantastic experience! Highly recommended! I am looking forward to sharing what I\u00e2\u20ac\u2122ve learned with my enterprise.",
+                "Fantastic experience! Highly recommended! I am looking forward to sharing what I've learned with my enterprise.",
                 "Raj is an excellent instructor, always willing to help and great at explaining concepts.",
                 "This course equipped me with the skills I needed to grow and advance in my career. Many thanks!"
             ],
@@ -629,14 +629,14 @@
         "course_title": "Professional Scrum Developer",
         "course_type": "Public",
         "details": {
-            "about_this_course": "Preparation for Scrum.org\u00e2\u20ac\u2122s certification as a Professional Scrum Developer ",
+            "about_this_course": "Preparation for Scrum.org's certification as a Professional Scrum Developer ",
             "class_hours": "16",
             "cost": "1000",
             "effort": "8 hrs/week",
             "length": "3 days",
             "reviews": [
                 "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
-                "Fantastic experience! Highly recommended! I am looking forward to sharing what I\u00e2\u20ac\u2122ve learned with my enterprise.",
+                "Fantastic experience! Highly recommended! I am looking forward to sharing what I've learned with my enterprise.",
                 "Raj is an excellent instructor, always willing to help and great at explaining concepts.",
                 "This course equipped me with the skills I needed to grow and advance in my career. Many thanks!"
             ],
@@ -670,7 +670,7 @@
         "course_title": "Professional Scrum Master",
         "course_type": "Public",
         "details": {
-            "about_this_course": "This two-day course covers the principles and theory that provide the foundation for the Scrum framework, as well as the Scrum Master\u00e2\u20ac\u2122s role in that process.  In this team learning approach, students not only learn the tools for success as a Scrum Master, they also hone their new skills with their classmates to better prepare them to return to their workplaces with a new outlook.\nThe PSM course goes beyond presenting slides and charts.  It includes interactive discussions, hands-on exercises based on real world experience, and incorporates these to reinforce scrum values.",
+            "about_this_course": "This two-day course covers the principles and theory that provide the foundation for the Scrum framework, as well as the Scrum Master's role in that process.  In this team learning approach, students not only learn the tools for success as a Scrum Master, they also hone their new skills with their classmates to better prepare them to return to their workplaces with a new outlook.\nThe PSM course goes beyond presenting slides and charts.  It includes interactive discussions, hands-on exercises based on real world experience, and incorporates these to reinforce scrum values.",
             "class_hours": "16",
             "cost": "1000",
             "effort": "5 hrs/week",
@@ -715,11 +715,11 @@
             "length": "2 days",
             "reviews": [
                 "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
-                "Fantastic experience! Highly recommended! I am looking forward to sharing what I\u00e2\u20ac\u2122ve learned with my enterprise.",
+                "Fantastic experience! Highly recommended! I am looking forward to sharing what I've learned with my enterprise.",
                 "Raj is an excellent instructor, always willing to help and great at explaining concepts.",
                 "This course equipped me with the skills I needed to grow and advance in my career. Many thanks!"
             ],
-            "what_youll_learn": "This two-day course is intended for those with a background in the software industry, whether or not you have previous experience as a product owner. From the product owner\u00e2\u20ac\u2122s perspective we examine the key concepts behind iterative software development in an Agile Scrum environment. Our instructors provide real examples from industry that demonstrate the product owner\u00e2\u20ac\u2122s roles and responsibilities. From creating user stories to managing product backlogs, to demonstrating value and incremental and iterative delivery, the product owner\u00e2\u20ac\u2122s role is clearly explained Our instructors also cover the daily responsibilities of Agile team members and their use of Scrum, Kanban, and Extreme Programming."
+            "what_youll_learn": "This two-day course is intended for those with a background in the software industry, whether or not you have previous experience as a product owner. From the product owner's perspective we examine the key concepts behind iterative software development in an Agile Scrum environment. Our instructors provide real examples from industry that demonstrate the product owner's roles and responsibilities. From creating user stories to managing product backlogs, to demonstrating value and incremental and iterative delivery, the product owner's role is clearly explained Our instructors also cover the daily responsibilities of Agile team members and their use of Scrum, Kanban, and Extreme Programming."
         },
         "icon_file": "PSPO Logo.png",
         "partner": "Scrum.org",
@@ -747,14 +747,14 @@
         "course_title": "SAFe Release Train Engineer",
         "course_type": "Public",
         "details": {
-            "about_this_course": "This intermediate- to advanced-level three-day course provides attendees the knowledge to implement Agile Release Trains (ARTs) using the Scaled Agile Framework\u00c2\u00ae (SAFe\u00c2\u00ae) in a Lean-Agile enterprise.  The training is oriented towards Agile leaders, coaches, and Scrum Masters. Starting with a review of Lean-Agile principles, you will be guided through the intricacies of Agile Release Trains and the challenges for implementing these principles in an enterprise setting.",
+            "about_this_course": "This intermediate- to advanced-level three-day course provides attendees the knowledge to implement Agile Release Trains (ARTs) using the Scaled Agile Framework (SAFe) in a Lean-Agile enterprise.  The training is oriented towards Agile leaders, coaches, and Scrum Masters. Starting with a review of Lean-Agile principles, you will be guided through the intricacies of Agile Release Trains and the challenges for implementing these principles in an enterprise setting.",
             "class_hours": "16",
             "cost": "1000",
             "effort": "24 hrs/week",
             "length": "3 days",
             "reviews": [
                 "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
-                "Fantastic experience! Highly recommended! I am looking forward to sharing what I\u00e2\u20ac\u2122ve learned with my enterprise.",
+                "Fantastic experience! Highly recommended! I am looking forward to sharing what I've learned with my enterprise.",
                 "Raj is an excellent instructor, always willing to help and great at explaining concepts.",
                 "This course equipped me with the skills I needed to grow and advance in my career. Many thanks!"
             ],
@@ -789,14 +789,14 @@
         "course_title": "Leading SAFe",
         "course_type": "Public",
         "details": {
-            "about_this_course": "The goal of this two day course is to equip you with the knowledge that is needed in order to be at the forefront of a Lean-Agile enterprise. Leading a Lean-Agile enterprise is a demanding task, and this course will provide you with a deep understanding of the Scaled Agile Framework\u00c2\u00ae (SAFe\u00c2\u00ae), so that you can take that framework and apply it to an enterprise.",
+            "about_this_course": "The goal of this two day course is to equip you with the knowledge that is needed in order to be at the forefront of a Lean-Agile enterprise. Leading a Lean-Agile enterprise is a demanding task, and this course will provide you with a deep understanding of the Scaled Agile Framework (SAFe), so that you can take that framework and apply it to an enterprise.",
             "class_hours": "16",
             "cost": "1000",
             "effort": "16 hrs/week",
             "length": "2 days",
             "reviews": [
                 "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
-                "Fantastic experience! Highly recommended! I am looking forward to sharing what I\u00e2\u20ac\u2122ve learned with my enterprise.",
+                "Fantastic experience! Highly recommended! I am looking forward to sharing what I've learned with my enterprise.",
                 "Raj is an excellent instructor, always willing to help and great at explaining concepts.",
                 "This course equipped me with the skills I needed to grow and advance in my career. Many thanks!"
             ],
@@ -833,14 +833,14 @@
         "course_title": "SAFe Advanced Scrum Master",
         "course_type": "Public",
         "details": {
-            "about_this_course": "Are you a current Scrum Master looking to sharpen your skills and move up in your career? This course is designed with you in mind. In this two day course, you will learn how to use your leadership skills to utilize Agile skills and principles in order to lead teams, programs, and whole enterprises to great success as they seek to implement a Scaled Agile Framework (SAFe\u00c2\u00ae).",
+            "about_this_course": "Are you a current Scrum Master looking to sharpen your skills and move up in your career? This course is designed with you in mind. In this two day course, you will learn how to use your leadership skills to utilize Agile skills and principles in order to lead teams, programs, and whole enterprises to great success as they seek to implement a Scaled Agile Framework (SAFe).",
             "class_hours": "16",
             "cost": "1000",
             "effort": "16 hrs/week",
             "length": "2 days",
             "reviews": [
                 "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
-                "Fantastic experience! Highly recommended! I am looking forward to sharing what I\u00e2\u20ac\u2122ve learned with my enterprise.",
+                "Fantastic experience! Highly recommended! I am looking forward to sharing what I've learned with my enterprise.",
                 "Raj is an excellent instructor, always willing to help and great at explaining concepts.",
                 "This course equipped me with the skills I needed to grow and advance in my career. Many thanks!"
             ],
@@ -877,12 +877,12 @@
             "effort": "5 hrs/week",
             "length": "16 hours (2 days) in-person class",
             "reviews": [
-                "There\u00e2\u20ac\u2122s a lot more to DevOps than learning how to program \u00e2\u20ac\u201c this class highlights the areas in the pipeline that really matter.",
+                "There's a lot more to DevOps than learning how to program - this class highlights the areas in the pipeline that really matter.",
                 "I was able to pass the certification exam and implement better DevOps after taking this class.",
                 "I'm not a developer, but I found this course invaluable in understanding the DevOps process.  It really helped my career progression.",
                 "My instructor was great. The interactivity helped to drive home the information, and I was able to put it to use quickly.  Highly recommended."
             ],
-            "what_youll_learn": "After this two-day intensive course, participants will learn the basics of DevOps, how it fits into the Agile development process, and how to build a customized development/deployment pipeline that works for their organization.  You\u00e2\u20ac\u2122ll learn a CALMR approach to DevOps which will enable you to recognize broken processes and not merely automate them.  In addition, you\u00e2\u20ac\u2122ll learn a set of tools and practices that will speed and secure your develop/deploy pipeline.  Upon completing the course, you will be eligible to take the Certified SAFe\u00c2\u00ae DevOps Practitioner exam."
+            "what_youll_learn": "After this two-day intensive course, participants will learn the basics of DevOps, how it fits into the Agile development process, and how to build a customized development/deployment pipeline that works for their organization.  You'll learn a CALMR approach to DevOps which will enable you to recognize broken processes and not merely automate them.  In addition, you'll learn a set of tools and practices that will speed and secure your develop/deploy pipeline.  Upon completing the course, you will be eligible to take the Certified SAFe DevOps Practitioner exam."
         },
         "icon_file": "SAFe-5-Courseware-Thumbnails-SDP-343x400-2.png",
         "partner": "Scaled Agile",
@@ -911,14 +911,14 @@
         "course_title": "SAFe for Governments",
         "course_type": "Public",
         "details": {
-            "about_this_course": "This course is designed to enable you to be prepared and ready to be at the forefront of a Lean-Agile transformation initiative within a program operating in an agency run by the government. Attendees will learn how to utilize the Scaled Agile Framework\u00c2\u00ae in their government agency in order to provide maximum value through the Lean-Agile transformation.",
+            "about_this_course": "This course is designed to enable you to be prepared and ready to be at the forefront of a Lean-Agile transformation initiative within a program operating in an agency run by the government. Attendees will learn how to utilize the Scaled Agile Framework in their government agency in order to provide maximum value through the Lean-Agile transformation.",
             "class_hours": "16",
             "cost": "1000",
             "effort": "16 hrs/week",
             "length": "2 days",
             "reviews": [
                 "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
-                "Fantastic experience! Highly recommended! I am looking forward to sharing what I\u00e2\u20ac\u2122ve learned with my enterprise.",
+                "Fantastic experience! Highly recommended! I am looking forward to sharing what I've learned with my enterprise.",
                 "Raj is an excellent instructor, always willing to help and great at explaining concepts.",
                 "This course equipped me with the skills I needed to grow and advance in my career. Many thanks!"
             ],
@@ -951,18 +951,18 @@
         "course_title": "SAFe for Teams",
         "course_type": "Public",
         "details": {
-            "about_this_course": "This two-day course provides attendees with intermediate-level information about using the Scaled Agile Framework\u00c2\u00ae (SAFe\u00c2\u00ae) as a team member Lean-Agile enterprise.  We first review the key concepts behind iterative software development in a SAFe environment, which include managing product backlogs from user stories and requirements, demonstrating value, and incremental and iterative delivery.  We then cover the daily responsibilities of an Agile practitioner and their use of Scrum, Kanban, and Extreme Programming.",
+            "about_this_course": "This two-day course provides attendees with intermediate-level information about using the Scaled Agile Framework (SAFe) as a team member Lean-Agile enterprise.  We first review the key concepts behind iterative software development in a SAFe environment, which include managing product backlogs from user stories and requirements, demonstrating value, and incremental and iterative delivery.  We then cover the daily responsibilities of an Agile practitioner and their use of Scrum, Kanban, and Extreme Programming.",
             "class_hours": "16",
             "cost": "1000",
             "effort": "16 hrs/week",
             "length": "2 days",
             "reviews": [
                 "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
-                "Fantastic experience! Highly recommended! I am looking forward to sharing what I\u00e2\u20ac\u2122ve learned with my enterprise.",
+                "Fantastic experience! Highly recommended! I am looking forward to sharing what I've learned with my enterprise.",
                 "Raj is an excellent instructor, always willing to help and great at explaining concepts.",
                 "This course equipped me with the skills I needed to grow and advance in my career. Many thanks!"
             ],
-            "what_youll_learn": "After completing the course, participants will be able to demonstrate their knowledge of the theory and practice needed for participating as a SAFe practitioner in their enterprise.  All students who successfully complete the course will be prepared to take the Certified SAFe\u00c2\u00ae Practitioner (SP) exam."
+            "what_youll_learn": "After completing the course, participants will be able to demonstrate their knowledge of the theory and practice needed for participating as a SAFe practitioner in their enterprise.  All students who successfully complete the course will be prepared to take the Certified SAFe Practitioner (SP) exam."
         },
         "icon_file": "SAFe-5-Courseware-Thumbnails-SP-1.png",
         "partner": "Scaled Agile",
@@ -995,18 +995,18 @@
         "course_title": "Implementing SAFe",
         "course_type": "Public",
         "details": {
-            "about_this_course": " If you are looking to learn the skills needed in order to lead a Lean-Agile transformation in an organization at any level, this course is for you. In four days, you will learn how to best use and incorporate the Scaled Agile Framework\u00c2\u00ae (SAFe\u00c2\u00ae) in order to lead any organization through  the Lean-Agile transformative process. You will learn about seven different core competencies that have been identified within any Lean Enterprise. Trainers will provide you not only with knowledge and skills, but with hands-on practice on coaching programs, constructing a Continuous Delivery Pipeline, strengthening a Lean Portfolio in an organization, and leading the start of Agile Release Trains.",
+            "about_this_course": " If you are looking to learn the skills needed in order to lead a Lean-Agile transformation in an organization at any level, this course is for you. In four days, you will learn how to best use and incorporate the Scaled Agile Framework (SAFe) in order to lead any organization through  the Lean-Agile transformative process. You will learn about seven different core competencies that have been identified within any Lean Enterprise. Trainers will provide you not only with knowledge and skills, but with hands-on practice on coaching programs, constructing a Continuous Delivery Pipeline, strengthening a Lean Portfolio in an organization, and leading the start of Agile Release Trains.",
             "class_hours": "16",
             "cost": "1000",
             "effort": "32 hrs/week",
             "length": "4 days",
             "reviews": [
                 "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
-                "Fantastic experience! Highly recommended! I am looking forward to sharing what I\u00e2\u20ac\u2122ve learned with my enterprise.",
+                "Fantastic experience! Highly recommended! I am looking forward to sharing what I've learned with my enterprise.",
                 "Raj is an excellent instructor, always willing to help and great at explaining concepts.",
                 "This course equipped me with the skills I needed to grow and advance in my career. Many thanks!"
             ],
-            "what_youll_learn": "The course is divided into two sections. The first section will take place on the first two days. During this time, you will gain a thorough understanding of what Leading SAFe\u00c2\u00ae is all about and why it is important in a Lean organization. The last two days of the course will be an intensive time looking at how to implement the SAFe\u00c2\u00ae concepts. You will learn exactly what needs to taken place and what you will need to do in order to implement these concepts as you lead an organization into a Lean transformation. After this course, you will be fully equipped to coach and direct an enterprise at any level to success in the Lean transformative process."
+            "what_youll_learn": "The course is divided into two sections. The first section will take place on the first two days. During this time, you will gain a thorough understanding of what Leading SAFe is all about and why it is important in a Lean organization. The last two days of the course will be an intensive time looking at how to implement the SAFe concepts. You will learn exactly what needs to taken place and what you will need to do in order to implement these concepts as you lead an organization into a Lean transformation. After this course, you will be fully equipped to coach and direct an enterprise at any level to success in the Lean transformative process."
         },
         "icon_file": "Implementing-SAFe-5-Courseware-Thumbnails-SPC-1.png",
         "partner": "Scaled Agile",
@@ -1039,14 +1039,14 @@
         "course_title": "SAFe Portfolio Management",
         "course_type": "Corporate",
         "details": {
-            "about_this_course": "The SAFe\u00c2\u00ae Portfolio Management corporate training fits hand in glove with our SAFe Lean Portfolio Manager certificate training. Similar to the certificate training, the course prepares the student to demonstrate their expertise in managing an enterprise-wide portfolio of Agile projects. Instructors draw from their own real-life industry experience to show students key SAFe techniques for establishing a portfolio vision, for performing Lean portfolio budgeting, port and for using portfolio tools like Portfolio Kanban. Students are given an opportunity to practice and apply these same skills with scenarios drawn from actual industry problems. Whereas the certificate training is a foundational level course, the corporate training is far more detailed and specifically targeted for the user\u00e2\u20ac\u2122s business challenges.",
+            "about_this_course": "The SAFe Portfolio Management corporate training fits hand in glove with our SAFe Lean Portfolio Manager certificate training. Similar to the certificate training, the course prepares the student to demonstrate their expertise in managing an enterprise-wide portfolio of Agile projects. Instructors draw from their own real-life industry experience to show students key SAFe techniques for establishing a portfolio vision, for performing Lean portfolio budgeting, port and for using portfolio tools like Portfolio Kanban. Students are given an opportunity to practice and apply these same skills with scenarios drawn from actual industry problems. Whereas the certificate training is a foundational level course, the corporate training is far more detailed and specifically targeted for the user's business challenges.",
             "class_hours": "16",
             "cost": "5000",
             "effort": "16 hrs/week",
             "length": "2 days",
             "reviews": [
                 "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
-                "Fantastic experience! Highly recommended! I am looking forward to sharing what I\u00e2\u20ac\u2122ve learned with my enterprise.",
+                "Fantastic experience! Highly recommended! I am looking forward to sharing what I've learned with my enterprise.",
                 "Raj is an excellent instructor, always willing to help and great at explaining concepts.",
                 "This course equipped me with the skills I needed to grow and advance in my career. Many thanks!"
             ],
@@ -1086,11 +1086,11 @@
             "length": "2 days",
             "reviews": [
                 "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
-                "Fantastic experience! Highly recommended! I am looking forward to sharing what I\u00e2\u20ac\u2122ve learned with my enterprise.",
+                "Fantastic experience! Highly recommended! I am looking forward to sharing what I've learned with my enterprise.",
                 "Raj is an excellent instructor, always willing to help and great at explaining concepts.",
                 "This course equipped me with the skills I needed to grow and advance in my career. Many thanks!"
             ],
-            "what_youll_learn": "In addition to learning about the role of Scrum Master at an enterprise level, you will also discover how acting as a coach and using servant leadership methods will enable you to create successful Agile teams. Trainers will also demonstrate how the formation of these Agile teams can help your organization reach goals and thrive as they seek to met business goals.\nWhen you complete this course and gain the Certified SAFe\u00c2\u00ae Scrum Master certificate, this certification will demonstrate to companies that you are equipped and ready to lead Agile teams in a SAFe environment, and that your servant leadership and coaching skills will bring tremendous growth and value to their organizations."
+            "what_youll_learn": "In addition to learning about the role of Scrum Master at an enterprise level, you will also discover how acting as a coach and using servant leadership methods will enable you to create successful Agile teams. Trainers will also demonstrate how the formation of these Agile teams can help your organization reach goals and thrive as they seek to met business goals.\nWhen you complete this course and gain the Certified SAFe Scrum Master certificate, this certification will demonstrate to companies that you are equipped and ready to lead Agile teams in a SAFe environment, and that your servant leadership and coaching skills will bring tremendous growth and value to their organizations."
         },
         "icon_file": "SAFe-5-Courseware-Thumbnails-SSM-1.png",
         "partner": "Scaled Agile",
@@ -1117,18 +1117,18 @@
         "course_title": "Team Building",
         "course_type": "Corporate",
         "details": {
-            "about_this_course": "Are your teams suffering from lack of cohesion and connectedness? Are you and they feeling disconnected and frustrated because they just can\u00e2\u20ac\u2122t seem to work well together? If these questions describe your teams, then this team building workshop is the perfect fit for you.",
+            "about_this_course": "Are your teams suffering from lack of cohesion and connectedness? Are you and they feeling disconnected and frustrated because they just can't seem to work well together? If these questions describe your teams, then this team building workshop is the perfect fit for you.",
             "class_hours": "12",
             "cost": "5000",
             "effort": "8 hrs/day",
             "length": "1 day",
             "reviews": [
                 "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
-                "Fantastic experience! Highly recommended! I am looking forward to sharing what I\u00e2\u20ac\u2122ve learned with my enterprise.",
+                "Fantastic experience! Highly recommended! I am looking forward to sharing what I've learned with my enterprise.",
                 "Raj is an excellent instructor, always willing to help and great at explaining concepts.",
                 "This course equipped me with the skills I needed to grow and advance in my career. Many thanks!"
             ],
-            "what_youll_learn": "Our professional team building trainers have years of experience helping teams connect and form bonds, which enable them to be happier, more effective, and increase their performance. During this one day workshop, your team will participate in multiple team-building activities, from games to interactive discussions with one another, all of which will help them discover how to better connect and work with one another.\nOur trainers design these activities based on your team\u00e2\u20ac\u2122s individual needs, so you can rest assured that this workshop will be tailor made for your team. Through these activities and reflective discussions, every member of your team will learn how to appreciate the unique contributions brought to the table by each member, and how they can all work together to maximize their effectiveness by recognizing their individual strengths and contributions. By the end of this workshop, we guarantee that your team members will have formed bonds, identified how to continue and strengthen their ties to each other, and be ready and excited to work together. "
+            "what_youll_learn": "Our professional team building trainers have years of experience helping teams connect and form bonds, which enable them to be happier, more effective, and increase their performance. During this one day workshop, your team will participate in multiple team-building activities, from games to interactive discussions with one another, all of which will help them discover how to better connect and work with one another.\nOur trainers design these activities based on your team's individual needs, so you can rest assured that this workshop will be tailor made for your team. Through these activities and reflective discussions, every member of your team will learn how to appreciate the unique contributions brought to the table by each member, and how they can all work together to maximize their effectiveness by recognizing their individual strengths and contributions. By the end of this workshop, we guarantee that your team members will have formed bonds, identified how to continue and strengthen their ties to each other, and be ready and excited to work together. "
         },
         "icon_file": "custom-logo-team-building.png",
         "partner": "Custom",
@@ -1156,14 +1156,14 @@
         "course_title": "Value-Stream Workshop",
         "course_type": "Corporate",
         "details": {
-            "about_this_course": "Value Streams are all about implementing practices and optimizing an organization so that it can provide a continuous flow of value to its customers. We find that today\u00e2\u20ac\u2122s businesses are too often focused on delivering products and specific product features without taking into consideration their ultimate value to the customer. Value streams start with and focus specifically on business value provided to the customer.",
+            "about_this_course": "Value Streams are all about implementing practices and optimizing an organization so that it can provide a continuous flow of value to its customers. We find that today's businesses are too often focused on delivering products and specific product features without taking into consideration their ultimate value to the customer. Value streams start with and focus specifically on business value provided to the customer.",
             "class_hours": "16",
             "cost": "5000",
             "effort": "16 hrs/week",
             "length": "2 days",
             "reviews": [
                 "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
-                "Fantastic experience! Highly recommended! I am looking forward to sharing what I\u00e2\u20ac\u2122ve learned with my enterprise.",
+                "Fantastic experience! Highly recommended! I am looking forward to sharing what I've learned with my enterprise.",
                 "Raj is an excellent instructor, always willing to help and great at explaining concepts.",
                 "This course equipped me with the skills I needed to grow and advance in my career. Many thanks!"
             ],
