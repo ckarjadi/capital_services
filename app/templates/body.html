@@ -53,12 +53,15 @@ function carousel() {
 
 
 <div class = "panel"> 
-    
     <hr>
     <h2>Our Services</h2>
     <div class = "panel3">
         <div class = "inpanel3">
-            <button class="Schedule_an_Assesment" onclick="window.location.href = '/assessment';">Assessment</button>
+            <a href="/assessment">
+                <h3>Assessment</h3>
+                <br>
+                <img src="{{ url_for('static', filename='getinspired-assessment.jpg') }}" width="240px" height="150x">
+            </a>
             <p>
                 Embedded in the Agile principles is the concept of reflection, feedback, and continuous improvement.  The best way to progress is to assess your current Agile environment in order to identify areas for improvement.  Knowledge gained from assessments can be crucial in developing a plan to help you and your organization progress with Agile.</br> 
                 <a class = "more1" href="/assessment">
@@ -69,7 +72,11 @@ function carousel() {
             </p>
         </div>
         <div class = "inpanel3">
-            <button class="Training" onclick="window.location.href = '/training';">Training</button>
+            <a href="/training">
+                <h3>Training</h3>
+                <br>
+                <img src="{{ url_for('static', filename='getinspired-training.jpg') }}" width="240px" height="180x">
+            </a>
             <p>
                 Getting the most out of the Agile process requires new skills and techniques.  Our trainers will give you the training you need,  keeping you engaged and energized as you progress toward your Agile certification.</br>
                 <a class = "more1" href="/training">
@@ -80,7 +87,11 @@ function carousel() {
             </p>
         </div>
         <div class = "inpanel3">
-            <button class="Coaching" onclick="window.location.href = '/coaching';">Coaching</button>
+            <a href="/coaching">
+                <h3>Coaching</h3>
+                <br>
+                <img src="{{ url_for('static', filename='getinspired-coaching.jpg') }}" width="240px" height="150x">
+            </a>
             <p>
                 There's no need to take the journey toward an Agile organization alone. We can coach your leaders and individual team members and help you realize better outcomes. </br>
                 <a class = "more1" href="/coaching">
@@ -104,9 +115,8 @@ function carousel() {
         </div>
         <div class = "inpanel4b">
             <p>
-                Our group has been providing Agile training and coaching to leading organization for many years. 
-                We are certified trainers...
-                From assessment to coaching, helping you transform into a more Agile environment is our passion... 
+                Our group has been providing Agile training and coaching to leading organization for many years.<br>
+                We are certified trainers...from assessment to coaching, helping you transform into a more Agile environment is our passion...<br>
                 <a class = "more1" href="/about_us">
                     <span>
                     Learn More
@@ -174,12 +184,10 @@ function carousel() {
     <h3>Stay Connected</h3>
     <div class = "panel7">
         Receive information regarding upcoming workshops</br>
-<!--         <label for="name">Name:</label> -->
         <form action="/stay_connected_email/" method="post">
             <div class="aligned_input">
                 <input type="name" id="name" placeholder="Enter name" name="name"></br>
             </div>
-    <!--         <label for="email">Email:</label> -->
             <div class="aligned_input">
                 <input type="email" id="email" placeholder="Enter email" name="email"></br>
             </div>
@@ -192,11 +200,6 @@ function carousel() {
             <button class="Collaborate" type="submit" onclick="window.location.href = '/stay_connected_email';">Sign Up</button></br>
         </form>
     </div>
-    
-    
-
-    
-    
 </div>
 <div class="parallax"></div>
    <!--

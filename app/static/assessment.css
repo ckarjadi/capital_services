@@ -8,7 +8,10 @@
 
 
 .disc {
-	list-style-type: disc;
+
+	list-style-type: none;
+	font-style: bold;
+	font-size: 25px;
 }
 
 .pad {
@@ -24,4 +27,43 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#body {
+
+	font-size: 17px;
+	text-align: left;
+	width: 80%;
+	margin-left: 130px;
+	margin-top: 30px;
+
+}
+
+p {
+
+	margin-top: 10px;
+	font-style: italic;
+
+
+
+}
+
+li {
+
+	list-style-type: none;
+}
+
+.sub {
+
+ 	font-style: bold;
+	font-size: 20px;
+
+
+}
+
+.why-assessment {
+
+	text-align: center;
+
+
 }
