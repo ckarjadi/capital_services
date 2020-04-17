@@ -20,7 +20,7 @@ def jsonify(text):
 app.add_template_filter(jsonify)
 
 STATIC_PATH = os.path.join('app', 'static')
-COURSES_JSON = os.path.join(STATIC_PATH, 'json', 'courses_2020041224.json')
+COURSES_JSON = os.path.join(STATIC_PATH, 'json', 'courses_2020041726.json')
 
 @app.route('/', methods=['GET', 'POST'])
 @app.route('/index', methods=['GET', 'POST'])

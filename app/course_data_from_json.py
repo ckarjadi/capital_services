@@ -33,9 +33,11 @@ def get_course_data_from_json(json_file, course_name):
 	data = load_json_file(json_file).get(course_name)
 	one_class = data['classes'][0]
 	details = data['details']
-	length = int(re.sub(r'[^0-9]', '', details['length']))
-
-	start_date, end_date = get_start_end_date(one_class, length)
+	# length = int(re.sub(r'[^0-9]', '', details['length']))
+	length = details['length']
+	# start_date, end_date = get_start_end_date(one_class, length)
+	start_date = one_class['start date']
+	end_date = one_class['end date']
 	location = f"{one_class['city']}, {one_class['country']}"
 
 	reviews = get_reviews(details['reviews'])
