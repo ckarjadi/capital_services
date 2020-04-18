@@ -6,6 +6,7 @@ from flask import render_template, request
 from app import app
 from app.forms import LoginForm, RegistrationForm
 from app.training_filters_from_json import get_training_filters
+from app.upcoming_courses_filters_from_json import get_upcoming_courses_filters
 from app.course_data_from_json import get_course_data_from_json
 from app.send_email import send_email
 import os
@@ -20,7 +21,7 @@ def jsonify(text):
 app.add_template_filter(jsonify)
 
 STATIC_PATH = os.path.join('app', 'static')
-COURSES_JSON = os.path.join(STATIC_PATH, 'json', 'courses_2020041726.json')
+COURSES_JSON = os.path.join(STATIC_PATH, 'json', 'courses_2020041828.json')
 
 @app.route('/', methods=['GET', 'POST'])
 @app.route('/index', methods=['GET', 'POST'])
@@ -69,40 +70,17 @@ def course_page():
 	kwargs = {'title': title}
 	return render_template(template_name, **kwargs)
 
-@app.route('/course_description')
-def first_course():
+@app.route('/upcoming_courses')
+def upcoming_courses():
 	"""
-	course_description render;
+	upcoming_courses render;
 	"""
-
-	title = 'Leading SAFe'
-	template_name = 'course1.html'
-	kwargs = {'title': title}
-	return render_template (template_name, **kwargs)
-
-@app.route('/course_psm')
-def second_course():
-	"""
-	course_description render;
-	"""
-
-	title = 'SM - Professional Scrum Master'
-	template_name = 'course2.html'
-	kwargs = {'title': title}
-
-	return render_template (template_name, **kwargs)
-
-@app.route('/course_csm')
-def third_course():
-	"""
-	course_description render;
-	"""
-
-	title = 'CSM - Certified ScrumMaster'
-	template_name = 'course3.html'
-	kwargs = {'title': title}
-
-	return render_template (template_name, **kwargs)
+	title = 'Upcoming Courses'
+	template_name = 'upcoming_courses.html'
+	json_file = COURSES_JSON
+	data = get_upcoming_courses_filters(json_file)
+	kwargs = {'title': title, 'filter_data': data}
+	return render_template(template_name, **kwargs)
 
 @app.route('/coaching')
 def coaching():
@@ -172,7 +150,7 @@ def render_course(course_name):
 	render course pages
 	"""
 	data = get_course_data_from_json(COURSES_JSON, course_name)
-	title = 'Leading SAFe'
+	title = data['course_title']
 	template_name = 'all_courses.html'
 	kwargs = {'title': title}
 	kwargs.update(data)
