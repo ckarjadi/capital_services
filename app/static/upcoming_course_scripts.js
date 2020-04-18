@@ -1,5 +1,29 @@
-function filterImages(divID, data)
+function filterImages(value)
 	{
+		
+		$.getJSON( "courses.json", function( data ) {
+  var items = [];
+  $.each( data, function( key, val ) {
+    items.push( "<li id='" + key + "'>" + val + "</li>" );
+  });
+ 
+  $( "<ul/>", {
+    "class": "my-new-list",
+    html: items.join( "" )
+  }).appendTo( "body" );
+});
+        
+		/*
+		var fs=require('fs');
+    	var data=fs.readFileSync('courses.json', 'utf8');
+		
+		var words=JSON.parse(data);
+		
+		console.log(words);
+		*/
+		//document.querySelector("#test").innerHTML = words[0];
+		
+		/*
 		let json_data = JSON.parse(data);
 		let filter_to_obj = json_data['filter_to_obj'];
 		let default_values = json_data['default_values'];
@@ -31,4 +55,5 @@ function filterImages(divID, data)
 				document.getElementById(image_id).style.display = 'none';
 			}
 		}
+		*/
 	}
