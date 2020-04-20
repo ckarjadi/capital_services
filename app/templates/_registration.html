@@ -1,0 +1,44 @@
+<!-- {% include "header.html" %}
+
+{% block content %}
+<div class="formwrapper">
+  <h2 class="title">Registration</h2>
+  <form method="post" novalidate>
+	<div class="form-field">{{ form.name.label }} {{ form.name }}
+	  {% if form.name.errors %}
+		<ul class="errors">
+		  {% for error in form.name.errors %}
+			<li>{{ error }}</li>
+		  {% endfor %}
+		</ul>
+	  {% endif %}
+	</div>
+	<div class="form-field">{{ form.email.label }} {{ form.email }}
+	  {% if form.email.errors %}
+		<ul class="errors">
+		  {% for error in form.email.errors %}
+			<li>{{ error }}</li>
+		  {% endfor %}
+		</ul>
+	  {% endif %}
+	</div>
+	{{ form.submit }}
+  </form>
+</div>
+{% endblock %}
+{% include "footer.html" %}
+ -->
+<!--  {% include "header.html" %}
+{% block content %}
+{% from "__formhelpers.html" import render_field %}
+<form method=post>
+  <dl>
+	{{ render_field(form.name, True) }}
+	{{ render_field(form.email, True) }}
+	{{ render_field(form.submit, False) }}
+  </dl>
+<!--   <p><input type=submit value=Register> -->
+</form>
+
+{% endblock %}
+{% include "footer.html" %} -->

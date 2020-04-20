@@ -2,7 +2,7 @@
 routes.py
 routing logic;
 """
-from flask import render_template, request
+from flask import render_template, request, session
 from app import app
 from app.forms import LoginForm, RegistrationForm
 from app.training_filters_from_json import get_training_filters
@@ -109,6 +109,26 @@ def registration():
 	"""
 	title = 'Registration'
 	form = RegistrationForm()
+	if form.validate_on_submit():
+		course_name = session.get('course_name')
+		data = get_course_data_from_json(COURSES_JSON, course_name)
+		class_name = data['course_title']
+		start, end = data['start_date'], data['end_date']
+		location = data['location']
+		effort, cost = data['effort'], data['cost']
+		name = form.name.data
+		email = form.email.data
+		kwargs = {'name': name, 'email': email, 'class_name': class_name, 'start': start,
+			'end': end, 'location': location, 'effort': effort, 'cost': cost}
+		
+		header = f"Registration for {class_name} ({location})"
+		body = f"Dear {name},\n"+\
+			f"Thank you for signing up for {class_name} ({location})."+\
+			"We are looking forward to your participation!\n"+\
+			f"It begins on {start} and ends on {end}. The effort is {effort} and "+\
+			f"the cost is ${cost}."
+		send_email(header, email, body)
+		return render_template('successful_registration.html', **kwargs)
 	kwargs = {'title': title, 'form': form}
 	return render_template('registration.html', **kwargs)
 
@@ -138,7 +158,11 @@ def stay_connected_email():
 	send the stay connected email
 	"""
 	data = request.form
-	send_email(data['email'], data['name'])
+	header = 'Staying Connected with Capital Agile Services'
+	body = f"Hello {data['name']},\n"+\
+		"\tThank you for choosing to stay connected with Capital Agile Services. "+\
+		"You have successfully signed up for our mailing list!"
+	send_email(header, data['email'], body)
 	title = 'Stay Connected'
 	template_name = 'stay_connected.html'
 	kwargs = {'name': data['name']}
@@ -150,6 +174,7 @@ def render_course(course_name):
 	render course pages
 	"""
 	data = get_course_data_from_json(COURSES_JSON, course_name)
+	session['course_name'] = course_name
 	title = data['course_title']
 	template_name = 'all_courses.html'
 	kwargs = {'title': title}

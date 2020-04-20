@@ -30,13 +30,10 @@ app.config.update(dict(
 mail = Mail(app)
 mail.init_app(app)
 
-def send_email(recipient, name):
+def send_email(subject, recipient, body):
 	"""
 	send email
 	"""
-	msg = Message("Staying Connected with Capital Agile Services",
-		sender=username, recipients=[recipient])
-	msg.body = f"Hello {name},\n"+\
-		"\tThank you for choosing to stay connected with Capital Agile Services. "+\
-		"You have successfully signed up for our mailing list!"
+	msg = Message(subject, sender=username, recipients=[recipient])
+	msg.body = body
 	mail.send(msg)

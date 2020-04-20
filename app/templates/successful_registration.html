@@ -1,0 +1,8 @@
+{% include "header.html" %}
+{% block content %}
+<div>
+	<p>{{ name }} ( {{ email }}), thank you for signing up for {{ class_name }} ({{ location }} ). We are looking forward to your participation! It begins on {{ start }} and ends on {{ end }}. The effort is {{ effort }} and the cost is ${{ cost }}.</p>
+</div>
+
+{% endblock %}
+{% include "footer.html" %}
