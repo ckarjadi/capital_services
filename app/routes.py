@@ -164,6 +164,16 @@ def contact_us():
 	kwargs = {'title': title}
 	return render_template(template_name, **kwargs)
 
+@app.route('/alt_contact_us')
+def alt_contact_us():
+	"""
+	contact;
+	"""
+	title = 'Contact Us'
+	template_name = 'alt_contact_us.html'
+	kwargs = {'title': title}
+	return render_template(template_name, **kwargs)
+
 @app.route('/contact_us_email', methods=['POST'])
 def contact_us_email():
 	"""
