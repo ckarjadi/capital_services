@@ -19,13 +19,13 @@ class StayConnectedForm(FlaskForm):
 	"""
 	Stay connnected form
 	"""
-	name = StringField('Name', [DataRequired()])
+	name = StringField('Name', [DataRequired()], render_kw={"placeholder": "Name"})
 	email = StringField('Email', [Email(message=('Not a valid email address.')),
-		DataRequired()])
+		DataRequired()], render_kw={"placeholder": "Email"})
 	# body = TextField('Message', [DataRequired(),
 	# 	Length(min=4, message=('Your message is too short.'))])
-	recaptcha = RecaptchaField()
-	submit = SubmitField('Submit')
+	# recaptcha = RecaptchaField()
+	submit = SubmitField('Sign Up')
 
 class RegistrationForm(FlaskForm):
 	"""

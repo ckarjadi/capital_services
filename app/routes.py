@@ -4,7 +4,7 @@ routing logic;
 """
 from flask import render_template, request, session
 from app import app
-from app.forms import LoginForm, RegistrationForm
+from app.forms import LoginForm, RegistrationForm, StayConnectedForm
 from app.training_filters_from_json import get_training_filters
 from app.upcoming_courses_filters_from_json import get_upcoming_courses_filters
 from app.course_data_from_json import get_course_data_from_json
@@ -33,10 +33,21 @@ def index():
 	css = ''
 	if request.method == "GET" and 'css' in request.args:
 		css = request.args['css']
+	form = StayConnectedForm()
+	if form.validate_on_submit():
+		name = form.name.data
+		email = form.email.data
+		header = 'Staying Connected with Capital Agile Services'
+		body = f"Hello {name},\n"+\
+			"\tThank you for choosing to stay connected with Capital Agile Services. "+\
+			"You have successfully signed up for our mailing list!"
+		send_email(header, email, body)
+		kwargs = {'name': name, 'title': 'Stay Connected'}
+		return render_template('stay_connected.html', **kwargs)
 	title, page_title = 'Home', ''
 	template_name = 'body.html'
 	kwargs = {'title': title, 'page_title': page_title,
-		'css': css}
+		'css': css, 'form': form}
 	return render_template(template_name, **kwargs)
 
 @app.route('/assessment')
@@ -168,21 +179,21 @@ def contact_us_email():
 	kwargs = {'title': title, 'name': name}
 	return render_template(template_name, **kwargs)
 
-@app.route('/stay_connected_email/', methods=['POST'])
-def stay_connected_email():
-	"""
-	send the stay connected email
-	"""
-	data = request.form
-	header = 'Staying Connected with Capital Agile Services'
-	body = f"Hello {data['name']},\n"+\
-		"\tThank you for choosing to stay connected with Capital Agile Services. "+\
-		"You have successfully signed up for our mailing list!"
-	send_email(header, data['email'], body)
-	title = 'Stay Connected'
-	template_name = 'stay_connected.html'
-	kwargs = {'name': data['name']}
-	return render_template(template_name, **kwargs)
+# @app.route('/stay_connected_email/', methods=['POST'])
+# def stay_connected_email():
+# 	"""
+# 	send the stay connected email
+# 	"""
+# 	data = request.form
+# 	header = 'Staying Connected with Capital Agile Services'
+# 	body = f"Hello {data['name']},\n"+\
+# 		"\tThank you for choosing to stay connected with Capital Agile Services. "+\
+# 		"You have successfully signed up for our mailing list!"
+# 	send_email(header, data['email'], body)
+# 	title = 'Stay Connected'
+# 	template_name = 'stay_connected.html'
+# 	kwargs = {'name': data['name'], 'title': title}
+# 	return render_template(template_name, **kwargs)
 
 @app.route('/courses/<course_name>')
 def render_course(course_name):
@@ -195,4 +206,4 @@ def render_course(course_name):
 	template_name = 'all_courses.html'
 	kwargs = {'title': title}
 	kwargs.update(data)
-	return render_template (template_name, **kwargs)
+	return render_template	(template_name, **kwargs)

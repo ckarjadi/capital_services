@@ -184,7 +184,25 @@ function carousel() {
     <h3>Stay Connected</h3>
     <div class = "panel7">
         Receive information regarding upcoming workshops</br>
-        <form action="/stay_connected_email/" method="post">
+        <form action="" method="post" novalidate>
+            {{ form.hidden_tag() }}
+            <div class="aligned_input">
+                {{ form.name(size=32) }}
+                <br>
+                {% for error in form.name.errors %}
+                <span style="color: red;">[{{ error }}]</span>
+                {% endfor %}
+            </div>
+            <div class="aligned_input">
+                {{ form.email(size=32) }}
+                <br>
+                {% for error in form.email.errors %}
+                <span style="color: red;">[{{ error }}]</span>
+                {% endfor %}
+            </div>
+            <p style="text-align:center;">{{ form.submit() }}</p>
+        </form>
+<!--         <form action="/stay_connected_email/" method="post">
             <div class="aligned_input">
                 <input type="name" id="name" placeholder="Enter name" name="name"></br>
             </div>
@@ -198,7 +216,7 @@ function carousel() {
             </div>
             </br>
             <button class="Collaborate" type="submit" onclick="window.location.href = '/stay_connected_email';">Sign Up</button></br>
-        </form>
+        </form> -->
     </div>
 </div>
 <div class="parallax"></div>
