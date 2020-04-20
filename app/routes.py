@@ -8,6 +8,7 @@ from app.forms import LoginForm, RegistrationForm
 from app.training_filters_from_json import get_training_filters
 from app.upcoming_courses_filters_from_json import get_upcoming_courses_filters
 from app.course_data_from_json import get_course_data_from_json
+from app.generate_mailto import gen_mailto
 from app.send_email import send_email
 import os
 import json
@@ -150,6 +151,21 @@ def contact_us():
 	title = 'Contact Us'
 	template_name = 'contact_us.html'
 	kwargs = {'title': title}
+	return render_template(template_name, **kwargs)
+
+@app.route('/contact_us_email', methods=['POST'])
+def contact_us_email():
+	"""
+	contact us email
+	"""
+	data = request.form
+	name = data['name']
+	subject = "Contacting Capital Agile Services"
+	body = f"{data['comments']}"
+	gen_mailto(subject, body)
+	title = 'Contact Us'
+	template_name = 'contact_us_email.html'
+	kwargs = {'title': title, 'name': name}
 	return render_template(template_name, **kwargs)
 
 @app.route('/stay_connected_email/', methods=['POST'])

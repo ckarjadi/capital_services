@@ -2,39 +2,37 @@
 
 {% block content %}
 <link rel="stylesheet" href="{{ url_for('static',    filename='/contact_us.css') }}">
-
 <div class = "contact_us_panel">
-
-<div class = "contact_us_panel1">
-    <p>
-    	Email: info@capitalservice.com<br/>
-        Phone: 555-555-5555<br/>
-        <div class="contact_us-social-icons">
-                Follow Us
-                <ul class="contact_us_social-icons">
-                  <img class = "contact_us_icon" src="static/facebook.png" style="width:10%" onclick="window.location.href = '/contact_us';">
-                  <img class = "contact_us_icon" src="static/twitter.png" style="width:10%" onclick="window.location.href = '/contact_us';">
-                  <img class = "contact_us_icon" src="static/youtube.png" style="width:10%" onclick="window.location.href = '/contact_us';">
-                  <img class = "contact_us_icon" src="static/linkedin.png" style="width:10%" onclick="window.location.href = '/contact_us';">
-                 </ul>
-</div>
-    </p>
-</div>
-
-<div class = "contact_us_panel1">
-    <label for="name">Name:</label>
-    <input type="text" id="name" placeholder="Enter name" name="name"></br>
-    <label for="email">Email address:</label>
-    <input type="text" id="email" placeholder="Enter email address" name="email"></br>
-    <label for="phone">Phone:</label>
-    <input type="text" id="phone" placeholder="Enter phone number" name="phone"></br>
-    <label for="company">Company:</label>
-    <input type="text" id="company" placeholder="Enter company" name="company"></br>
-    <label for="comments">Comments/questions:</label></br>
-    <textarea id="comments" name="comments" placeholder="Write something..." style="height:200px"></textarea></br>
-    <input type="submit" value="Submit">
-</div>
+  <div class = "contact_us_panel1">
+      <p>
+      	Email: info@capitalservice.com<br/>
+          Phone: 555-555-5555<br/>
+          <div class="contact_us-social-icons">
+                  Follow Us
+                  <ul class="contact_us_social-icons">
+                    <img class = "contact_us_icon" src="static/facebook.png" style="width:10%" onclick="window.location.href = '/contact_us';">
+                    <img class = "contact_us_icon" src="static/twitter.png" style="width:10%" onclick="window.location.href = '/contact_us';">
+                    <img class = "contact_us_icon" src="static/youtube.png" style="width:10%" onclick="window.location.href = '/contact_us';">
+                    <img class = "contact_us_icon" src="static/linkedin.png" style="width:10%" onclick="window.location.href = '/contact_us';">
+                   </ul>
+          </div>
+      </p>
+  </div>
+  <div class = "contact_us_panel1">
+    <form action="/contact_us_email" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Enter name" name="name"></br>
+      <label for="email">Email address:</label>
+      <input type="text" id="email" placeholder="Enter email address" name="email"></br>
+      <label for="phone">Phone:</label>
+      <input type="text" id="phone" placeholder="Enter phone number" name="phone"></br>
+      <label for="company">Company:</label>
+      <input type="text" id="company" placeholder="Enter company" name="company"></br>
+      <label for="comments">Comments/questions:</label></br>
+      <textarea id="comments" name="comments" placeholder="Write something..." style="height:200px"></textarea></br>
+      <input type="submit" value="Submit"?>
+    </form>
+  </div>
 </div>
 {% endblock %}
-
 {% include "footer.html" %}
