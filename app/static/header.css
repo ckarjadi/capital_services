@@ -74,18 +74,9 @@ div.vertical-line{
     display: block;
     width: 100%;
 }
+
+
 .social-icons{
-  margin: 0 10px;
+  margin:  10px;
+  color: white;
 }
-/*.new_line:before {
-    content: "";
-    display: block;
-}*/
-/*#wrapper{
-    overflow:auto;
-}
-
-
-#c2{
-    text-align: right;
-}​*/

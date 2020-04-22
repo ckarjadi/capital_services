@@ -1,5 +1,10 @@
 {% include "header.html" %}
 {% block content %}
+<link rel="stylesheet" href="{{ url_for('static',    filename='/stay_connected.css') }}">
+<div class = "stay_connected_panel">
+  <div class = "stay_connected_panel1">
 <p>{{ name }}, thank you for signing up for our mail list! We are looking forward to staying in touch.</p>
+</div>
+</div>
 {% endblock %}
 {% include "footer.html" %}

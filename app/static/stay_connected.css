@@ -1,14 +1,12 @@
-.registration_panel{
+.stay_connected_panel{
     display: flex;
     box-sizing: border-box;
 }
 
-.registration_panel1{
+.stay_connected_panel1{
     flex: 50%;
     text-align: justify;
     width: 100%;
     height: 30%;
     margin: 10%;
 }
-
-

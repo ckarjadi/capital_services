@@ -1,8 +1,14 @@
 {% include "header.html" %}
 {% block content %}
+<link rel="stylesheet" href="{{ url_for('static',    filename='/registration.css') }}">
+
+<div class = "registration_panel">
+
+<div class = "registration_panel1">
 <h1>Registration</h1>
 <form action="" method="post" novalidate>
     {{ form.hidden_tag() }}
+    <br>
     <p>
         {{ form.name.label }}<br>
         {{ form.name(size=32) }}
@@ -19,5 +25,7 @@
     </p>
     <p>{{ form.submit() }}</p>
 </form>
+</div>
+</div>
 {% endblock %}
 {% include "footer.html" %}

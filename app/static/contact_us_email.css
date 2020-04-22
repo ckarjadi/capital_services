@@ -1,14 +1,12 @@
-.registration_panel{
+.contact_us_email_panel{
     display: flex;
     box-sizing: border-box;
 }
 
-.registration_panel1{
+.contact_us_email_panel1{
     flex: 50%;
     text-align: justify;
     width: 100%;
     height: 30%;
     margin: 10%;
 }
-
-

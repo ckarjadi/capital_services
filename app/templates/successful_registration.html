@@ -1,7 +1,10 @@
 {% include "header.html" %}
 {% block content %}
-<div>
+<link rel="stylesheet" href="{{ url_for('static',    filename='/successful_registration.css') }}">
+<div class = "successful_registration_panel">
+<div class = "successful_registration_panel1">
 	<p>{{ name }} ( {{ email }}), thank you for signing up for {{ class_name }} ({{ location }} ). We are looking forward to your participation! It begins on {{ start }} and ends on {{ end }}. The effort is {{ effort }} and the cost is ${{ cost }}.</p>
+</div>
 </div>
 
 {% endblock %}
