@@ -135,7 +135,7 @@ def registration():
 		
 		header = f"Registration for {class_name} ({location})"
 		body = f"Dear {name},\n"+\
-			f"Thank you for signing up for {class_name} ({location})."+\
+			f"Thank you for signing up for {class_name} ({location}). "+\
 			"We are looking forward to your participation!\n"+\
 			f"It begins on {start} and ends on {end}. The effort is {effort} and "+\
 			f"the cost is ${cost}."
