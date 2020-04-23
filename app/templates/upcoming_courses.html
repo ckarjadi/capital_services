@@ -36,8 +36,8 @@
                     	<option value="Corporate">Corporate</option>
                 	</select></li></br>
 
-                    <li><input type="date" lang="en" id="start_date"/></li></br>
-                    <li><input type="date" lang="en" id="end_date"/></li></br>
+                    <li><input type="date" lang="en" id="start_date_input" onchange="filterImages('class_div', '{{ filter_data | jsonify}}')"/></li></br>
+                    <li><input type="date" lang="en" id="end_date_input" onchange="filterImages('class_div', '{{ filter_data | jsonify}}')"/></li></br>
                 	
                     <li><select id="country_filter" onchange="filterImages('class_div', '{{ filter_data | jsonify }}')">
                     	<option value="all_countries">All Countries</option>

@@ -17,6 +17,8 @@ def get_training_filters(json_file):
 
 	filter_to_obj = {"course_type_filter_list": ct_filters,
 		"certifying_body_filter_list": cb_filters, "role_filter_list": role_filters}
-	default_values = ['ct_default', 'cb_default', 'role_default']
+	default_values = {'course_type_filter_list': 'ct_default',
+		'certifying_body_filter_list': 'cb_default',
+		'role_filter_list': 'role_default'}
 
 	return {'filter_to_obj': filter_to_obj, 'default_values': default_values}

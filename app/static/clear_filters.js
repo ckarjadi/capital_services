@@ -6,5 +6,7 @@ $(document).ready(function(){
 		$('#city_filter').val('all_cities').trigger('change');
 		$('#trainer_filter').val('all_trainers').trigger('change');
 		$('#partner_filter').val('partner_default').trigger('change');
+		$('#start_date_input').val('').trigger('change');
+		$('#end_date_input').val('').trigger('change');
 	})
 });
