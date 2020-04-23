@@ -35,11 +35,14 @@ flask run
 ### Important notes about email functionality and credentials
 
 ```
-In order for the email functionalities to work (emails are being sent when certain actions occur on the website), the developer has to supply a gmail username and gmail password.
+In order for the email functionalities to work (emails are being sent when certain actions occur on the website),
+the developer has to supply a gmail username and gmail password.
 
 The credentials used to develop this program have not been included in this public repository.
 
-A developer can supply their own credentials directly in app/send_email.py on line 19 or the developer can create another way to supply their email credentials to the program. username, pwd have to be defined in app/send_email.py in some way for the emailing to work.
+A developer can supply their own credentials directly in app/send_email.py on line 19 or the developer can
+create another way to supply their email credentials to the program. username, pwd have to be defined in
+app/send_email.py in some way for the emailing to work.
 
 ```
 
