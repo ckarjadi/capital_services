@@ -19,6 +19,7 @@ pip install -r requirements.txt
 ```
 git clone https://github.com/ckarjadi/capital_services
 cd capital_services/
+pip install -r requirements.txt
 git checkout <branch> ## master / stable / test
 git pull ## if your head is behind the branch you're checking out
 flask run
@@ -29,6 +30,17 @@ navigate to localhost:5000 in a browser (Chrome, Safari, etc) to see the applica
 
 ```
 flask run
+```
+
+### Important notes about email functionality and credentials
+
+```
+In order for the email functionalities to work (emails are being sent when certain actions occur on the website), the developer has to supply a gmail username and gmail password.
+
+The credentials used to develop this program have not been included in this public repository.
+
+A developer can supply their own credentials directly in app/send_email.py on line 19 or the developer can create another way to supply their email credentials to the program. username, pwd have to be defined in app/send_email.py in some way for the emailing to work.
+
 ```
 
 ## Built With
