@@ -36,12 +36,10 @@
                     	<option value="Corporate">Corporate</option>
                 	</select></li></br>
 
-<!--                 	<script src = "/nodep-date-input-polyfill.dist.js"></script>
-                	<li><input type = "date" lang="en"/></li></br>
+                    <li><input type="date" lang="en" id="start_date"/></li></br>
+                    <li><input type="date" lang="en" id="end_date"/></li></br>
                 	
-                    <li><input type = "date" lang="en"/></li></br> -->
-              
-                	<li><select id="country_filter" onchange="filterImages('class_div', '{{ filter_data | jsonify }}')">
+                    <li><select id="country_filter" onchange="filterImages('class_div', '{{ filter_data | jsonify }}')">
                     	<option value="all_countries">All Countries</option>
                     	<option value="UK">UK</option>
                     	<option value="US">US</option>
