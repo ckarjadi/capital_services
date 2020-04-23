@@ -1,0 +1,11 @@
+{% include "header.html" %}
+{% block content %}
+<link rel="stylesheet" href="{{ url_for('static',    filename='/successful_registration.css') }}">
+<div class = "successful_registration_panel">
+	<div class = "successful_registration_panel1">
+		<p>{{ name }} ({{ email }}), thank you for contacting us. We will be in touch soon.</p>
+	</div>
+</div>
+
+{% endblock %}
+{% include "footer.html" %}

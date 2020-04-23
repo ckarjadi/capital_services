@@ -4,7 +4,7 @@ routing logic;
 """
 from flask import render_template, request, session
 from app import app
-from app.forms import LoginForm, RegistrationForm, StayConnectedForm
+from app.forms import LoginForm, RegistrationForm, StayConnectedForm, ContactUsForm
 from app.training_filters_from_json import get_training_filters
 from app.upcoming_courses_filters_from_json import get_upcoming_courses_filters
 from app.course_data_from_json import get_course_data_from_json
@@ -23,6 +23,17 @@ app.add_template_filter(jsonify)
 
 STATIC_PATH = os.path.join('app', 'static')
 COURSES_JSON = os.path.join(STATIC_PATH, 'json', 'courses_2020041828.json')
+
+secret_mail_data_file = os.path.join("app", "secret_mail_data.py")
+
+if '_ON_HEROKU' not in os.environ:
+	if os.path.isfile(secret_mail_data_file):
+		from app.secret_mail_data import SecretMailData
+		CONTACT_US_EMAIL = SecretMailData().contact_us_email
+	else:
+		CONTACT_US_EMAIL = 'default_contact_us_email@default.com'
+else:
+	CONTACT_US_EMAIL = os.environ['CONTACT_US_EMAIL']
 
 @app.route('/', methods=['GET', 'POST'])
 @app.route('/index', methods=['GET', 'POST'])
@@ -154,14 +165,28 @@ def about_us():
 	kwargs = {'title': title}
 	return render_template(template_name, **kwargs)
 
-@app.route('/contact_us')
+@app.route('/contact_us', methods=['GET', 'POST'])
 def contact_us():
 	"""
 	contact;
 	"""
 	title = 'Contact Us'
+	form = ContactUsForm()
+	if form.validate_on_submit():
+		name = form.name.data
+		email = form.email.data
+		header = 'contact-us-ticket'
+		body = f"{name} has contacted us.\nHere is their contact information:\n"+\
+			f"\temail: {email}\n"+\
+			f"\tphone: {form.phone.data}\n"+\
+			f"\tcompany: {form.company.data}\n"+\
+			f"Here are their comments:\n"+\
+			f"{form.comments.data}"
+		send_email(header, CONTACT_US_EMAIL, body)
+		kwargs = {'name': name, 'title': title, 'email': email}
+		return render_template('successful_contact_us.html', **kwargs)
 	template_name = 'contact_us.html'
-	kwargs = {'title': title}
+	kwargs = {'title': title, 'form': form}
 	return render_template(template_name, **kwargs)
 
 @app.route('/alt_contact_us')
