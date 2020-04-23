@@ -9,7 +9,7 @@ Flask Project for Capital Services (BU MET CS 634);
 
 ### Installing requirements
 
-install via requirements.txt
+install via requirements.txt - see getting started for more exact instructions
 
 ```
 pip install -r requirements.txt
@@ -18,12 +18,19 @@ pip install -r requirements.txt
 ## Getting Started
 ```
 git clone https://github.com/ckarjadi/capital_services
+
 cd capital_services/
+
 pip install -r requirements.txt
+
 git checkout <branch> ## master / stable / test
+
 git pull ## if your head is behind the branch you're checking out
+
 flask run
+
 navigate to localhost:5000 in a browser (Chrome, Safari, etc) to see the application
+
 ```
 
 ### Run the application
