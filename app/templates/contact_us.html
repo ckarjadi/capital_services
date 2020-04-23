@@ -4,15 +4,11 @@
 <link rel="stylesheet" href="{{ url_for('static',    filename='/contact_us.css') }}">
 <div class = "contact_us_panel">
   <div class = "contact_us_panel1">
-<<<<<<< Updated upstream
-      <p>
-      	Email: capital.agile.services@gmail.com<br/>
-          Phone: 555-555-5555<br/>
-=======
+
      
       	 <p><b>Email:</b> info@capitalservice.com<br/></p>
         <p> <b> Phone:</b> 555-555-5555<br/></p>
->>>>>>> Stashed changes
+
           <div class="contact_us-social-icons">
                   <p>Follow Us</p>
                   <ul class="contact_us_social-icons">
@@ -25,7 +21,7 @@
       
   </div>
   <div class = "contact_us_panel1">
-<<<<<<< Updated upstream
+
     <form action="" method="post" novalidate>
       {{ form.hidden_tag() }}
       <br>
@@ -65,22 +61,6 @@
           {% endfor %}
       </p>
       <p>{{ form.submit() }}</p>
-=======
-    <form action="/contact_us_email" method="post">
-      <label for="name" style = "font-style:bold">Name:</label>
-      <input type="text" id="name" placeholder="Enter name" name="name"></br>
-      <label for="email" style = "font-style:bold">Email address:</label>
-      <input type="text" id="email" placeholder="Enter email address" name="email"></br>
-      <label for="phone" style = "font-style:bold">Phone:</label>
-      <input type="text" id="phone" placeholder="Enter phone number" name="phone"></br>
-      <label for="company" style = "font-style:bold">Company:</label>
-      <input type="text" id="company" placeholder="Enter company" name="company"></br>
-      <label for="comments" style = "font-style:bold">Comments/Questions:</label></br>
-      <textarea id="comments" name="comments" placeholder="Write something..." style="height:200px"></textarea></br>
-    </br>
-      <input type="submit" value="Submit"?>
->>>>>>> Stashed changes
-    </form>
   </div>
 </div>
 {% endblock %}

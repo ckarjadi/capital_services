@@ -99,7 +99,7 @@ def upcoming_courses():
 	upcoming_courses render;
 	"""
 	title = 'Upcoming Courses'
-	template_name = 'upcoming_course.html'
+	template_name = 'upcoming_courses.html'
 	json_file = COURSES_JSON
 	data = get_upcoming_courses_filters(json_file)
 	kwargs = {'title': title, 'filter_data': data}
