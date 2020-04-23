@@ -51,6 +51,10 @@ A developer can supply their own credentials directly in app/send_email.py on li
 create another way to supply their email credentials to the program. username, pwd have to be defined in
 app/send_email.py in some way for the emailing to work.
 
+A developer also must supply their own email address to receive the 'Contact Us' emails.
+This can be done in app/routes.py on line 34 or in any other way that defines
+the CONTACT_US_EMAIL variable in that file.
+
 ```
 
 ## Built With
