@@ -10,16 +10,29 @@
     margin: 10%;
 }
 
+label{
+
+    font-style: bold;
+
+}
+
 input[type=text], select, textarea {
- width: 100%;
+    width: 100%;
+    font-size: 15px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+input[type=submit]{
+
+    float:right;
 }
 
 p{
     color: rgba(33,33,33,1);
     font-family: Lato, sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 400;
-    line-height: 1.6667;
     margin-top: 12px;
 }
 
@@ -27,3 +40,14 @@ p{
     cursor: pointer;
 }
 
+img{
+
+    width: 60px;
+    height: 40px;
+
+}
+
+ul.contact_us_social-icons{
+
+    margin-left: -40px;
+}

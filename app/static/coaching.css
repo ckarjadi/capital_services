@@ -2,7 +2,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 90%;
   text-align: center;
 }
 
@@ -15,4 +15,15 @@
 .coaching_panel2{
   text-align: center;
   margin: 3%;
+}
+
+p{
+  margin-top: 20px;
+  margin-bottom: 40px;
+
+}
+
+h3{
+
+  font-size: 35px;
 }

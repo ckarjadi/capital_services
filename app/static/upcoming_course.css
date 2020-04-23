@@ -9,6 +9,8 @@
 .upcoming_course_panel0{
     text-align: center;
     margin: 5%;
+    font-size: 40px;
+    font-style: bold;
 }
 
 .upcoming_course_panel1{
@@ -26,6 +28,7 @@
     border-bottom: 1px solid lightgrey;
     padding:3%;
     text-align: justify;
+    font-size: 20px;
 }
 
 .filter_footer{
@@ -35,14 +38,19 @@
 }
 
 .filter_body{
-    padding:3%;
-    text-align: justify;
+
+    padding:2%;
+    text-align: left;
+    margin-top: 15px;
+    margin-right: 45px;
+    
 }
 
 .filter_clear{
     border: none;
     background-color: white;
     cursor: pointer;
+    margin-top: 20px;
 }
 
 .filter_clear:hover{
@@ -58,10 +66,18 @@
 }
 
 .cell{
-    width: 100%;
-    text-align: justify;
-    margin-top: 1%;
+    width: 75%;
+    text-align: left;
+    margin-top: 2%;
+    font-style: bold;
+
 }
 
+img{
 
+    width:110px; 
+    height:115px;
+    position:left;
+
+}
 

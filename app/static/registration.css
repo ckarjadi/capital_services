@@ -1,14 +1,17 @@
 .registration_panel{
     display: flex;
     box-sizing: border-box;
+    max-width: 30%;
+   
 }
 
 .registration_panel1{
-    flex: 50%;
+    /*flex: 50%;*/
     text-align: justify;
-    width: 100%;
     height: 30%;
-    margin: 10%;
+    margin: 4%;
+
+
 }
 
 

@@ -9,10 +9,18 @@
   /*float: left;*/
   display: inline-block;
   zoom: 1;
+  margin-top: 7px;
+  border-width: 10px;
 }
 
 .disc {
-	list-style-type: disc;
+
+	list-style-type: none;
+  text-align: left;
+  font-style: bold;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .pad {
@@ -21,7 +29,7 @@
   margin: 0;
   padding: 0;
   list-style-type: none;
-   overflow: hidden;
+  overflow: hidden;
 }
 
 .left_text {
@@ -34,4 +42,6 @@ li.class_icons {
 /*  display:inline-block;*/
   display:block;
   padding: 10px 40px;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
