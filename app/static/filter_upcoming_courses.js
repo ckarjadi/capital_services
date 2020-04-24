@@ -24,6 +24,43 @@ function filterImages(divID, data)
 				let decision = (current_default_value == option_value || accepted_values.includes(option_value))
 				booleans.push(decision);
 			}
+			let start_date_input = date_inputs[0];
+			let end_date_input = date_inputs[1];
+
+			let actual_start_date = filter_to_obj[start_date_input.id][image_alt];
+			let actual_end_date = filter_to_obj[end_date_input.id][image_alt];
+			// index filter_to_obj by 'start_date_input', 'end_date_input'
+
+			let input_start_date = start_date_input.value;
+			let input_end_date = end_date_input.value;
+			// get user input
+
+			let default_start_date = default_values[start_date_input.id];
+			let default_end_date = default_values[end_date_input.id];
+			// get default values;
+			if (input_start_date == default_start_date) {
+				var start_within = true;
+			} else {
+				var start_within = dates.inRange(input_start_date, actual_start_date, actual_end_date);
+			}
+			
+			if (input_end_date == default_end_date) {
+				var end_within = true;
+			} else {
+				var end_within = dates.inRange(input_end_date, actual_start_date, actual_end_date);
+			}
+			
+/*			console.log(image_alt);
+			console.log('actual start' + actual_start_date);
+			console.log('actual end' + actual_end_date);
+			console.log('input start' + input_start_date);
+			console.log('input end' + input_end_date);
+			console.log('def start' + default_start_date);
+			console.log('def end ' + default_end_date);
+			console.log('start within' + start_within);
+			console.log('end within' + end_within);*/
+			booleans.push(start_within && end_within);
+			
 			let li_id = image_id.replace('img', 'li');
 			if (booleans.every(v=> v === true)) {
 				
