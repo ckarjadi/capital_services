@@ -8,5 +8,5 @@ $(document).ready(function(){
 		$('#partner_filter').val('partner_default').trigger('change');
 		$('#start_date_input').val('').trigger('change');
 		$('#end_date_input').val('').trigger('change');
-	})
+	});
 });
