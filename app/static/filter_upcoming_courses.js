@@ -24,43 +24,45 @@ function filterImages(divID, data)
 				let decision = (current_default_value == option_value || accepted_values.includes(option_value))
 				booleans.push(decision);
 			}
-			let start_date_input = date_inputs[0];
-			let end_date_input = date_inputs[1];
+			let first_date_input = date_inputs[0];
+			let second_date_input = date_inputs[1];
 
-			let actual_start_date = filter_to_obj[start_date_input.id][image_alt];
-			let actual_end_date = filter_to_obj[end_date_input.id][image_alt];
-			// index filter_to_obj by 'start_date_input', 'end_date_input'
+			let actual_start_date = filter_to_obj[first_date_input.id][image_alt];
+			// index filter_to_obj by 'start_date_input';
 
-			let input_start_date = start_date_input.value;
-			let input_end_date = end_date_input.value;
+			let default_first_date = default_values[first_date_input.id];
+			let default_second_date = default_values[second_date_input.id];
+			// get default values;
+
+			let first_date_value = first_date_input.value;
+			let second_date_value = second_date_input.value;
 			// get user input
 
-			let default_start_date = default_values[start_date_input.id];
-			let default_end_date = default_values[end_date_input.id];
-			// get default values;
-			if (input_start_date == default_start_date) {
-				var start_within = true;
+			let first_is_default = (first_date_value == default_first_date);
+			let second_is_default = (second_date_value == default_second_date);
+			// compare user input to default values
+/*			console.log(image.alt);
+			console.log('actual_start_date ' + actual_start_date);
+			console.log('first_is_default ' + first_is_default);
+			console.log('second_is_default ' + second_is_default);
+			console.log('first_date_value ' + first_date_value);
+			console.log('second_date_value ' + second_date_value);*/
+			if (first_is_default && second_is_default) {
+				booleans.push(true);
+			} else if (!first_is_default && second_is_default) {
+				console.log(dates.compare(first_date_value, actual_start_date));
+				booleans.push(dates.compare(first_date_value, actual_start_date) <= 0);
+			} else if (first_is_default && !second_is_default) {
+				booleans.push(dates.compare(second_date_value, actual_start_date) <= 0);
 			} else {
-				var start_within = dates.inRange(input_start_date, actual_start_date, actual_end_date);
+				lower = dates.compare(first_date_value, second_date_value) <= 0 ? first_date_value : second_date_value;
+				higher = dates.compare(first_date_value, second_date_value) > 0 ? first_date_value : second_date_value;
+/*				console.log("\tlower: " + lower);
+				console.log("\thigher: " + higher);
+				console.log("\tdates_in_range: " + dates.inRange(actual_start_date, lower, higher));*/
+				booleans.push(dates.inRange(actual_start_date, lower, higher));
 			}
-			
-			if (input_end_date == default_end_date) {
-				var end_within = true;
-			} else {
-				var end_within = dates.inRange(input_end_date, actual_start_date, actual_end_date);
-			}
-			
-/*			console.log(image_alt);
-			console.log('actual start' + actual_start_date);
-			console.log('actual end' + actual_end_date);
-			console.log('input start' + input_start_date);
-			console.log('input end' + input_end_date);
-			console.log('def start' + default_start_date);
-			console.log('def end ' + default_end_date);
-			console.log('start within' + start_within);
-			console.log('end within' + end_within);*/
-			booleans.push(start_within && end_within);
-			
+
 			let li_id = image_id.replace('img', 'li');
 			if (booleans.every(v=> v === true)) {
 				
