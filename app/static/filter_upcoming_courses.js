@@ -126,3 +126,8 @@ var dates = {
         );
     }
 }
+$(document).ready(function(){
+	$("button").click(function() {
+	    $("#calendar").toggle();
+	});
+});

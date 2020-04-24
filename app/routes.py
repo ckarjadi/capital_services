@@ -102,7 +102,9 @@ def upcoming_courses():
 	template_name = 'upcoming_courses.html'
 	json_file = COURSES_JSON
 	data = get_upcoming_courses_filters(json_file)
-	kwargs = {'title': title, 'filter_data': data}
+	display = data.pop('image_display')
+	kwargs = {'title': title, 'filter_data': data,
+		'display': display}
 	return render_template(template_name, **kwargs)
 
 @app.route('/coaching')

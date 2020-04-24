@@ -234,7 +234,9 @@
     </script>
 </head>
 <div class = "upcoming_course_panel">
-
+    <div style="text-align:center;">
+        <button id='hide_button'>Show/Hide Calendar</button>
+    </div>
 	<div class = "upcoming_course_panel0">
         	<!-- <h2>Calendar</h2> -->
 
@@ -311,9 +313,11 @@
         				<a href = "/courses/cal1">
         					<img src="{{ url_for('static', filename='SAI_Certification_CAL1_RGB.png') }}" width="120px" height="120px" alt="cal1" id="cal1_img" align="left">
         				</a>
-        				</br>Course Name: Certified Agile Leadership I</br>
-                    	Location: Online</br>
-                    	Instructor Name: Heda</br>
+        				</br>Course Name: {{ display['cal1']['course_title'] }}</br>
+                    	Location: {{ display['cal1']['location'] }}</br>
+                    	Instructor Name: {{ display['cal1']['instructor'] }}</br>
+                        Start Date: {{ display['cal1']['start_date'] }}<br>
+                        End Date: {{ display['cal1']['end_date'] }}
     				</div>
         		</li>
     
@@ -322,9 +326,11 @@
     					<a href = "/courses/sa">
     						<img src="{{ url_for('static', filename='SAFe-5-Courseware-Thumbnails-SA-1.png') }}" width="120px" height="150px" alt="sa" id="leading_safe_img" align="left">
     					</a>
-    					</br>Course Name: Leading SAFe</br>
-                		Location: Online</br>
-                		Instructor Name: Heda</br>
+                        </br>Course Name: {{ display['sa']['course_title'] }}</br>
+                            Location: {{ display['sa']['location'] }}</br>
+                            Instructor Name: {{ display['sa']['instructor'] }}</br>
+                            Start Date: {{ display['sa']['start_date'] }}<br>
+                            End Date: {{ display['sa']['end_date'] }}
 					</div>
 				</li>
 
@@ -333,9 +339,11 @@
     					<a href = "/courses/sp">
     						<img src="{{ url_for('static', filename='SAFe-5-Courseware-Thumbnails-SP-1.png') }}" width="120px" height="150px" alt="sp" id="safe_csp_img" align="left">
     					</a>
-    					</br>Course Name: SAFe for Teams</br>
-                		Location: Online</br>
-                		Instructor Name: Heda</br>
+                        </br>Course Name: {{ display['sp']['course_title'] }}</br>
+                            Location: {{ display['sp']['location'] }}</br>
+                            Instructor Name: {{ display['sp']['instructor'] }}</br>
+                            Start Date: {{ display['sp']['start_date'] }}<br>
+                            End Date: {{ display['sp']['end_date'] }}
 					</div>
 				</li>
 				
@@ -345,9 +353,11 @@
     					<a href = "/courses/ssm">
     						<img src="{{ url_for('static', filename='SAFe-5-Courseware-Thumbnails-SSM-1.png') }}" width="120px" height="150px" alt="ssm" id="ssm_img" align="left">
     					</a>
-    					</br>Course Name: SAFe Scrum Master</br>
-                		Location: Online</br>
-                		Instructor Name: Heda</br>
+                        </br>Course Name: {{ display['ssm']['course_title'] }}</br>
+                            Location: {{ display['ssm']['location'] }}</br>
+                            Instructor Name: {{ display['ssm']['instructor'] }}</br>
+                            Start Date: {{ display['ssm']['start_date'] }}<br>
+                            End Date: {{ display['ssm']['end_date'] }}
 					</div>
 				</li>
 				
@@ -357,9 +367,11 @@
     					<a href = "/courses/lpm">
     						<img src="{{ url_for('static', filename='SAFe-5-Courseware-Thumbnails-LPM-1.png') }}" width="120px" height="150px" alt="lpm" id="safe_lpm_img" align="left">
     					</a>
-    					</br>Course Name: Lean Portfolio Management</br>
-                		Location: Online</br>
-                		Instructor Name: Heda</br>
+                        </br>Course Name: {{ display['lpm']['course_title'] }}</br>
+                            Location: {{ display['lpm']['location'] }}</br>
+                            Instructor Name: {{ display['lpm']['instructor'] }}</br>
+                            Start Date: {{ display['lpm']['start_date'] }}<br>
+                            End Date: {{ display['lpm']['end_date'] }}
 					</div>
 				</li>
 				
@@ -368,9 +380,11 @@
     					<a href = "/courses/spc">
     						<img src="{{ url_for('static', filename='Implementing-SAFe-5-Courseware-Thumbnails-SPC-1.png') }}" width="120px" height="150px" alt="spc" id="spc_img" align="left">
     					</a>
-    					</br>Course Name: Implementing SAFe</br>
-                		Location: Online</br>
-                		Instructor Name: Heda</br>
+                        </br>Course Name: {{ display['spc']['course_title'] }}</br>
+                            Location: {{ display['spc']['location'] }}</br>
+                            Instructor Name: {{ display['spc']['instructor'] }}</br>
+                            Start Date: {{ display['spc']['start_date'] }}<br>
+                            End Date: {{ display['spc']['end_date'] }}
 					</div>
 				</li>	
 				<li class="class_icons" id="safe_apm_li">
@@ -378,9 +392,11 @@
     					<a href = "/courses/apm">
     						<img src="{{ url_for('static', filename='SAFe-5-Courseware-Thumbnails-APM.png') }}" width="120px" height="150px" alt="apm" id="safe_apm_img" align="left">
     					</a>
-    					</br>Course Name: Agile Product Management</br>
-                		Location: Online</br>
-                		Instructor Name: Heda</br>
+                        </br>Course Name: {{ display['apm']['course_title'] }}</br>
+                            Location: {{ display['apm']['location'] }}</br>
+                            Instructor Name: {{ display['apm']['instructor'] }}</br>
+                            Start Date: {{ display['apm']['start_date'] }}<br>
+                            End Date: {{ display['apm']['end_date'] }}
 					</div>
 				</li>
 				<li class="class_icons" id="sasm_li">
@@ -388,9 +404,11 @@
     					<a href = "/courses/sasm">
     						<img src="{{ url_for('static', filename='SAFe-5-Courseware-Thumbnails-SASM.png') }}" width="120px" height="150px" alt="sasm" id="sasm_img" align="left">
     					</a>
-    					</br>Course Name: SAFe Advanced Scrum Master</br>
-            			Location: Online</br>
-            			Instructor Name: Heda</br>
+                        </br>Course Name: {{ display['sasm']['course_title'] }}</br>
+                            Location: {{ display['sasm']['location'] }}</br>
+                            Instructor Name: {{ display['sasm']['instructor'] }}</br>
+                            Start Date: {{ display['sasm']['start_date'] }}<br>
+                            End Date: {{ display['sasm']['end_date'] }}
 					</div>
 				</li>
 				<li class="class_icons" id="popm_li">
@@ -398,9 +416,11 @@
     					<a href = "/courses/popm">
     						<img src="{{ url_for('static', filename='SAFe-5-Courseware-Thumbnails-POPM.png') }}" width="120px" height="150px" alt="popm" id="popm_img" align="left">
     					</a>
-    					</br>Course Name: SAFe Product Owner / Product Manager</br>
-            			Location: Online</br>
-            			Instructor Name: Heda</br>
+                        </br>Course Name: {{ display['popm']['course_title'] }}</br>
+                            Location: {{ display['popm']['location'] }}</br>
+                            Instructor Name: {{ display['popm']['instructor'] }}</br>
+                            Start Date: {{ display['popm']['start_date'] }}<br>
+                            End Date: {{ display['popm']['end_date'] }}
 					</div>
 				</li>
 				<li class="class_icons" id="safe_rte_li">
@@ -408,9 +428,11 @@
     					<a href = "/courses/rte">
     						<img src="{{ url_for('static', filename='SAFe-5-Courseware-Thumbnails-RTE.png') }}" width="120px" height="150px" alt="rte" id="safe_rte_img" align="left">
     					</a>
-    					</br>Course Name: SAFe Release Train Engineer</br>
-            			Location: Online</br>
-            			Instructor Name: Heda</br>
+                        </br>Course Name: {{ display['rte']['course_title'] }}</br>
+                            Location: {{ display['rte']['location'] }}</br>
+                            Instructor Name: {{ display['rte']['instructor'] }}</br>
+                            Start Date: {{ display['rte']['start_date'] }}<br>
+                            End Date: {{ display['rte']['end_date'] }}
 					</div>
 				</li>
 				<li class="class_icons" id="sdp_li">
@@ -418,9 +440,11 @@
     					<a href = "/courses/sdp">
     						<img src="{{ url_for('static', filename='SAFe-5-Courseware-Thumbnails-SDP-343x400-2.png') }}" width="120px" height="150px" alt="sdp" id="sdp_img" align="left">
     					</a>
-    					</br>Course Name: SAFe DevOps</br>
-            			Location: Online</br>
-            			Instructor Name: Heda</br>
+                        </br>Course Name: {{ display['sdp']['course_title'] }}</br>
+                            Location: {{ display['sdp']['location'] }}</br>
+                            Instructor Name: {{ display['sdp']['instructor'] }}</br>
+                            Start Date: {{ display['sdp']['start_date'] }}<br>
+                            End Date: {{ display['sdp']['end_date'] }}
 					</div>
 				</li>
 				<li class="class_icons" id="sgp_li">
@@ -428,9 +452,11 @@
     					<a href = "/courses/sgp">
     						<img src="{{ url_for('static', filename='SAFe-5-Courseware-Thumbnails-SGP-1.png') }}" width="120px" height="150px" alt="sgp" id="sgp_img" align="left">
     					</a>
-    					</br>Course Name: SAFe for Governments</br>
-            			Location: Online</br>
-            			Instructor Name: Heda</br>
+                        </br>Course Name: {{ display['sgp']['course_title'] }}</br>
+                            Location: {{ display['sgp']['location'] }}</br>
+                            Instructor Name: {{ display['sgp']['instructor'] }}</br>
+                            Start Date: {{ display['sgp']['start_date'] }}<br>
+                            End Date: {{ display['sgp']['end_date'] }}
 					</div>
 				</li>
 				<li class="class_icons" id="safe_ase_li">
@@ -438,9 +464,11 @@
     					<a href = "/courses/ase">
     						<img src="{{ url_for('static', filename='ASE_cover_rev.png') }}" width="120px" height="150px" alt="ase" id="safe_ase_img" align="left">
     					</a>
-    					</br>Course Name: Agile Software Engineering</br>
-            			Location: Online</br>
-            			Instructor Name: Heda</br>
+                        </br>Course Name: {{ display['ase']['course_title'] }}</br>
+                            Location: {{ display['ase']['location'] }}</br>
+                            Instructor Name: {{ display['ase']['instructor'] }}</br>
+                            Start Date: {{ display['ase']['start_date'] }}<br>
+                            End Date: {{ display['ase']['end_date'] }}
 					</div>
 				</li>
 				<li class="class_icons" id="arch_li">
@@ -448,9 +476,11 @@
     					<a href = "/courses/arch">
     						<img src="{{ url_for('static', filename='SAFe-5-Courseware-Thumbnails-ARCH.png') }}" width="120px" height="150px" alt="arch" id="arch_img" align="left">
     					</a>
-    					</br>Course Name: SAFe for Architects</br>
-            			Location: Online</br>
-            			Instructor Name: Heda</br>
+                        </br>Course Name: {{ display['arch']['course_title'] }}</br>
+                            Location: {{ display['arch']['location'] }}</br>
+                            Instructor Name: {{ display['arch']['instructor'] }}</br>
+                            Start Date: {{ display['arch']['start_date'] }}<br>
+                            End Date: {{ display['arch']['end_date'] }}
 					</div>
 				</li>
                 <li class="class_icons" id="professional_scrum_master_li">
@@ -458,9 +488,11 @@
         				<a href = "/courses/psm">
         					<img src="{{ url_for('static', filename='PSM Logo.png') }}" width="120px" height="120px" alt="psm" id="professional_scrum_master_img" align="left">
         				</a>
-        				</br>Course Name: Professional Scrum Master</br>
-            			Location: Online</br>
-            			Instructor Name: Heda</br>
+                        </br>Course Name: {{ display['psm']['course_title'] }}</br>
+                            Location: {{ display['psm']['location'] }}</br>
+                            Instructor Name: {{ display['psm']['instructor'] }}</br>
+                            Start Date: {{ display['psm']['start_date'] }}<br>
+                            End Date: {{ display['psm']['end_date'] }}
     				</div>
     			</li>
                 <li class="class_icons" id="professional_scrum_product_owner_li">
@@ -468,9 +500,11 @@
         				<a href = "/courses/pspo">
         					<img src="{{ url_for('static', filename='PSPO Logo.png') }}" width="120px" height="120px" alt="pspo" id="professional_scrum_product_owner_img" align="left">
         				</a>
-        				</br>Course Name: Professional Scrum Product Owner</br>
-        				Location: Online</br>
-        				Instructor Name: Heda</br>
+                        </br>Course Name: {{ display['pspo']['course_title'] }}</br>
+                            Location: {{ display['pspo']['location'] }}</br>
+                            Instructor Name: {{ display['pspo']['instructor'] }}</br>
+                            Start Date: {{ display['pspo']['start_date'] }}<br>
+                            End Date: {{ display['pspo']['end_date'] }}
     				</div>
     			</li>
                 	
@@ -479,9 +513,11 @@
         				<a href = "/courses/psd">
         					<img src="{{ url_for('static', filename='PSD Logo.png') }}" width="120px" height="120px" alt="psd" id="professional_scrum_developer_img" align="left">
         				</a>
-        				</br>Course Name: Professional Scrum Developer</br>
-        				Location: Online</br>
-        				Instructor Name: Heda</br>
+                        </br>Course Name: {{ display['psd']['course_title'] }}</br>
+                            Location: {{ display['psd']['location'] }}</br>
+                            Instructor Name: {{ display['psd']['instructor'] }}</br>
+                            Start Date: {{ display['psd']['start_date'] }}<br>
+                            End Date: {{ display['psd']['end_date'] }}
     				</div>
     			</li>
             	<li class="class_icons" id="certified_scrum_master_li">
@@ -489,9 +525,11 @@
         				<a href = "/courses/csm">
         					<img src="{{ url_for('static', filename='SAI_BadgeSizes_DigitalBadging_CSM.png') }}" width="120px" height="120px" alt="csm" id="certified_scrum_master_img" align="left">
         				</a>
-        				</br>Course Name: Certified ScrumMaster</br>
-        				Location: Online</br>
-        				Instructor Name: Heda</br>
+                        </br>Course Name: {{ display['csm']['course_title'] }}</br>
+                            Location: {{ display['csm']['location'] }}</br>
+                            Instructor Name: {{ display['csm']['instructor'] }}</br>
+                            Start Date: {{ display['csm']['start_date'] }}<br>
+                            End Date: {{ display['csm']['end_date'] }}
     				</div>
     			</li>
             	<li class="class_icons" id="certified_scrum_product_owner_li">
@@ -499,9 +537,11 @@
         				<a href = "/courses/cspo">
         					<img src="{{ url_for('static', filename='SAI_BadgeSizes_DigitalBadging_CSPO.png') }}" width="120px" height="120px" alt="cspo" id="certified_scrum_product_owner_img" align="left">
         				</a>
-        				</br>Course Name: Certified Scrum Product Owner</br>
-        				Location: Online</br>
-        				Instructor Name: Heda</br>
+                        </br>Course Name: {{ display['cspo']['course_title'] }}</br>
+                            Location: {{ display['cspo']['location'] }}</br>
+                            Instructor Name: {{ display['cspo']['instructor'] }}</br>
+                            Start Date: {{ display['cspo']['start_date'] }}<br>
+                            End Date: {{ display['cspo']['end_date'] }}
     				</div>
     			</li>
         		<li class="class_icons" id="certified_scrum_developer_li">
@@ -509,9 +549,11 @@
         				<a href = "/courses/csd">
         					<img src="{{ url_for('static', filename='SAI_BadgeSizes_DigitalBadging_CSD.png') }}" width="120px" height="120px" alt="csd" id="certified_scrum_developer_img" align="left">
         				</a>
-        				</br>Course Name: Certified Scrum Developer</br>
-        				Location: Online</br>
-        				Instructor Name: Heda</br>
+                        </br>Course Name: {{ display['csd']['course_title'] }}</br>
+                            Location: {{ display['csd']['location'] }}</br>
+                            Instructor Name: {{ display['csd']['instructor'] }}</br>
+                            Start Date: {{ display['csd']['start_date'] }}<br>
+                            End Date: {{ display['csd']['end_date'] }}
         			</div>
     			</li>
             	<li class="class_icons" id="project_management_professional_li">
@@ -519,9 +561,11 @@
     					<a href = "/courses/pmp">
     						<img src="{{ url_for('static', filename='pmi-pmp-new.png') }}" width="200px" height="140px" alt="pmp" id="project_management_professional_img" align="left">
     					</a>
-    					</br>Course Name: Project Management Professional</br>
-    					Location: Online</br>
-    					Instructor Name: Heda</br>
+                        </br>Course Name: {{ display['pmp']['course_title'] }}</br>
+                            Location: {{ display['pmp']['location'] }}</br>
+                            Instructor Name: {{ display['pmp']['instructor'] }}</br>
+                            Start Date: {{ display['pmp']['start_date'] }}<br>
+                            End Date: {{ display['pmp']['end_date'] }}
 					</div>
     			</li>
 				<li class="class_icons" id="project_management_agile_certified_practitioner_li">
@@ -529,9 +573,11 @@
     					<a href = "/courses/acp">
     						<img src="{{ url_for('static', filename='pmi-acp-new.png') }}" width="200px" height="140px" alt="acp" id="project_management_agile_certified_practitioner_img" align="left">
     					</a>
-    					</br>Course Name: PMI Agile Certified Practitioner</br>
-        				Location: Online</br>
-        				Instructor Name: Heda</br>
+                        </br>Course Name: {{ display['acp']['course_title'] }}</br>
+                            Location: {{ display['acp']['location'] }}</br>
+                            Instructor Name: {{ display['acp']['instructor'] }}</br>
+                            Start Date: {{ display['acp']['start_date'] }}<br>
+                            End Date: {{ display['acp']['end_date'] }}
 					</div>
 				</li>
             	<li class="class_icons" id="value_stream_workshop_li">
@@ -539,9 +585,11 @@
     					<a href = "/courses/vsw">
     						<img src="{{ url_for('static', filename='custom-logo-value-stream.png') }}" width="120px" height="120px" alt="vsw" id="value_stream_workshop_img" align="left">
     					</a>
-    					</br>Course Name: Value-Stream Workshop</br>
-    					Location: Online</br>
-    					Instructor Name: Heda</br>
+                        </br>Course Name: {{ display['vsw']['course_title'] }}</br>
+                            Location: {{ display['vsw']['location'] }}</br>
+                            Instructor Name: {{ display['vsw']['instructor'] }}</br>
+                            Start Date: {{ display['vsw']['start_date'] }}<br>
+                            End Date: {{ display['vsw']['end_date'] }}
 					</div>
 				</li>
 			    <li class="class_icons" id="safe_portfolio_management_li">
@@ -549,9 +597,11 @@
     					<a href = "/courses/spm">
     						<img src="{{ url_for('static', filename='custom-logo-safe-portfolio-management.png') }}" width="120px" height="120px" alt="spm" id="safe_portfolio_management_img" align="left">
     					</a>
-    					</br>Course Name: SAFe Portfolio Management</br>
-    					Location: Online</br>
-    					Instructor Name: Heda</br>
+                        </br>Course Name: {{ display['spm']['course_title'] }}</br>
+                            Location: {{ display['spm']['location'] }}</br>
+                            Instructor Name: {{ display['spm']['instructor'] }}</br>
+                            Start Date: {{ display['spm']['start_date'] }}<br>
+                            End Date: {{ display['spm']['end_date'] }}
 					</div>
 				</li>
 				<li class="class_icons" id="program_increment_workshop_li">
@@ -559,9 +609,11 @@
     					<a href = "/courses/piw">
     						<img src="{{ url_for('static', filename='custom-logo-program-increment.png') }}" width="120px" height="120px" alt="piw" id="program_increment_workshop_img" align="left">
     					</a>
-    					</br>Course Name: Program Increment Workshop</br>
-    					Location: Online</br>
-    					Instructor Name: Heda</br>
+                        </br>Course Name: {{ display['piw']['course_title'] }}</br>
+                            Location: {{ display['piw']['location'] }}</br>
+                            Instructor Name: {{ display['piw']['instructor'] }}</br>
+                            Start Date: {{ display['piw']['start_date'] }}<br>
+                            End Date: {{ display['piw']['end_date'] }}
 					</div>
 				</li>
 				<li class="class_icons" id="inspect_and_adapt_li">
@@ -569,9 +621,11 @@
     					<a href = "/courses/ia">
     						<img src="{{ url_for('static', filename='custom-logo-inspect-and-adapt.png') }}" width="120px" height="120px" alt="ia" id="inspect_and_adapt_img" align="left">
     					</a>
-    					</br>Course Name: Inspect & Adapt</br>
-    					Location: Online</br>
-    					Instructor Name: Heda</br>
+                        </br>Course Name: {{ display['ia']['course_title'] }}</br>
+                            Location: {{ display['ia']['location'] }}</br>
+                            Instructor Name: {{ display['ia']['instructor'] }}</br>
+                            Start Date: {{ display['ia']['start_date'] }}<br>
+                            End Date: {{ display['ia']['end_date'] }}
 					</div>
 				</li>
         		<li class="class_icons" id="product_management_workshop_li">
@@ -579,9 +633,11 @@
     					<a href = "/courses/pmw">
     						<img src="{{ url_for('static', filename='custom-logo-product-management.png') }}" width="120px" height="120px" alt="pmw" id="product_management_workshop_img" align="left">
     					</a>
-    					</br>Course Name: Product Management Workshop</br>
-    					Location: Online</br>
-    					Instructor Name: Heda</br>
+                        </br>Course Name: {{ display['pmw']['course_title'] }}</br>
+                            Location: {{ display['pmw']['location'] }}</br>
+                            Instructor Name: {{ display['pmw']['instructor'] }}</br>
+                            Start Date: {{ display['pmw']['start_date'] }}<br>
+                            End Date: {{ display['pmw']['end_date'] }}
 					</div>
 				</li>
 				<li class="class_icons" id="team_building_li">
@@ -589,9 +645,11 @@
     					<a href = "/courses/tb">
     						<img src="{{ url_for('static', filename='custom-logo-team-building.png') }}" width="120px" height="120px" alt="tb" id="team_building_img" align="left">
     					</a>
-    					</br>Course Name: Team Building</br>
-    					Location: Online</br>
-    					Instructor Name: Heda</br>
+                        </br>Course Name: {{ display['tb']['course_title'] }}</br>
+                            Location: {{ display['tb']['location'] }}</br>
+                            Instructor Name: {{ display['tb']['instructor'] }}</br>
+                            Start Date: {{ display['tb']['start_date'] }}<br>
+                            End Date: {{ display['tb']['end_date'] }}
     				</div>
 				</li>
 				<li class="class_icons" id="scrum_kanban_li">
@@ -599,9 +657,11 @@
     					<a href = "/courses/cskw">
     						<img src="{{ url_for('static', filename='custom-logo-scrum-kanban.png') }}" width="120px" height="120px" alt="cskw" id="scrum_kanban_img" align="left">
     					</a>
-    					</br>Course Name: Customized Scrum/Kanban Workshop</br>
-    					Location: Online</br>
-    					Instructor Name: Heda</br>
+                        </br>Course Name: {{ display['cskw']['course_title'] }}</br>
+                            Location: {{ display['cskw']['location'] }}</br>
+                            Instructor Name: {{ display['cskw']['instructor'] }}</br>
+                            Start Date: {{ display['cskw']['start_date'] }}<br>
+                            End Date: {{ display['cskw']['end_date'] }}
 					</div>
 				</li>
             </ul>
