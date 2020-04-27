@@ -127,7 +127,7 @@ var dates = {
     }
 }
 $(document).ready(function(){
-	$("button").click(function() {
+	$("#hide_button").click(function() {
 	    $("#calendar").toggle();
 	});
 });
