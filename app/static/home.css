@@ -154,9 +154,10 @@ h2{
     margin: 30px;
 /*    width: 370px;*/
 }
-/*.inpanel3_txt {
-  width: 100%;
-}*/
+.inpanel3_txt {
+  width: 370px;
+  margin: auto;
+}
 .Training{
     background: violet;
     text-align: center;
