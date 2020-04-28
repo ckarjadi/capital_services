@@ -22,7 +22,7 @@ def jsonify(text):
 app.add_template_filter(jsonify)
 
 STATIC_PATH = os.path.join('app', 'static')
-COURSES_JSON = os.path.join(STATIC_PATH, 'json', 'courses_2020041828.json')
+COURSES_JSON = os.path.join(STATIC_PATH, 'json', 'courses_2020042829.json')
 
 secret_mail_data_file = os.path.join("app", "secret_mail_data.py")
 
